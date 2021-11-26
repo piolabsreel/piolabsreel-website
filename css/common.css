@@ -57,3 +57,9 @@ h1 {
 .navigation {
   padding: 1em .3em;
 }
+
+.hero {
+  height: 99vh;
+  width: 100%;
+  background-color: blue;
+}
