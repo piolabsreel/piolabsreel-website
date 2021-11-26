@@ -11,8 +11,19 @@
   <body>
 
     <header>
-      <h1>Agency Reels</h1>
-      {% include nav.html %}
+    <div class="topbarhead">
+
+      <div class="">
+        <img class="logo" src="{{site.baseurl}}/images/logo.png" alt="">
+      </div>
+
+      <div class="navigation">
+        {% include nav.html %}
+      </div>
+
+
+    </div>
+
     </header>
 
 {{content}}
