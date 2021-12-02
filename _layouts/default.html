@@ -7,29 +7,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Rubik:ital,wght@0,300;0,400;0,600;0,800;0,900;1,300;1,400;1,600;1,800;1,900&display=swap" rel="stylesheet">
     <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="240">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+
   </head>
+
   <body>
 
-    <header>
-      <div class="hero topbarhead">
+    <header class="topbar">
 
-        <div class="">
+        <h1 class="logo">
+          <a href="index.html">
+            <img src="http://placehold.it/100x100" alt="">
+          </a>
+        </h1>
+        
+        <nav>
+            <ul>
+              <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
+              <li><a href="{{site.baseurl}}/portfolio.html" class="{% if page.url == '/portfolio.html' %}current{% endif %}">Portfolio</a></li>
+              <li><a href="{{site.baseurl}}/blog.html" class="{% if page.url == '/blog.html' %}current{% endif %}">Blog</a></li>
+            </ul>
+        </nav>
 
-          <img class="logo" src="{{site.baseurl}}/images/logo.png" alt="">
-
-        </div>
-
-        <div class="navigation">
-
-          {% include nav.html %}
-
-        </div>
-
-      </div>
 
     </header>
 
+    <div class="video">
+      <video src="" autoplay poster="http://placehold.it/900x600">
+      </video>
+    </div>
+
+
 {{content}}
 
-  </body>
+
+
+</body>
 </html>
