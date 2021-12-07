@@ -16,27 +16,29 @@
 
   <body>
 
-    <header class="topbar">
+    <header class="header">
 
-        <h1 class="logo">
-          <a href="index.html">
-            <img src="http://placehold.it/100x100" alt="">
+
+          <a class="logo" href="index.html">
+            <img class="logo-img" src="{{site.baseurl}}/images/piolabs.png" alt="">
           </a>
-        </h1>
-        
-        <nav>
-            <ul>
+
+      <nav>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+
+            <ul class="menu">
               <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
               <li><a href="{{site.baseurl}}/portfolio.html" class="{% if page.url == '/portfolio.html' %}current{% endif %}">Portfolio</a></li>
               <li><a href="{{site.baseurl}}/blog.html" class="{% if page.url == '/blog.html' %}current{% endif %}">Blog</a></li>
             </ul>
-        </nav>
 
+          </nav>
 
     </header>
 
     <div class="video">
-      <video src="" autoplay poster="http://placehold.it/900x600">
+      <video src="{{site.baseurl}}/images/compressed-media-reel-1.mp4" autoplay poster="">
       </video>
     </div>
 
