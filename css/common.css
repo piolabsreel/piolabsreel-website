@@ -162,6 +162,19 @@ h1, h2, h3, h4, {
   .header li a {
     padding: 20px 30px;
   }
+
+  .header ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    list-style: none;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #000000f7;
+  }
+
   .header .menu {
     clear: none;
     float: right;
