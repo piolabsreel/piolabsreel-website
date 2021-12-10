@@ -25,7 +25,7 @@ h1, h2, h3, h4, {
 }
 
 .logo-img {
-  width: 60px;
+  width: 85px;
   cursor: pointer;
 }
 
@@ -48,7 +48,7 @@ h1, h2, h3, h4, {
   list-style: none;
   overflow: hidden;
   border-radius: 5px;
-  background-color: #000000f7;
+  background-color: #000000e6;
 }
 
 .header a {
@@ -76,7 +76,7 @@ h1, h2, h3, h4, {
   display: block;
   float: left;
   font-size: 2em;
-  padding: 15px 25px 0px;
+  padding: 35px 35px 0px;
   text-decoration: none;
 }
 
@@ -92,7 +92,7 @@ h1, h2, h3, h4, {
 .header .menu-icon {
   cursor: pointer;
   float: right;
-  padding: 50px 20px;
+  padding: 70px 30px;
   position: relative;
   user-select: none;
 }
@@ -152,37 +152,8 @@ h1, h2, h3, h4, {
   top:0;
 }
 
-
-/* 48em = 768px @ 16pt font */
-
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-
-  .header ul {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 20px;
-    right: 25px;
-    list-style: none;
-    overflow: hidden;
-    border-radius: 5px;
-    background-color: #000000f7;
-  }
-
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
+.showcase {
+  position: relative;
 }
 
 .showcase video {
@@ -202,7 +173,110 @@ h1, h2, h3, h4, {
   width: 100%;
   height: 100vh;
   background: black;
-  opacity: 0.6;
+  opacity: .7;
   z-index: 3;
   mix-blend-mode: overlay;
+}
+
+.hero-text {
+  position: absolute;
+  color: white;
+  z-index: 5;
+  top: 250px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-text h2 {
+  font-size: 3em;
+  font-family: 'Rubik', serif;
+  font-weight: 800;
+  line-height: 1em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.hero-text h3 {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.hero-text p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  color: orange;
+}
+
+.hero-text a {
+  display: inline-block;
+  font-family: 'DM Serif Text', serif;
+  font-size: 1.2em;
+  color: black;
+  background: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  transition: all .2s ease-out;
+  border-radius: 5px;
+}
+
+.hero-text a:hover {
+  background: orange;
+  color: white;
+}
+
+/* 48em = 768px @ 16pt font */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+
+  .header ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    list-style: none;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #000000f7;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+
+
+}
+
+/*----- media query end ----*/
+
+.service-section {
+  display: flex;
+  justify-content: space-around;
+  margin: -7em 0px 5em;
+
+}
+
+.service-icon {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  z-index: 10;
+
 }
