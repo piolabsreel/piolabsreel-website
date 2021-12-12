@@ -182,7 +182,7 @@ h1, h2, h3, h4, {
   position: absolute;
   color: white;
   z-index: 5;
-  top: 250px;
+  top: 200px;
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -229,6 +229,31 @@ h1, h2, h3, h4, {
   color: white;
 }
 
+
+
+.service-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: -7em 0px 5em;
+
+}
+
+.service-icon {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  z-index: 10;
+
+}
+/*
+@media (max-width: 575.98px) {
+    .showcase {
+        background-image: url("css/images/hero-banner.jpeg");
+        background-color: black;
+   }
+}
+*/
+
 /* 48em = 768px @ 16pt font */
 
 @media (min-width: 48em) {
@@ -260,31 +285,36 @@ h1, h2, h3, h4, {
     display: none;
   }
 
+  .hero-text h2 {
+    font-size: 5em;
+  }
+
+  .hero-text {
+    top: 150px;
+    text-align: left;
+    padding-left: 10em;
+
+  }
+
 
 
 }
 
 /*----- media query end ----*/
+@media (min-width: 56em) {
 
-.service-section {
-  display: flex;
-  justify-content: space-around;
-  margin: -7em 0px 5em;
+  .hero-text {
+    top: 140px;
+    text-align: center;
+    padding: 0;
+
+
+  }
+
+  .hero-text h2 {
+    font-size: 5em;
+  }
+
+
 
 }
-
-.service-icon {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  z-index: 10;
-
-}
-/*
-@media (max-width: 575.98px) {
-    .showcase {
-        background-image: url("css/images/hero-banner.jpeg");
-        background-color: black;
-   }
-}
-*/
