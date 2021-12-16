@@ -25,10 +25,15 @@ h1, h2, h3, h4, {
 }
 
 .logo-img {
-  width: 85px;
+  width: 110px;
   cursor: pointer;
 }
 
+.service-img {
+  width: 65px;
+  color: yellow;
+
+}
 
 .header {
 /*  background-color: ;
@@ -186,6 +191,7 @@ h1, h2, h3, h4, {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+
 }
 
 .hero-text h2 {
@@ -195,6 +201,7 @@ h1, h2, h3, h4, {
   line-height: 1em;
   margin: 0;
   text-transform: uppercase;
+  text-shadow: 2px 2px black;
 }
 
 .hero-text h3 {
@@ -234,16 +241,22 @@ h1, h2, h3, h4, {
 .service-section {
   display: flex;
   justify-content: space-evenly;
-  margin: -7em 0px 5em;
+  margin: -8em 7em 5em;
 
 }
 
 .service-icon {
   padding: 0;
   margin: 0;
+  text-align: center;
   list-style-type: none;
   z-index: 10;
 
+}
+
+.service-text {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
 }
 /*
 @media (max-width: 575.98px) {
@@ -304,7 +317,7 @@ h1, h2, h3, h4, {
 @media (min-width: 56em) {
 
   .hero-text {
-    top: 140px;
+    top: 150px;
     text-align: center;
     padding: 0;
 
@@ -315,6 +328,16 @@ h1, h2, h3, h4, {
     font-size: 5em;
   }
 
+  .service-section {
+    margin: -8em 23em 5em;
+
+  }
+
+  .service-text {
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+  }
 
 
 }
