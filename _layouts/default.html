@@ -23,22 +23,12 @@
             <img class="logo-img" src="{{site.baseurl}}/images/piolabs.png" alt="">
           </a>
 
-      <nav>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
-
-            <ul class="menu">
-              <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
-              <li><a href="{{site.baseurl}}/portfolio.html" class="{% if page.url == '/portfolio.html' %}current{% endif %}">Portfolio</a></li>
-              <li><a href="{{site.baseurl}}/blog.html" class="{% if page.url == '/blog.html' %}current{% endif %}">Blog</a></li>
-            </ul>
-
-          </nav>
+    {% include nav.html %}
 
     </header>
 
     <div class="video">
-      <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" src="{{site.baseurl}}/images/rel.mp4"></video>
+      <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" src="{{site.baseurl}}/images/reel.mp4"></video>
 
     </div>
 
@@ -56,23 +46,30 @@
     <div class="service-section">
       <ul class="service-icon">
         <li>
-          <img class="service-img" src="http://placehold.it/50x50" alt="">
+          <img class="service-img" src="{{site.baseurl}}/images/strategy.png" alt="">
+          <p class="service-text">MARKETING</p>
         </li>
       </ul>
       <ul class="service-icon">
         <li>
-          <img class="service-img" src="http://placehold.it/50x50" alt="">
+          <img class="service-img" src="{{site.baseurl}}/images/idea.png" alt="">
+          <p class="service-text">DESIGN</p>
         </li>
+
       </ul>
       <ul class="service-icon">
         <li>
-          <img class="service-img" src="http://placehold.it/50x50" alt="">
+          <img class="service-img" src="{{site.baseurl}}/images/video.png" alt="">
+          <p class="service-text">WEB</p>
         </li>
+
       </ul>
       <ul class="service-icon">
         <li>
-          <img class="service-img" src="http://placehold.it/50x50" alt="">
+          <img class="service-img" src="{{site.baseurl}}/images/factory.png" alt="">
+          <p class="service-text">PRODUCTION</p>
         </li>
+
       </ul>
 
 
