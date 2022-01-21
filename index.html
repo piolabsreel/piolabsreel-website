@@ -5,36 +5,36 @@ layout: default
   <section>
 
     <h2>SERVICES</h2>
-    <ul>
+    <ul class="services-box">
 
       <li>
         <figure class="service-box">
-          <img class="service-box-img" src="http://placehold.it/256x256" alt="">
-          <figcaption class="service-cap">
+          <img class="service-img" src="{{site.baseurl}}/images/strategy.png" alt="">
+          <figcaption class="service-cap">Marketing
           </figcaption>
         </figure>
       </li>
 
       <li>
         <figure class="service-box">
-          <img class="service-box-img" src="http://placehold.it/256x256" alt="">
-          <figcaption class="service-cap">
+          <img class="service-img" src="{{site.baseurl}}/images/idea.png" alt="">
+          <figcaption class="service-cap">Web
           </figcaption>
         </figure>
       </li>
 
       <li>
         <figure class="service-box">
-          <img class="service-box-img" src="http://placehold.it/256x256" alt="">
-          <figcaption class="service-cap">
+          <img class="service-img" src="{{site.baseurl}}/images/video.png" alt="">
+          <figcaption class="service-cap">Design
           </figcaption>
         </figure>
       </li>
 
       <li>
         <figure class="service-box">
-          <img class="service-box-img" src="http://placehold.it/256x256" alt="">
-          <figcaption class="service-cap">
+          <img class="service-img" src="{{site.baseurl}}/images/factory.png" alt="">
+          <figcaption class="service-cap">Production
           </figcaption>
         </figure>
       </li>
@@ -42,4 +42,24 @@ layout: default
 
     </ul>
   </section>
+
+
+  <section class="message-box">
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+                <form action="https://formspree.io/f/xyyokbbz" method="POST">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <input type="text" name="_subjectto" placeholder="subject" required>
+                <textarea name="message" placeholder="Type your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+
+  </section>
+
 </main>

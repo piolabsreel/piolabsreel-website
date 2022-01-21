@@ -33,6 +33,7 @@
     </div>
 
     <div class="overlay"></div>
+
     <div class="hero-text">
       <h2>Your Voice,</h2>
       <h2>Your Stage,</h2>
@@ -43,43 +44,78 @@
     </div>
 
 
-    <div class="service-section">
-      <ul class="service-icon">
-        <li>
-          <img class="service-img" src="{{site.baseurl}}/images/strategy.png" alt="">
-          <p class="service-text">MARKETING</p>
-        </li>
-      </ul>
-      <ul class="service-icon">
-        <li>
-          <img class="service-img" src="{{site.baseurl}}/images/idea.png" alt="">
-          <p class="service-text">DESIGN</p>
-        </li>
-
-      </ul>
-      <ul class="service-icon">
-        <li>
-          <img class="service-img" src="{{site.baseurl}}/images/video.png" alt="">
-          <p class="service-text">WEB</p>
-        </li>
-
-      </ul>
-      <ul class="service-icon">
-        <li>
-          <img class="service-img" src="{{site.baseurl}}/images/factory.png" alt="">
-          <p class="service-text">PRODUCTION</p>
-        </li>
-
-      </ul>
-
-
-    </div>
-
 </section>
 
 {{content}}
 
 
+<!--
+<div class="wrapper">
+    <header>Send us a Message</header>
+    <form action="#">
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="name" placeholder="Enter your name">
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Enter your email">
+          <i class='fas fa-envelope'></i>
+        </div>
+      </div>
+      <div class="dbl-field">
+        <div class="field">
+          <input type="text" name="phone" placeholder="Enter your phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="website" placeholder="Enter your website">
+          <i class='fas fa-globe'></i>
+        </div>
+      </div>
+      <div class="message">
+        <textarea placeholder="Write your message" name="message"></textarea>
+        <i class="material-icons">message</i>
+      </div>
+      <div class="button-area">
+        <button type="submit">Send Message</button>
+        <span></span>
+      </div>
+    </form>
+  </div>
+-->
+
+
+<script src="script.js"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+
 
 </body>
 </html>
+
+<!--
+  <script>
+
+    $(window).scroll(function(){
+      if($(window).scrollTop()){
+        $("header").addClass("black");
+      }
+      else {
+        $("header").removeClass("black");
+      }
+
+      if($(window).scrollTop()){
+        $("header").addClass("black");
+      }
+      else {
+        $("header").removeClass("black");
+      }
+
+    });
+
+  </script>
+-->
