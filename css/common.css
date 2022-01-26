@@ -250,7 +250,7 @@ header.logo, header.logo {
   color: white;
 }
 
-
+/* SERVICES SECTION BEGINS*/
 
 .service-icon {
   padding: 5px;
@@ -276,6 +276,7 @@ header.logo, header.logo {
   align-items: center;
   text-decoration: none;
   padding-left: 0;
+
 }
 
 .service-box {
@@ -284,8 +285,9 @@ header.logo, header.logo {
   box-shadow: 1px 3px rgb(210, 209, 209);
   text-align: center;
   padding:20px;
-  margin: 4px 6px;
+  margin: 15px 15px;
   opacity: 0.8;
+  width: 300px;
 }
 
 
@@ -293,8 +295,40 @@ header.logo, header.logo {
   text-align: center;
   margin: 0 auto;
   font-family: 'Rubik', sans-serif;
+
 }
 
+.services h2{
+  font-family: 'DM Serif Text', serif;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+#contact {
+  padding: 50px 15px;
+  text-align: center;
+}
+
+#contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/*
+
+.message-box {
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ margin: 20px;
+ background-color: blue;
+}
+
+/* SERVICES SECTION ENDS*/
 
 /* Beginning of form */
 
@@ -438,8 +472,9 @@ form .button-area{
   }
 }
 
-
 /* End of Form */
+
+
 /*
 @media (max-width: 575.98px) {
     .showcase {
@@ -511,6 +546,8 @@ form .button-area{
     padding-left: 0;
   }
 
+
+
 }
 
 @media (min-width: 52em) {
@@ -532,17 +569,8 @@ form .button-area{
     font-size: 1rem;
   }
 
-  .services-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    list-style: none;
-    text-decoration: none;
-    padding-left: 0;
-  }
-
 }
+
 
 
 
@@ -577,7 +605,32 @@ form .button-area{
     padding-left: 0;
   }
 
+
 }
+
+
+
+@media (min-width: 65.5em) {
+
+  .service-box {
+    border: 1.5px solid rgba(227, 227, 227, .7);
+    border-radius:7px;
+    box-shadow: 1px 3px rgb(210, 209, 209);
+    text-align: center;
+    padding:20px;
+    margin: 15px 5px;
+    opacity: 0.8;
+    width: 300px;
+  }
+
+
+}
+
+
+
+
+
+
 
 @media (min-width: 85rem) {
 
