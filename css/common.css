@@ -307,7 +307,29 @@ header.logo, header.logo {
   text-decoration: underline;
 }
 
+.services-section h2 {
+  font-family: 'DM Serif Text', serif;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: left;
+  text-decoration: underline;
+}
+
 /* SERVICES SECTION ENDS*/
+
+/* About Us begins */
+
+.about {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family:'Rubik', sans-serif;
+  margin: 5em auto;
+  width: 350px;
+}
+
+
+
 
 /* Beginning of form */
 
@@ -427,6 +449,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     padding-left: 0;
   }
 
+
 }
 
 
@@ -456,6 +479,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     margin: 0px 30px 0px 0px;
     text-decoration: underline;
     font-family: 'DM Serif Text', serif;
+  }
+
+  .about {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'DM Serif Text', serif;
+    margin: 3em auto;
+    width: 670px;
   }
 
 }
@@ -491,6 +522,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     list-style: none;
     text-decoration: none;
     padding-left: 0;
+    margin-bottom: 6em;
   }
 
 
