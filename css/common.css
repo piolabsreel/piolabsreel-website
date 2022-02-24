@@ -410,7 +410,89 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   color: #000109;
 }
 
+.video-tag {
+  text-align: center;
+  text-decoration: none;
+  padding: 2em 0;
+
+}
+
+.video-bg {
+  background-color: #fff;
+}
+
+
+.wrapper {
+  max-width: 670px;
+
+}
+
+.embed {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.embed-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.embed-16by9 {
+  padding-top: 56.25%;
+}
+
+.reel-text {
+  padding: 0;
+}
+
+
+
 /* 48em = 768px @ 16pt font */
+
+
+
+/*BEGINNING OF MEDIA QUERIES*/
+
+
+
+/*BEGINNING OF MEDIA QUERIES*/
+
+
+
+/*BEGINNING OF MEDIA QUERIES*/
+
+
+@media only screen and (min-width: 25em) {
+
+.frameborder {
+
+    frameborder: 0;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+
+  .video-tag {
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .reel-text {
+
+    padding: 0 0 0 1em;
+  }
+
+.reel-title {
+    margin: 0;
+
+  }
+}
 
 
 
@@ -551,6 +633,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   }
 
 
+}
+
+@media only screen and (min-width: 60em) {
+
+  .reel-para {
+
+    padding: 0 8em 0 0;
+  }
 }
 
 
