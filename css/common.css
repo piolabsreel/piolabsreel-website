@@ -302,8 +302,8 @@ header.logo, header.logo {
   font-family: 'DM Serif Text', serif;
   font-size: 2em;
   margin-top: 20px;
-  margin-left: 50px;
-  text-align: left;
+  margin-right: 50px;
+  text-align: right;
   text-decoration: underline;
 }
 
@@ -313,6 +313,7 @@ header.logo, header.logo {
   margin-top: 20px;
   margin-left: 50px;
   text-align: left;
+  letter-spacing: 0;
   text-decoration: underline;
 }
 
@@ -413,7 +414,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .video-tag {
   text-align: center;
   text-decoration: none;
-  padding: 2em 0;
 
 }
 
@@ -445,8 +445,16 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   padding-top: 56.25%;
 }
 
-.reel-text {
-  padding: 0;
+
+
+.reel-vid{
+  padding: 0 2em;
+}
+
+.reel-para {
+  text-align: left;
+  font-size: 1.3rem;
+  font-family: 'Rubik', sans-serif;
 }
 
 
@@ -481,11 +489,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     margin: 0;
     text-align: center;
     text-decoration: none;
-  }
-
-  .reel-text {
-
-    padding: 0 0 0 1em;
   }
 
 .reel-title {
@@ -639,10 +642,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
   .reel-para {
 
-    padding: 0 8em 0 0;
+    margin: 2em 0 0 2em;
+    line-height: 1.5;
   }
 }
-
 
 @media (min-width: 65.5em) {
 
