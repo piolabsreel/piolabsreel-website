@@ -299,7 +299,7 @@ header.logo, header.logo {
 }
 
 .services h2{
-  font-family: 'DM Serif Text', serif;
+  font-family: 'Rubik', serif;
   font-size: 2em;
   margin-top: 20px;
   margin-right: 50px;
@@ -308,12 +308,22 @@ header.logo, header.logo {
 }
 
 .services-section h2 {
-  font-family: 'DM Serif Text', serif;
+  font-family: 'Rubik', serif;
   font-size: 2em;
   margin-top: 20px;
   margin-left: 50px;
-  text-align: left;
+  left: 1000px;
+  text-align: right;
   letter-spacing: 0;
+  text-decoration: underline;
+}
+
+.portfolio h2{
+  font-family: 'Rubik', serif;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-right: 50px;
+  text-align: right;
   text-decoration: underline;
 }
 
@@ -453,7 +463,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .reel-para {
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: 'Rubik', sans-serif;
 }
 
