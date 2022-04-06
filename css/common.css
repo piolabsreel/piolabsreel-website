@@ -590,6 +590,29 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-color: #33143d;
 }
 
+.masthead-uni-header {
+  padding: 1em;
+  background-color: #000;
+  background: url("../images/portfolio-piece-header-image.jpg");
+  background-size: cover;
+  height: 12em;
+}
+
+.headcent{
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.piece-text {
+     margin: 2rem 2rem;
+ }
+
+
 
 
 
