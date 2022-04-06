@@ -536,7 +536,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .piece-title {
   font-family: sans-serif;
-  color: #ffeb44;
+  color: #ffa500;
 }
 
 
@@ -554,7 +554,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-color: #ffffff;
 }
 
-portfolio-studies-2 {
+.portfolio-studies-2 {
   color: #d6d5d4;
   background-image: url("../images/tulipfestival/Homepage_3_4_size_template.jpg");
   background-color: $black;
@@ -563,6 +563,27 @@ portfolio-studies-2 {
   background-size: 30vw auto;
   background-repeat: no-repeat;
   border-collapse: #000;
+}
+
+.portfolio-studies-3 {
+  color: #d6d5d4;
+  background-image: url("../images/tulipfestival/Homepage_3_4_size_template.jpg");
+  background-color: $black;
+  height: 293px;
+  background-position: 40% 52%;
+  background-size: 30vw auto;
+  background-repeat: no-repeat;
+  border-collapse: #000;
+}
+
+.portfolio-studies-4 {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/holtz/holtz-homepage-logo.jpg");
+  height: 293px;
+  background-position: center center;
+  background-size: 30vw auto;
+  background-repeat: no-repeat;
 }
 
 .portfolio-2-bg {
@@ -616,7 +637,7 @@ portfolio-studies-2 {
 .portfolio-studies-2 {
   background-size: 100vw auto;
   background-position: 40% center;
-}
+  }
 
 }
 
