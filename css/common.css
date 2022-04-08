@@ -565,6 +565,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   border-collapse: #000;
 }
 
+.portfolio-2-bg {
+  background-color: #33143d;
+}
+
 .portfolio-studies-3 {
   color: #d6d5d4;
   background-image: url("../images/tulipfestival/Homepage_3_4_size_template.jpg");
@@ -576,6 +580,16 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   border-collapse: #000;
 }
 
+.piece-text3 {
+  margin: 1rem 1rem 2rem;
+}
+
+.cusa-title {
+
+    margin: 0;
+
+  }
+
 .portfolio-studies-4 {
   color: #d6d5d4;
   background-color: $yellow;
@@ -584,10 +598,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-position: center center;
   background-size: 30vw auto;
   background-repeat: no-repeat;
-}
-
-.portfolio-2-bg {
-  background-color: #33143d;
 }
 
 .masthead-uni-header {
@@ -611,6 +621,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .piece-text {
      margin: 2rem 2rem;
  }
+
+ .wrapper {
+ max-width: 670px;
+
+}
 
 
 
@@ -907,6 +922,19 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .portfolio-2-bg {
   background-color: #33143d;
 }
+
+.cusa-title {
+
+    padding: 3em;
+
+  }
+
+  .wrapper {
+  max-width: 670px;
+  margin: 2em auto;
+}
+
+
 }
 
 @media (min-width: 65.5em) {
