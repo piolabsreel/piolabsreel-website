@@ -581,14 +581,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .piece-text3 {
-  margin: 1rem 1rem 2rem;
+  margin: 1rem 1rem 1rem;
 }
 
-.cusa-title {
-
-    margin: 0;
-
-  }
 
 .portfolio-studies-4 {
   color: #d6d5d4;
@@ -681,6 +676,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 @media only screen and (min-width: 38em) {
 
+.vid-text {
+  padding-top: 2em;
+}
 
   .video-tag {
     margin: 0;
@@ -923,11 +921,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-color: #33143d;
 }
 
-.cusa-title {
-
-    padding: 3em;
-
-  }
 
   .wrapper {
   max-width: 670px;
