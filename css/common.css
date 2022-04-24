@@ -543,10 +543,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .portfolio-studies-1 {
   color: #d6d5d4;
   background-color: $yellow;
-  background-image: url("../images/holtz/holtz-homepage-logo.jpg");
+  background-image: url("../images/eclectic/eclectic.jpg");
   height: 293px;
   background-position: center center;
-  background-size: 30vw auto;
+  background-size: 45vw auto;
   background-repeat: no-repeat;
 }
 
@@ -556,7 +556,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .portfolio-studies-2 {
   color: #d6d5d4;
-  background-image: url("../images/tulipfestival/Homepage_3_4_size_template.jpg");
+  background-image: url("../images/excessive/excessive-small.jpg");
   background-color: $black;
   height: 293px;
   background-position: 40% 52%;
@@ -571,11 +571,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .portfolio-studies-3 {
   color: #d6d5d4;
-  background-image: url("../images/tulipfestival/Homepage_3_4_size_template.jpg");
+  background-image: url("../images/redsquare/redsquare-small.jpg");
   background-color: $black;
   height: 293px;
   background-position: 40% 52%;
-  background-size: 30vw auto;
+  background-size: 120vw auto;
   background-repeat: no-repeat;
   border-collapse: #000;
 }
@@ -588,10 +588,50 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .portfolio-studies-4 {
   color: #d6d5d4;
   background-color: $yellow;
-  background-image: url("../images/holtz/holtz-homepage-logo.jpg");
+  background-image: url("../images/pyro/pyro-small.jpg");
   height: 293px;
   background-position: center center;
-  background-size: 30vw auto;
+  background-size: 120vw auto;
+  background-repeat: no-repeat;
+}
+
+.portfolio-studies-5 {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/farago/farago-small.jpg");
+  height: 293px;
+  background-position: center center;
+  background-size: 120vw auto;
+  background-repeat: no-repeat;
+}
+
+.portfolio-studies-6 {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/goodiebag/goodiebag-small.jpg");
+  height: 293px;
+  background-position: center center;
+  background-size: 120vw auto;
+  background-repeat: no-repeat;
+}
+
+.portfolio-studies-7 {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/red/red.jpg");
+  height: 293px;
+  background-position: center center;
+  background-size: 148vw auto;
+  background-repeat: no-repeat;
+}
+
+.portfolio-studies-8 {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/farago/farago-small.jpg");
+  height: 293px;
+  background-position: center center;
+  background-size: 120vw auto;
   background-repeat: no-repeat;
 }
 
@@ -663,7 +703,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   }
 
   .portfolio-studies-1 {
-  background-size: 78vw auto;
+  background-size:125vw auto;
   background-position: 85% auto;
 }
 
@@ -890,15 +930,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     background-color: #00000075;
     opacity: 1;
   }
-}
+
 
 .portfolio-studies-1 {
-  color: #d6d5d4;
-  background-color: $yellow;
-  background-image: url("../images/holtz/holtz-homepage-logo.jpg");
-  height: 293px;
-  background-position: center center;
-  background-size: 30vw auto;
+
+  background-size: 43vw auto;
   background-repeat: no-repeat;
 }
 
