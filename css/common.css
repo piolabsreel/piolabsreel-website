@@ -732,8 +732,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   }
 
   .portfolio-studies-1 {
-  background-size: 50vw auto;
-  background-position: 85%;
+  background-size: 85vw auto;
+  background-position: 40%;
 }
 
 .portfolio-studies-2 {
@@ -934,8 +934,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .portfolio-studies-1 {
 
-  background-size: 43vw auto;
-  background-repeat: no-repeat;
+  background-size: 60vw auto;
+  background-position: 40%;
 }
 
 .portfolio-1-bg {
