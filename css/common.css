@@ -697,6 +697,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   margin-bottom: 0;
 }
 
+.about p {
+  margin:0;
+}
+
 
 
 
