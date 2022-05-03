@@ -262,33 +262,41 @@ header.logo, header.logo {
 
 }
 
-.service-cap {
-  color: black;
-  text-align: center;
-  font-family: 'DM Serif Text', serif;
-  font-weight: 300;
-  margin: 8px 0px;
-}
 
-.services-box {
+.reel-stats {
+  font-size: 1.5rem;
+  font-family: 'Rubik', serif;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   list-style: none;
-  align-items: center;
+  justify-content: space-around;
   text-decoration: none;
+  margin-top: 1.5rem;
   padding-left: 0;
 
 }
 
+.services-box {
+
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
+}
+
+.service-cap {
+  color: black;
+  text-align: center;
+  font-family: 'Rubik', serif;
+  font-weight: 800;
+  margin: 8px 0px;
+}
+
 .service-box {
-  border: 1.5px solid rgba(227, 227, 227, .7);
-  border-radius:7px;
-  box-shadow: 1px 3px rgb(210, 209, 209);
   text-align: center;
   padding:20px;
   margin: 15px 15px;
   opacity: 0.8;
-  width: 300px;
 }
 
 
@@ -404,6 +412,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .srv-btn{
   font-family: 'DM Serif Text', serif;
   text-align: center;
+  padding-top: 2rem;
 
 
 }
@@ -434,7 +443,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 
 .wrapper {
-  max-width: 670px;
+  max-width: 850px;
 
 }
 
@@ -485,7 +494,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   border-style: solid;
   border-width: 1px;
   border-color: #fff;
@@ -670,10 +679,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
      margin: 2rem 2rem;
  }
 
- .wrapper {
- max-width: 670px;
 
-}
 
 
 
@@ -849,15 +855,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     font-size: 1rem;
   }
 
-  .services-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    list-style: none;
-    text-decoration: none;
-    padding-left: 0;
-  }
 
 
 }
@@ -925,15 +922,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     font-size: 1rem;
   }
 
-  .services-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    text-decoration: none;
-    padding-left: 0;
-    margin-bottom: 6em;
-  }
 
 
 }
@@ -1046,16 +1034,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 @media (min-width: 65.5em) {
 
-  .service-box {
-    border: 1.5px solid rgba(227, 227, 227, .7);
-    border-radius:7px;
-    box-shadow: 1px 3px rgb(210, 209, 209);
-    text-align: center;
-    padding:20px;
-    margin: 15px 5px;
-    opacity: 0.8;
-    width: 300px;
-  }
   .portfolio-studies-3 {
     background-image: url("../images/redsquare/redsquare.jpg");
     background-size: 75vw auto;
