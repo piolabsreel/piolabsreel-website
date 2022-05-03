@@ -336,6 +336,15 @@ header.logo, header.logo {
   text-decoration: underline;
 }
 
+.getintouch h2 {
+  font-family: 'Rubik', serif;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-right: 50px;
+  text-align: left;
+  text-decoration: underline;
+}
+
 /* SERVICES SECTION ENDS*/
 
 /* About Us begins */
@@ -933,14 +942,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   .reel-stats {
     font-size: 1.5rem;
     font-family: 'Rubik', serif;
-    display: flex;
-    flex-direction: row;
     list-style: none;
     justify-content: space-around;
     text-decoration: none;
-    margin-top: 1.5rem;
-    padding-left: 0;
-
   }
 
 
