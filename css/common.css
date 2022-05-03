@@ -264,7 +264,7 @@ header.logo, header.logo {
 
 
 .reel-stats {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Rubik', serif;
   display: flex;
   flex-direction: row;
@@ -346,6 +346,7 @@ header.logo, header.logo {
   font-weight: 600;
   margin:2em auto;
   width: 350px;
+  font-family: 'DM Serif Text', serif;
 }
 
 .port-video {
@@ -413,6 +414,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-family: 'DM Serif Text', serif;
   text-align: center;
   padding-top: 2rem;
+  padding-bottom: 4rem;
 
 
 }
@@ -676,9 +678,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .piece-text-in {
-     margin: 2rem 2rem;
+  margin: 2rem 2rem;
  }
 
+.port-piece-title {
+  font-size: 2rem;
+  font-family: 'DM Serif Text', serif;
+  margin-bottom: 0;
+}
 
 
 
@@ -920,6 +927,19 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
   .service-text {
     font-size: 1rem;
+  }
+
+  .reel-stats {
+    font-size: 1.5rem;
+    font-family: 'Rubik', serif;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    padding-left: 0;
+
   }
 
 
