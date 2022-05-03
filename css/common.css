@@ -220,6 +220,7 @@ header.logo, header.logo {
 
 .hero-text h3 {
   font-size: 1em;
+  font-family: 'Rubik', serif;
   font-weight: 600;
   line-height: 1em;
   margin: 0;
@@ -523,8 +524,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .case-study:hover .masthead hr {
-  width: 15rem;
-  border-color: #ffeb44;
+  width: 10rem;
+  border-color: #e8982c;
   -webkit-transition: all 500ms linear;
   transition: all 400ms linear;
 }
@@ -535,15 +536,16 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .piece-title {
-  font-family: sans-serif;
-  color: #ffa500;
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+  margin:10px;
 }
 
 
 .portfolio-studies-1 {
   color: #d6d5d4;
   background-color: $yellow;
-  background-image: url("../images/eclectic/eclectic.jpg");
+  background-image: url("../images/holtz/holtz-homepage-logo.jpg");
   height: 293px;
   background-position: center center;
   background-size: 45vw auto;
@@ -575,7 +577,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-color: $black;
   height: 293px;
   background-position: 40% 52%;
-  background-size: 120vw auto;
+  background-size: 135vw auto;
   background-repeat: no-repeat;
   border-collapse: #000;
 }
@@ -588,7 +590,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .portfolio-studies-4 {
   color: #d6d5d4;
   background-color: $yellow;
-  background-image: url("../images/pyro/pyro-small.jpg");
+  background-image: url("../images/eclectic/eclectic.jpg");
   height: 293px;
   background-position: center center;
   background-size: 120vw auto;
@@ -598,17 +600,17 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .portfolio-studies-5 {
   color: #d6d5d4;
   background-color: $yellow;
-  background-image: url("../images/farago/farago-small.jpg");
+  background-image: url("../images/patflesher/patflesher.jpg");
   height: 293px;
   background-position: center center;
-  background-size: 120vw auto;
+  background-size: 135vw auto;
   background-repeat: no-repeat;
 }
 
 .portfolio-studies-6 {
   color: #d6d5d4;
   background-color: $yellow;
-  background-image: url("../images/goodiebag/goodiebag-small.jpg");
+  background-image: url("../images/red/red-small.jpg");
   height: 293px;
   background-position: center center;
   background-size: 120vw auto;
@@ -618,10 +620,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .portfolio-studies-7 {
   color: #d6d5d4;
   background-color: $yellow;
-  background-image: url("../images/red/red.jpg");
+  background-image: url("../images/goodiebag/goodiebag-small.jpg");
   height: 293px;
   background-position: center center;
-  background-size: 148vw auto;
+  background-size: 100vw auto;
   background-repeat: no-repeat;
 }
 
@@ -683,14 +685,22 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 @media only screen and (min-width: 10em) {
 
   .portfolio-studies-1 {
-    background-size: 120vw auto;
+    background-size: 90vw auto;
     background-position: 85% auto;
   }
 
   .portfolio-studies-2 {
     background-size: 120vw auto;
     background-position: 40% center;
+
   }
+
+  .portfolio-studies-7 {
+    background-position: center center;
+    background-size: 100vw auto;
+
+  }
+
 }
 
 
@@ -703,13 +713,18 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   }
 
   .portfolio-studies-1 {
-  background-size:125vw auto;
+  background-size:90vw auto;
   background-position: 85% auto;
 }
 
 .portfolio-studies-2 {
   background-size: 100vw auto;
   background-position: 40% center;
+  }
+
+  .portfolio-studies-3 {
+    background-size: 135vw auto;
+    background-position: 40% 52%;
   }
 
 }
@@ -732,7 +747,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   }
 
   .portfolio-studies-1 {
-  background-size: 85vw auto;
+  background-size: 50vw auto;
   background-position: 40%;
 }
 
@@ -740,6 +755,34 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-size: 65vw auto;
   background-position: 40% center;
 }
+
+.portfolio-studies-3 {
+  background-size: 90vw auto;
+  background-position: 40% 52%;
+}
+.portfolio-studies-4 {
+  background-position: center center;
+  background-size: 95vw auto;
+}
+
+.portfolio-studies-5 {
+
+  background-position: center center;
+  background-size: 100vw auto;
+}
+
+.portfolio-studies-6 {
+  background-position: center center;
+  background-size: 120vw auto;
+
+}
+
+.portfolio-studies-7 {
+  background-position: center center;
+  background-size: 55vw auto;
+
+}
+
 
 }
 
@@ -892,20 +935,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     line-height: 1.5;
   }
 
-
-
-  .portfolio-studies-1 {
-    background-size: 30vw auto;
-    background-position: 85%;
-    height: 293px;
-  }
-
-  .portfolio-studies-2 {
-    background-size: 65vw auto;
-    background-position: 50% center;
-    height: 293px;
-  }
-
   .case-study .masthead {
     position: absolute;
     left: 0;
@@ -916,7 +945,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     padding: 1em;
     border-style: solid;
     border-width: 1px;
-    border-color: #000;
+    border-color: #e8982c;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -933,9 +962,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 
 .portfolio-studies-1 {
-
-  background-size: 60vw auto;
+  background-size: 35vw auto;
   background-position: 40%;
+  height: 293px;
 }
 
 .portfolio-1-bg {
@@ -943,18 +972,56 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .portfolio-studies-2 {
-  color: #d6d5d4;
-  background-image: url("../images/tulipfestival/Homepage_3_4_size_template.jpg");
-  background-color: $black;
+  background-image: url("../images/excessive/excessive.jpg");
   height: 293px;
+  background-size: 80vw auto;
   background-position: 40% 52%;
-  background-size: 30vw auto;
-  background-repeat: no-repeat;
-  border-collapse: #000;
 }
 
 .portfolio-2-bg {
   background-color: #33143d;
+}
+
+.portfolio-studies-3 {
+  background-image: url("../images/redsquare/redsquare.jpg");
+  background-size: 81vw auto;
+  background-position: 40% 52%;
+}
+
+.portfolio-studies-4 {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/eclectic/eclectic.jpg");
+  height: 293px;
+  background-position: center center;
+  background-size: 60vw auto;
+  background-repeat: no-repeat;
+}
+
+.portfolio-studies-5 {
+
+  background-position: center center;
+  background-size: 65vw auto;
+}
+
+.portfolio-studies-6 {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/red/red.jpg");
+  height: 293px;
+  background-position: center center;
+  background-size: 120vw auto;
+  background-repeat: no-repeat;
+}
+
+.portfolio-studies-7 {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/goodiebag/goodiebag.jpg");
+  height: 293px;
+  background-position: center center;
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
 }
 
 
@@ -977,6 +1044,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     margin: 15px 5px;
     opacity: 0.8;
     width: 300px;
+  }
+  .portfolio-studies-3 {
+    background-image: url("../images/redsquare/redsquare.jpg");
+    background-size: 75vw auto;
+    background-position: 40% 52%;
   }
 
 }

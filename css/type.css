@@ -220,10 +220,12 @@ sub {
   padding-right: 0.3750rem;
 }
 
+/*
 h1, h2, h3, h4, h5, h6,
 .font-brand {
   font-family: 'Titillium Web', sans-serif;
 }
+*/
 
 h7 {
   font-family: 'Titillium Web', sans-serif;
