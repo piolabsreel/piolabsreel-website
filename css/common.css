@@ -426,6 +426,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   padding: 10px 25px;
   border-radius: 5px;
   transition: all .2s ease-out;
+  letter-spacing: 3px;
 }
 
 .srv-btn a:hover {
@@ -1029,7 +1030,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-image: url("../images/red/red.jpg");
   height: 293px;
   background-position: center center;
-  background-size: 120vw auto;
+  background-size: 70vw auto;
   background-repeat: no-repeat;
 }
 
