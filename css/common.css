@@ -385,8 +385,8 @@ header.logo, header.logo {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: orange;
-  color: white;
+  background: #f0db99;
+  color: #000109;
   transition: .5 ease all;
 }
 
@@ -710,9 +710,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .para-contact {
-  justify:left;
+  text-align: center;
   padding: 0 2em;
-  margin: 0 auto;
   font-size: 1.2rem;
   font-family: 'Rubik', sans-serif;
 }
@@ -899,6 +898,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
   .service-text {
     font-size: 1rem;
+  }
+
+  #contact-form {
+    max-width: 550px;
+    margin: 0 auto;
   }
 
 
