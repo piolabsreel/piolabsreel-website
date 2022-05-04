@@ -340,7 +340,7 @@ header.logo, header.logo {
   font-family: 'Rubik', serif;
   font-size: 2em;
   margin-top: 20px;
-  margin-right: 50px;
+  margin-left: 50px;
   text-align: left;
   text-decoration: underline;
 }
@@ -353,9 +353,9 @@ header.logo, header.logo {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
-  margin:2em auto;
-  width: 350px;
   font-family: 'DM Serif Text', serif;
+  background-color: #ffa500;
+  padding: 3em 0;
 }
 
 .port-video {
@@ -373,7 +373,7 @@ header.logo, header.logo {
 }
 
 #contact-form {
-  max-width: 500px;
+  max-width: 330px;
   margin: 0 auto;
 }
 
@@ -435,7 +435,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   padding: 10px 25px;
   border-radius: 5px;
   transition: all .2s ease-out;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .srv-btn a:hover {
@@ -701,6 +701,22 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   margin:0;
 }
 
+.gray {
+  color: #fff;
+}
+
+.black {
+  color: #000;
+}
+
+.para-contact {
+  justify:left;
+  padding: 0 2em;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
+}
+
 
 
 
@@ -765,6 +781,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     background-position: 40% 52%;
   }
 
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -819,6 +836,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-position: center center;
   background-size: 55vw auto;
 
+}
+.about {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'DM Serif Text', serif;
+  background-color: #ffa500;
+  padding: 3em 0;
 }
 
 
@@ -911,10 +936,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
   .about {
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'DM Serif Text', serif;
-    margin: 3em auto;
-    width: 670px;
+    padding: 1.5em;
+    margin: 0 auto;
   }
 
 }
