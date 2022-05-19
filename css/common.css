@@ -679,7 +679,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .headcent{
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 13rem;
 }
 
 .img-flex {
@@ -692,9 +692,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
  }
 
 .port-piece-title {
-  font-size: 2rem;
+  font-size: 2.7rem;
   font-family: 'DM Serif Text', serif;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .about p {
@@ -719,6 +719,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .services-section {
 ;
+}
+
+.desc-text p {
+  margin:4px;
 }
 
 
@@ -789,9 +793,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 @media only screen and (min-width: 38em) {
 
-.vid-text {
-  padding-top: 2em;
-}
 
   .video-tag {
     margin: 0;
@@ -1089,6 +1090,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   .wrapper {
   max-width: 670px;
   margin: 2em auto;
+}
+.headcent{
+  text-align: center;
+  padding-top: 15rem;
 }
 
 
