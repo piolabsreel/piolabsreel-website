@@ -615,7 +615,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .piece-text3 {
-  margin: 1rem 1rem 1rem;
+  margin: 1rem 0
 }
 
 
@@ -693,7 +693,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .port-piece-title {
   font-size: 2.7rem;
-  font-family: 'DM Serif Text', serif;
+  font-family: 'Rubik', sans-serif;
   margin: 0;
 }
 
@@ -725,6 +725,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   margin:4px;
 }
 
+.reel-text {
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
+}
 
 
 
@@ -987,13 +992,15 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 
 
+
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .reel-para {
 
-    margin: 2em 0 0 2em;
+    margin: 25px 0 0 20px;
     line-height: 1.5;
   }
 
@@ -1088,12 +1095,22 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 
   .wrapper {
-  max-width: 670px;
+  max-width: 725px;
   margin: 2em auto;
 }
 .headcent{
   text-align: center;
   padding-top: 15rem;
+}
+
+.reel-text {
+
+padding: 25px 0px 0px 20px;
+margin: 0;
+}
+
+.reel-box {
+
 }
 
 
