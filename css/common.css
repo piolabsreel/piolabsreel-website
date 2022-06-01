@@ -756,7 +756,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background: transparent url("../images/socials/twitter.svg");
   background-size: 53px;
   margin: auto 10px;
-  transition:
+  transition: all 20ms ease-out;
 }
 
 .twitter:hover {
