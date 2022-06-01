@@ -731,8 +731,65 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-family: 'Rubik', sans-serif;
 }
 
+.socials {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
 
+}
+.socials img {
+  width: 70%;
+  padding: 0 10px;
+}
 
+.socials svg:hover {
+  color: #f0db99;
+  background-color: #f0db99;
+}
+
+.twitter {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: transparent url("../images/socials/twitter.svg");
+  background-size: 53px;
+  margin: auto 10px;
+  transition:
+}
+
+.twitter:hover {
+  background-position: 0 -50px;
+}
+
+.instagram {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: transparent url("../images/socials/instagram.svg");
+  background-size: 53px;
+  margin: auto 10px;
+  transition:
+}
+
+.instagram:hover {
+  background-position: 0 -50px;
+}
+
+.youtube {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: transparent url("../images/socials/youtube.svg");
+  background-size: 53px;
+  margin: auto 10px;
+  transition:
+}
+
+.youtube:hover {
+  background-position: 0 -50px;
+}
 
 /* 48em = 768px @ 16pt font */
 
