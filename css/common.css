@@ -848,6 +848,8 @@ h1 {
 .slider .source {
   font-size: 20px;
   text-align: center;
+  font-style: italic;
+  font-family: 'DM Serif Text', serif;
 }
 
 .slider li.anim1 {
