@@ -392,14 +392,19 @@ header.logo, header.logo {
 
 
 #contact-form button {
-  display: block;
-  width: 100%;
-  background: gray;
-  padding: 5px 10px;
-  border: none;
+  background: #000109;
+  padding: 10px 25px;
+  border-radius: 5px;
   color: white;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
-  transition: .5 ease all;
+  letter-spacing: 1px;
+  font-family: 'Rubik', serif;
+  transition: all .2s ease-out;
+}
+
+#contact-form button:hover {
+  background: orange;
+  color: #000109;
+
 }
 
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
@@ -791,6 +796,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-position: 0 -50px;
 }
 
+
+.roi {
+  font-family: 'DM Serif Text', serif;
+}
+
 /* 48em = 768px @ 16pt font */
 
 /*BEGINING OF QUOTE SLIDER */
@@ -809,6 +819,9 @@ h1 {
   width: 100%;
   height: 300px;
 }
+
+
+
 
 .slider {
   height: 320px;
