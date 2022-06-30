@@ -1078,8 +1078,8 @@ h1 {
 }
 
 .footer {
-  color: #000109;
-  background: orange;
+  color: orange;
+  background: #000109;
   padding: 5px;
 }
 
@@ -1087,7 +1087,9 @@ h1 {
   margin: 0;
 }
 
-
+.quote-color{
+  color: orange;
+}
 
 
 
