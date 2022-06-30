@@ -1077,6 +1077,16 @@ h1 {
   }
 }
 
+.footer {
+  color: #000109;
+  background: orange;
+  padding: 5px;
+}
+
+.footer p{
+  margin: 0;
+}
+
 
 
 
@@ -1302,6 +1312,10 @@ h1 {
   .slider .source {
     font-size: 20px;
     text-align: center;
+  }
+
+  .footer {
+  text-align: center;
   }
 
   @keyframes cycle {
