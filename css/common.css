@@ -866,23 +866,23 @@ h1 {
 }
 
 .slider li.anim1 {
-  animation: cycle 20s linear infinite;
+  animation: cycle 27s linear infinite;
 }
 
 .slider li.anim2 {
-  animation: cycle2 20s linear infinite;
+  animation: cycle2 27s linear infinite;
 }
 
 .slider li.anim3 {
-  animation: cycle3 20s linear infinite;
+  animation: cycle3 27s linear infinite;
 }
 
 .slider li.anim4 {
-  animation: cycle4 20s linear infinite;
+  animation: cycle4 27s linear infinite;
 }
 
 .slider li.anim5 {
-  animation: cycle5 20s linear infinite;
+  animation: cycle5 27s linear infinite;
 }
 
 .slider:hover li {
