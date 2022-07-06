@@ -110,9 +110,11 @@ header.logo, header.logo {
 .header .menu-icon {
   cursor: pointer;
   float: right;
-  padding: 70px 30px;
+  padding: 12px 22px;
   position: relative;
   user-select: none;
+  margin-right: 48px;
+  margin-top: 50px
 }
 
 .header .menu-icon .nav-icon {
@@ -1308,7 +1310,7 @@ h1 {
   }
 
   .slider .quotes {
-    font-size: 40px;
+    font-size: 50px;
     font-style: italic;
   }
 
