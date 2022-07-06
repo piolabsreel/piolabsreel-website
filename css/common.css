@@ -425,7 +425,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .srv-btn{
-  font-family: 'DM Serif Text', serif;
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 4rem;
@@ -434,6 +433,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .srvs-btn{
+
+  font-family: 'Rubik', serif;
   background: #000109;
   color: white;
   text-decoration: none;
