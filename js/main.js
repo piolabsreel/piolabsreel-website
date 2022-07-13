@@ -1,16 +1,8 @@
-$('.services').localScroll();
-
-$('.services-section').localScroll();
-
-$('.backup').localScroll();
-
-$('.works-down').localScroll();
-
-var $dipper = $('.dipper');
-$dipper.waypoint(function (direction) {
-  if (direction == 'down') {
-    $dipper.addClass('js-dipper-animate');
-  } else {
-    $dipper.removeClass('js-dipper-animate');
-  }
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
 });
