@@ -1,3 +1,3 @@
 markdown: kramdown
-baseurl: /number-reels
+baseurl: /piolabsreel-website
 exclude: ['README.md']
