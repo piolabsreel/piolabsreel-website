@@ -346,6 +346,9 @@ header.logo, header.logo {
   text-align: left;
   text-decoration: underline;
 }
+.services ul {
+  list-style-type: none;
+}
 
 /* SERVICES SECTION ENDS*/
 
