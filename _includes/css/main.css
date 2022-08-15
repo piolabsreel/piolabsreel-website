@@ -27,6 +27,7 @@ h1, h2, h3, h4, {
 .logo-img {
   width: 110px;
   cursor: pointer;
+  margin-left: 30px;
 }
 
 .service-img {
@@ -1634,7 +1635,7 @@ h1 {
 }
 
 .portfolio-1-bg {
-  background-color: #ffffff;
+  background-color: #000;
 }
 
 .portfolio-studies-2 {
@@ -1645,7 +1646,7 @@ h1 {
 }
 
 .portfolio-2-bg {
-  background-color: #33143d;
+  background-color: ##000;
 }
 
 .portfolio-studies-3 {
