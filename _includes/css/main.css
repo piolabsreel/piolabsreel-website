@@ -645,7 +645,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .portfolio-studies-5 {
   color: #d6d5d4;
   background-color: $yellow;
-  background-image: url("../images/patflesher/patflesher.jpg");
+  background-image: url("../images/farago/farago-small.jpg");
   height: 293px;
   background-position: center center;
   background-size: 135vw auto;
@@ -673,9 +673,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .portfolio-studies-8 {
-  color: #d6d5d4;
+  color: #000;
   background-color: $yellow;
-  background-image: url("../images/farago/farago-small.jpg");
+  background-image: url();
   height: 293px;
   background-position: center center;
   background-size: 120vw auto;
