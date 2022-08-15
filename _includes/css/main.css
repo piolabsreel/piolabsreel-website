@@ -673,8 +673,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .portfolio-studies-8 {
-  color: #000;
-  background-color: $yellow;
+  color:;
+  background-color: #000;
   background-image: url();
   height: 293px;
   background-position: center center;
