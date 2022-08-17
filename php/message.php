@@ -1,5 +1,3 @@
-header('Cache-Control: max-age=43200');
-
 
 //Contact Form in PHP
 
@@ -27,3 +25,7 @@ header('Cache-Control: max-age=43200');
     echo "Email and message field is required!";
   }
 ?>
+
+header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1.
+header("Pragma: no-cache"); // HTTP 1.0.
+header("Expires: 0"); // Proxies.
