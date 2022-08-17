@@ -27,7 +27,6 @@ h1, h2, h3, h4, {
 .logo-img {
   width: 110px;
   cursor: pointer;
-  margin-left: 30px;
 }
 
 .service-img {
@@ -95,7 +94,13 @@ header.logo, header.logo {
   float: left;
   font-size: 2em;
   margin: 20px;
+  margin-left: 60px;
   text-decoration: none;
+}
+
+.logo-img {
+  width: 110px;
+  cursor: pointer;
 }
 
 /* menu */
@@ -277,6 +282,12 @@ header.logo, header.logo {
   margin-top: 1.5rem;
   padding-left: 0;
 
+}
+
+.reel-pos {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
 }
 
 .services-box {
@@ -1562,7 +1573,7 @@ h1 {
 @media (min-width: 56em) {
 
   .hero-text {
-    top:200px;
+    top:300px;
     text-align: center;
     padding: 0;
   }
