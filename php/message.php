@@ -1,3 +1,6 @@
+header('Cache-Control: max-age=43200');
+
+
 //Contact Form in PHP
 
 <?php
