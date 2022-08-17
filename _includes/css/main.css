@@ -580,12 +580,27 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   margin: .2rem 0;
 }
 
+.masthead2 h2, .masthead2 p {
+  max-width: 20em;
+  margin:0;
+}
+
 .piece-title {
   font-size: 3.5rem;
   font-weight: 800;
   font-family: 'Rubik', sans-serif;
   color: #fff;
   margin:10px;
+}
+
+.piece-title2 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+  margin:10px;
+  text-align: center;
+  padding-top: 80px;
 }
 
 .piece-text {
