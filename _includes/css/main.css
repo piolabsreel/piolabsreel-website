@@ -374,6 +374,7 @@ header.logo, header.logo {
   font-family: 'DM Serif Text', serif;
   background-color: #ffa500;
   padding: 3em 0;
+  overflow: hidden;
 }
 
 .port-video {
