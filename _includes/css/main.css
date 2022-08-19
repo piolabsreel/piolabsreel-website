@@ -372,9 +372,10 @@ header.logo, header.logo {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: 'DM Serif Text', serif;
-  background-color: #ffa500;
+  background-color: ;
   padding: 3em 0;
   overflow: hidden;
+  position: relative;
 }
 
 .port-video {
@@ -605,9 +606,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .piece-text {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 300;
-  font-family: 'DM Serif Text', serif;
+  font-family: 'Rubik', serif;
   color: #fff;
   margin:10px;
 
@@ -1127,20 +1128,106 @@ h1 {
 }
 
 
-
-
-
 /*ENDING OF SLIDER */
 
-/*BEGINNING OF MEDIA QUERIES*/
+
+
+/*test of blob*/
+.gooey{
+  background-image: linear-gradient(120deg, #ffe400 0%, #f4cb94 100%);
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  width: 150px;
+  height: 144px;
+  animation: morph 3s linear infinite;
+  transform-style: preserve-3d;
+  outline: 1px solid transparent;
+  will-change: border-radius;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 8em;
+  width: 400px;
+}
+.gooey:before,
+.gooey:after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0; top: 0;
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  box-shadow: 5px 5px 89px rgba(221,195,12,0.84);
+  will-change: border-radius, transform, opacity;
+  animation-delay: 200ms;
+  background-image: linear-gradient(120deg, rgba(255,181,85) 0%, rgba(255,147,9,.89) 100%);
+}
+
+.gooey:before{
+  animation: morph 3s linear infinite;
+  opacity: .21;
+  animation-duration: 1.5s;
+}
+
+.gooey:after{
+  animation: morph 3s linear infinite;
+  animation-delay: 400ms;
+  opacity: .89;
+  content: "";
+  line-height: 120px;
+  text-indent: -21px;
+}
+
+@keyframes morph{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    opacity: .89;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
+
+@keyframes fadeIn{
+  100%{
+    transform: scale(1.03);
+    opacity: 0;
+  }
+
+
+}
 
 
 
-/*BEGINNING OF MEDIA QUERIES*/
 
 
 
-/*BEGINNING OF MEDIA QUERIES*/
+
+  /*BEGINNING OF MEDIA QUERIES*/
+
+
+
+  /*BEGINNING OF MEDIA QUERIES*/
+
+
+
+  /*BEGINNING OF MEDIA QUERIES*/
+
+
+
+
 
 @media only screen and (min-width: 10em) {
 
@@ -1245,7 +1332,7 @@ h1 {
   font-size: 2rem;
   font-weight: 600;
   font-family: 'DM Serif Text', serif;
-  background-color: #ffa500;
+  background-color: ;
   padding: 3em 0;
 }
 
