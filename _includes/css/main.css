@@ -879,7 +879,7 @@ h1 {
 }
 
 .slider li {
-  width: 300px;
+  width: 280px;
   height: 250px;
   position: absolute;
   top: -325px;
@@ -890,7 +890,7 @@ h1 {
 
 .slider .quotes {
   font-size: 30px;
-  font-style: italic;
+  font-style:;
   font-family: 'DM Serif Text', serif;
 }
 
@@ -1430,7 +1430,7 @@ h1 {
 
   .slider .quotes {
     font-size: 50px;
-    font-style: italic;
+    font-style:;
   }
 
   .slider .source {
