@@ -1764,7 +1764,7 @@ h1 {
 }
 
 .portfolio-studies-3 {
-  background-image: url("../images/redsquare/portfolio-studies-3.webp");
+  background-image: url("../images/redsquare/redsquare.webp");
   background-size: 81vw auto;
   background-position: 40% 52%;
 }
@@ -1831,7 +1831,7 @@ margin: 0;
 @media (min-width: 65.5em) {
 
   .portfolio-studies-3 {
-    background-image: url("../images/redsquare/redsquare.jpg");
+    background-image: url("../images/redsquare/redsquare.webp");
     background-size: 75vw auto;
     background-position: 40% 52%;
   }
