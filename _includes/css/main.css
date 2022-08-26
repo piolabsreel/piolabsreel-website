@@ -760,7 +760,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .piece-text3 {
-  margin: 1rem 0
+  margin: 1rem 10px;
 }
 
 
