@@ -1309,6 +1309,17 @@ h1 {
 
 }
 
+.about-us {
+  text-align: center;
+  padding: 2rem 2rem;
+  font-family: 'DM Serif Text', serif;
+  font-size: 25px;
+}
+
+.brokenlink {
+  padding: 10rem 2rem 0;
+}
+
 
 
 
@@ -1775,7 +1786,7 @@ h1 {
   }
 
 }
-/*----- media query end ----*/
+/*----- media query small end ----*/
 
 
 
@@ -1806,6 +1817,10 @@ h1 {
     list-style: none;
     justify-content: space-around;
     text-decoration: none;
+  }
+
+  .about-us {
+    padding: 2rem 200px;
   }
 
 
@@ -1977,6 +1992,10 @@ margin: 0;
 
 }
 
+.about-us {
+  padding: 2rem 300px;
+  font-size: 30px;
+}
 
 }
 
