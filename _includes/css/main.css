@@ -28,7 +28,7 @@ h1, h2, h3, h4, {
   background: #e9982d;
 }
 ::-moz-selection {
-  background: #e9982d; 
+  background: #e9982d;
 }
 
 .logo-img {
@@ -247,7 +247,7 @@ header.logo, header.logo {
   font-family: 'Rubik', sans-serif;
   font-size: 1em;
   line-height: 1em;
-  color: orange;
+  color: #e9982d;
 }
 
 .hero-text a {
@@ -263,7 +263,7 @@ header.logo, header.logo {
 }
 
 .hero-text a:hover {
-  background: orange;
+  background: #e9982d;
   color: white;
 }
 
