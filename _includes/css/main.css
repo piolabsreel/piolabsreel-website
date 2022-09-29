@@ -24,6 +24,13 @@ h1, h2, h3, h4, {
   font-family: 'DM Serif Text', serif;
 }
 
+::selection {
+  background: #e9982d;
+}
+::-moz-selection {
+  background: #e9982d; 
+}
+
 .logo-img {
   width: 110px;
   cursor: pointer;
