@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+  <url>
+
+    <loc>https://piolabsreel.com/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+
+  </url>
+
+  <url>
+
+    <loc>https://piolabsreel.com/works/agitated.html</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+
+  </url>
+
+  <url>
+
+    <loc>https://piolabsreel.com/works/excessive.html</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+
+  </url>
+
+  <url>
+
+    <loc>https://piolabsreel.com/works/red-square.html</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+
+  </url>
+
+  <url>
+
+    <loc>https://piolabsreel.com/works/eclectic-observer.html</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+
+  </url>
+
+  <url>
+
+    <loc>https://piolabsreel.com/works/farago.html</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+
+  </url>
+
+  <url>
+
+    <loc>https://piolabsreel.com/works/red.html</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+
+  </url>
+
+  <url>
+
+    <loc>https://piolabsreel.com/works/interview-goodiebag.html</loc>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+
+  </url>
+
+
+</urlset>
