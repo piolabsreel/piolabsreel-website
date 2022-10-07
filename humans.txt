@@ -1,0 +1,29 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Sean Zulu Okai <seanokai@Hotmail.com>
+site: https://seanzokai.ca [REDACTED]
+Github: Upon request
+Location: Online
+
+---
+
+# THANKS
+
+Teachers & Colleagues
+Free Media Sites
+
+---
+
+# TECHNOLOGY
+
+## Software
+- Atom
+- Git + Github
+- SmoothScroll
+- Markdown
+- Jquery
+
+# HOSTING
+- Hover
