@@ -708,7 +708,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .packages-getting-started {
   color: #d6d5d4;
   background-color: $yellow;
-  background-image: url("../images/packages/getting-serious-small.jpg");
+  background-image: url("../images/packages/sme-business-small.jpg");
   height: 293px;
   background-position: center center;
   background-size: 100vw auto;
@@ -1898,10 +1898,10 @@ h1 {
   .packages-getting-started {
     color: #d6d5d4;
     background-color: $yellow;
-    background-image: url("../images/packages/getting-serious.jpg");
+    background-image: url("../images/packages/sme-business.jpg");
     height: 293px;
     background-position: center center;
-    background-size: 80vw auto;
+    background-size: 84vw auto;
     background-repeat: no-repeat;
   }
 
@@ -1911,7 +1911,7 @@ h1 {
     background-image: url("../images/packages/upandcoming.jpg");
     height: 293px;
     background-position: center center;
-    background-size: 80vw auto;
+    background-size: 84vw auto;
     background-repeat: no-repeat;
   }
 
