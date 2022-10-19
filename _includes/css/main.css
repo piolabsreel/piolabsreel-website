@@ -1326,3 +1326,9 @@ h1 {
 .brokenlink {
   padding: 10rem 2rem 0;
 }
+
+.specialstrike{
+  text-decoration: line-through;
+  color: orange;
+
+}
