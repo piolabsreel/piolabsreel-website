@@ -125,6 +125,18 @@ padding: 3em 0;
 
 
 @media (min-width: 48em) {
+
+  #contact-side {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #contact-form-top input, #contact-form-top textarea {
+  margin: 3px;
+  }
+
+
+
 .header li {
   float: left;
 }
@@ -457,6 +469,7 @@ text-align: center;
   margin: 0 auto;
 }
 
+
 }
 /*----- media query small end ----*/
 
@@ -504,7 +517,6 @@ text-align: center;
   margin: 0;
   text-align: center;
 }
-
 
 
 
@@ -677,6 +689,7 @@ margin: 0;
 padding: 2rem 300px;
 font-size: 30px;
 }
+
 
 }
 
