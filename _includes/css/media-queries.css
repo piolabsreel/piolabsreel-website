@@ -135,6 +135,12 @@ padding: 3em 0;
   margin: 3px;
   }
 
+  .about-img img {
+    height: 185px;
+    top: -1px;
+    right: -25px;
+  }
+
 
 
 .header li {
@@ -469,6 +475,12 @@ text-align: center;
   margin: 0 auto;
 }
 
+.about-img img {
+  height: 185px;
+  top: -1px;
+  right: -25px;
+}
+
 
 }
 /*----- media query small end ----*/
@@ -517,6 +529,13 @@ text-align: center;
   margin: 0;
   text-align: center;
 }
+
+.about-img img {
+  height: 185px;
+  top: -1px;
+  right: -20px;
+}
+
 
 
 
@@ -688,6 +707,12 @@ margin: 0;
 .about-us {
 padding: 0px 300px;
 font-size: 30px;
+}
+
+.about-img img {
+  height: 300px;
+  top: 86px;
+  right: -90px;
 }
 
 
