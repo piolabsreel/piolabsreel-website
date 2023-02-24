@@ -119,6 +119,12 @@ background-color: ;
 padding: 3em 0;
 }
 
+.about-img img {
+  height: 343px;
+  top: 20px;
+  right: 7px;
+}
+
 
 }
 
@@ -136,9 +142,9 @@ padding: 3em 0;
   }
 
   .about-img img {
-    height: 185px;
-    top: -1px;
-    right: -25px;
+    height: 275px;
+    top: 1px;
+    right: 55px;
   }
 
 
@@ -476,10 +482,12 @@ text-align: center;
 }
 
 .about-img img {
-  height: 185px;
-  top: -1px;
-  right: -25px;
+  height: 289px;
+  top: -13px;
+  right: 65px;
 }
+
+
 
 
 }
@@ -531,9 +539,9 @@ text-align: center;
 }
 
 .about-img img {
-  height: 185px;
-  top: -1px;
-  right: -20px;
+  height: 300px;
+  top: 20px;
+  right: -55px;
 }
 
 
