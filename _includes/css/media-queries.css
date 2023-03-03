@@ -125,6 +125,26 @@ padding: 3em 0;
   right: 7px;
 }
 
+.packages-getting-started {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/packages/sme-business.jpg");
+  height: 600px;
+  background-position: center center;
+  background-size: 330vw auto;
+  background-repeat: no-repeat;
+}
+
+.packages-upcoming {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/packages/upandcoming.jpg");
+  height: 600px;
+  background-position: center center;
+  background-size: 330vw auto;
+  background-repeat: no-repeat;
+}
+
 
 }
 
@@ -612,9 +632,9 @@ text-align: center;
   color: #d6d5d4;
   background-color: $yellow;
   background-image: url("../images/packages/sme-business.jpg");
-  height: 293px;
+  height: 600px;
   background-position: center center;
-  background-size: 84vw auto;
+  background-size: 175vw auto;
   background-repeat: no-repeat;
 }
 
@@ -622,9 +642,9 @@ text-align: center;
   color: #d6d5d4;
   background-color: $yellow;
   background-image: url("../images/packages/upandcoming.jpg");
-  height: 293px;
+  height: 600px;
   background-position: center center;
-  background-size: 84vw auto;
+  background-size: 175vw auto;
   background-repeat: no-repeat;
 }
 

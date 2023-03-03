@@ -766,9 +766,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   color: #d6d5d4;
   background-color: $yellow;
   background-image: url("../images/packages/sme-business-small.jpg");
-  height: 293px;
+  height: 600px;
   background-position: center center;
-  background-size: 100vw auto;
+  background-size: 170vw auto;
   background-repeat: no-repeat;
 }
 
@@ -776,9 +776,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   color: #d6d5d4;
   background-color: $yellow;
   background-image: url("../images/packages/upandcoming-small.jpg");
-  height: 293px;
+  height: 600px;
   background-position: center center;
-  background-size: 100vw auto;
+  background-size: 170vw auto;
   background-repeat: no-repeat;
 }
 
@@ -1670,4 +1670,14 @@ h1 {
   text-decoration: line-through;
   color: orange;
 
+}
+
+.sme-img {
+  width: 50%;
+}
+
+.price-text {
+  font-size: 30px;
+  margin: 0;
+  color: black;
 }
