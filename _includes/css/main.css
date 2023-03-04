@@ -535,12 +535,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 4rem;
+}
 
-
+.srv-btn a:hover {
+  background: orange;
+  color: #000109;
 }
 
 .srvs-btn{
-
   font-family: 'Rubik', serif;
   background: #000109;
   color: white;
@@ -551,9 +553,26 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   letter-spacing: 1px;
 }
 
-.srv-btn a:hover {
-  background: orange;
+.servspackagebtn{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.servspackagebtn a:hover {
+  background: #000109;
+  color: white;
+}
+
+.srvspackagebtn {
+  font-family: 'Rubik', serif;
+  background: #fff;
   color: #000109;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  transition: all .2s ease-out;
+  letter-spacing: 1px;
 }
 
 .video-tag {
