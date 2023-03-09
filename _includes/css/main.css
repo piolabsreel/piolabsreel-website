@@ -1700,3 +1700,9 @@ h1 {
   margin: 0;
   color: black;
 }
+
+.getintouch h3 {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  margin: 0;
+}
