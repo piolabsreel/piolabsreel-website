@@ -33,7 +33,7 @@
 
 }
 
-
+/* still small screen sef**/
 
 @media only screen and (min-width: 25em) {
 
@@ -56,6 +56,8 @@ background-position: 40% center;
   background-size: 135vw auto;
   background-position: 40% 52%;
 }
+
+
 
 
 }
@@ -143,6 +145,11 @@ padding: 3em 0;
   background-position: center center;
   background-size: 330vw auto;
   background-repeat: no-repeat;
+}
+
+.mask-top {
+  overflow: hidden;
+  height: 185px;
 }
 
 
@@ -456,9 +463,14 @@ text-align: center;
     z-index: 0;
   }
 
+  .mask-top {
+    overflow: hidden;
+    height: 210px;
+  }
+
 }
 
-
+/* mediium scren too */
 
 @media (min-width: 52em) {
 
@@ -507,6 +519,10 @@ text-align: center;
   right: 65px;
 }
 
+.mask-top {
+  overflow: hidden;
+  height: 89px;
+}
 
 
 
