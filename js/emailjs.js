@@ -1,5 +1,4 @@
-// email script
-
+// emailscript.JS
 function SendMail() {
     var params = {
         from_name : document.getElementById("fullName").value,
