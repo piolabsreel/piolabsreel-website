@@ -484,14 +484,24 @@ titleAfter: Where Light Waves
                    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" id="contact-form">
                      <h3 class="contactquotetitle">Your Voice. Your Stage. Lights!</h3>
                      <p class="contactquote">Ready for more exposure? Let's begin!</p>
-                        <form action="https://formspree.io/f/xyyokbbz" method="POST">
+                      <!--  <form action="https://formspree.io/f/xyyokbbz" method="POST">
                         <input type="hidden" name="_subject" value="Contact request from personal website">
                         <input type="email" name="_replyto" placeholder="Your Email" required><br>
                         <input type="text" name="_subjectto" placeholder="Subject or Package" required><br>
                         <textarea name="message" placeholder="Type your message" required></textarea><br>
                         <div class="g-recaptcha" data-theme="dark" data-size="compact" data-sitekey="6LfsC60kAAAAAF7Ceo6DDG_njCRBa39tCcLdPISN"></div>
                         <button class="submit-btn" type="submit">SEND</button>
-                        </form>
+                        </form> -->
+                      <div>
+
+                        <input type="email" id="fullName" placeholder="Your Email" required><br>
+                        <input type="text" id="emai_id" placeholder="Subjghect or Package" required><br>
+                        <textarea id="message" placeholder="Message" required></textarea><br>
+                        <div class="g-recaptcha" data-theme="dark" data-size="compact" data-sitekey="6LfsC60kAAAAAF7Ceo6DDG_njCRBa39tCcLdPISN"></div>
+                        <button onclick="SendMail()" class="submit-btn" type="submit">SEND</button>
+                      </div>
+
+
                         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                     </div>
               </div>
@@ -499,6 +509,16 @@ titleAfter: Where Light Waves
           </div>
 
       </section>
+
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+      </script>
+      <script type="text/javascript">
+             (function(){
+                emailjs.init("RKiWjKM9fs5t1od-I");
+             })();
+      </script>
+
 
 
 
