@@ -774,7 +774,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .piece-text {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 600;
   font-family: 'Rubik', serif;
   color: #fff;
   margin:10px;
