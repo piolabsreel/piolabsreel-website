@@ -580,10 +580,29 @@ text-align: center;
   right: -55px;
 }
 
+.referrals-bg {
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: bg-change 15s ease infinite;
+padding: 0;
+margin-bottom: 0;
+}
+
+.referrals {
+  padding: 10px 0px;
+}
+
+.referrals p {
+  margin: 0px 6px;
+}
+
 
 
 
 }
+
+
+
 
 @media only screen and (min-width: 60em) {
 

@@ -1041,6 +1041,99 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-family: 'DM Serif Text', serif;
 }
 
+.about-us {
+  text-align: center;
+  padding: 2rem 2rem 0;
+  font-family: 'DM Serif Text', serif;
+  font-size: 25px;
+}
+
+.brokenlink {
+  padding: 10rem 2rem 0;
+}
+
+.specialstrike {
+  text-decoration: line-through;
+  color: orange;
+
+}
+
+.sme-img {
+  width: 50%;
+}
+
+.price-text {
+  font-size: 30px;
+  margin: 0;
+  color: black;
+}
+
+.getintouch h3 {
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  margin: 0;
+}
+
+.referrals-bg {
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: bg-change 15s ease infinite;
+padding: 10px;
+margin-bottom: 30px;
+}
+
+@keyframes bg-change {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.referrals {
+  max-height: 200px;
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+  font-family: 'Rubik', serif;
+}
+
+.referrals-text {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+
+
+
+/*END OF CUSTOM CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*BEGIINNIN OF SLIDER-TOP */
 
 
@@ -1672,37 +1765,4 @@ h1 {
   }
 
 
-}
-
-.about-us {
-  text-align: center;
-  padding: 2rem 2rem 0;
-  font-family: 'DM Serif Text', serif;
-  font-size: 25px;
-}
-
-.brokenlink {
-  padding: 10rem 2rem 0;
-}
-
-.specialstrike{
-  text-decoration: line-through;
-  color: orange;
-
-}
-
-.sme-img {
-  width: 50%;
-}
-
-.price-text {
-  font-size: 30px;
-  margin: 0;
-  color: black;
-}
-
-.getintouch h3 {
-  font-family: 'Rubik', sans-serif;
-  text-decoration: none;
-  margin: 0;
 }
