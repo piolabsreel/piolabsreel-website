@@ -802,6 +802,16 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 
+.packages-editing {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/packages/editing-package-small.jpg");
+  height: 350px;
+  background-position: center center;
+  background-size: 170vw auto;
+  background-repeat: no-repeat;
+}
+
 .portfolio-studies-1 {
   color: #d6d5d4;
   background-color: $yellow;
@@ -1136,7 +1146,14 @@ margin-bottom: 30px;
 
 /*BEGIINNIN OF SLIDER-TOP */
 
+.quotebg {
+    background-image: url("../images/artistwallpaper.jpg");
+    height: 300px;
+    background-size: 80vw auto;
+    background-position: 40% 52%;
 
+
+}
 
 .content-slider-top {
   width: 100%;
