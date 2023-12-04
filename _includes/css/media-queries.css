@@ -12,6 +12,7 @@
 
 /*SMALL SCREENS*/
 
+
 @media only screen and (min-width: 10em) {
 
 .portfolio-studies-1 {
@@ -58,9 +59,8 @@ background-position: 40% center;
 }
 
 
-
-
 }
+
 
 @media only screen and (min-width: 38em) {
 
@@ -112,6 +112,21 @@ background-position: center center;
 background-size: 55vw auto;
 
 }
+
+.portfolio-studies-9 {
+background-position: top center;
+background-size: 50vw auto;
+
+}
+
+.portfolio-studies-10 {
+background-position: bottom center;
+background-size: 50vw auto;
+
+}
+
+
+
 .about {
 text-align: center;
 font-size: 2rem;
@@ -164,7 +179,6 @@ padding: 3em 0;
 
 
 }
-
 
 
 @media (min-width: 48em) {
@@ -480,6 +494,7 @@ text-align: center;
 
 }
 
+
 /* mediium scren too */
 
 @media (min-width: 52em) {
@@ -606,12 +621,15 @@ margin-bottom: 0;
   margin: 0px 6px;
 }
 
+.reel-text {
+
+  padding: 10px auto;
+}
+
 
 
 
 }
-
-
 
 
 @media only screen and (min-width: 60em) {
@@ -768,6 +786,24 @@ background-repeat: no-repeat;
 }
 
 
+.portfolio-studies-9 {
+background-position: top center;
+background-size: 33vw auto;
+
+}
+
+
+.portfolio-studies-10 {
+  color: #d6d5d4;
+  background-color: $yellow;
+  background-image: url("../images/sinari/sinarilarge.jpg");
+  height: 293px;
+  background-position: center center;
+  background-size: 110vw auto;
+  background-repeat: no-repeat;
+}
+
+
 .wrapper {
 max-width: 725px;
 margin: 2em auto;
@@ -778,13 +814,13 @@ padding-top: 15rem;
 }
 
 .reel-text {
-padding: 0px 0px 0px 20px;
+padding: 0px 25px 0px 0px;
 margin: 0;
 }
 
 .reel-title {
-  padding: 0px 0px 0px 20px;
-  margin: 25px 0px 5px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 25px 0px 10px 0px;
 }
 
 .reel-box {
@@ -792,8 +828,10 @@ margin: 0;
 }
 
 .about-us {
-padding: 0px 228px;
+
 font-size: 28px;
+position: relative;
+z-index: 2;
 }
 
 .about-img img {
@@ -805,12 +843,20 @@ font-size: 28px;
 
 }
 
+
 @media (min-width: 65.5em) {
 
 .portfolio-studies-3 {
   background-image: url("../images/redsquare/redsquare.webp");
   background-size: 75vw auto;
   background-position: 40% 52%;
+}
+
+.portfolio-studies-10 {
+
+  background-position: center center;
+  background-size: 85vw auto;
+  background-repeat: no-repeat;
 }
 
 }
