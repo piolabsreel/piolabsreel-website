@@ -22,6 +22,7 @@ body {
 }
 
 
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -455,6 +456,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   margin: 0;
 }
 
+.getintouch {
+  background: #131313;
+
+}
+
 .getintouch h2 {
   font-family: 'Rubik', serif;
   font-size: 2em;
@@ -462,6 +468,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   margin-left: 30px;
   text-align: left;
   text-decoration: underline;
+  color: white;
 }
 .services ul {
   list-style-type: none;
@@ -1014,6 +1021,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   padding: 0 2em;
   font-size: 1.2rem;
   font-family: 'Rubik', sans-serif;
+  color: white;
 }
 
 .vidbox {
@@ -1166,6 +1174,15 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-family: 'Rubik', sans-serif;
   text-decoration: none;
   margin: 0;
+}
+
+.contactquotetitle {
+  color: #e9982d;
+
+}
+
+.contactquote {
+  color: white;
 }
 
 .referrals-bg {
