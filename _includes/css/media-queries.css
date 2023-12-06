@@ -174,9 +174,18 @@ padding: 3em 0;
 
 .mask-top {
   overflow: hidden;
-  height: 185px;
+  height: 115px;
 }
 
+.content-slider-top {
+  height: 160px;
+  top: 576px;
+}
+
+.slider-top {
+  height: 137px;
+  margin: 0px auto;
+}
 
 }
 
@@ -489,7 +498,7 @@ text-align: center;
 
   .mask-top {
     overflow: hidden;
-    height: 210px;
+    height: 115px;
   }
 
 }
@@ -544,10 +553,6 @@ text-align: center;
   right: 65px;
 }
 
-.mask-top {
-  overflow: hidden;
-  height: 89px;
-}
 
 
 
@@ -611,7 +616,7 @@ background-size: 400% 400%;
 animation: bg-change 15s ease infinite;
 padding: 0;
 margin: 0 auto;
-width: 560px;
+width: auto;
 }
 
 .referrals {
