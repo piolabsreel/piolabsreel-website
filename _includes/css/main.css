@@ -691,7 +691,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  opacity: 1;
+  opacity: .8;
   -webkit-transition: all 250ms linear;
   transition: all 500ms linear;
 }
