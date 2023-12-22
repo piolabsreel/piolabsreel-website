@@ -174,12 +174,12 @@ padding: 3em 0;
 
 .mask-top {
   overflow: hidden;
-  height: 115px;
+  height: 102px;
 }
 
 .content-slider-top {
-  height: 160px;
-  top: 576px;
+  height: 100px;
+  top: 536px;
 }
 
 .slider-top {
