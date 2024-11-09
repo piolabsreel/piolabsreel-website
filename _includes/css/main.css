@@ -1157,6 +1157,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-family: 'DM Serif Text', serif;
   font-size: 30px;
   background-color: white;
+  margin: 0 auto;
 }
 
 .send-msg-area {
