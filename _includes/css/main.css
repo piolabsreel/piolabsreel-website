@@ -23,6 +23,8 @@ body {
 
 
 
+
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -311,7 +313,6 @@ header.logo, header.logo {
   border-radius: 5px;
   color: white;
   letter-spacing: 1px;
-  font-family: 'Rubik', serif;
   transition: all .2s ease-out;
   margin: 1rem;
 }
@@ -330,6 +331,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /* End of Form */
 
 /* SERVICES SECTION BEGINS*/
+
+.send-msg-form {
+  font-family: 'Rubik', serif;
+}
+
 
 .service-icon {
   padding: 5px;
@@ -535,6 +541,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background: #f0db99;
   color: #000109;
   transition: .5 ease all;
+  font-family: 'Rubik', serif;
+  font-size: 13px;
 }
 
 
@@ -1149,6 +1157,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-family: 'DM Serif Text', serif;
   font-size: 30px;
   background-color: white;
+}
+
+.send-msg-area {
+  resize: none;
 }
 
 .brokenlink {

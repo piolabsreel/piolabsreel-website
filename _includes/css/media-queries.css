@@ -589,7 +589,9 @@ text-align: center;
 
 .about-us {
   padding: 2rem 200px;
+  margin: 0 auto;
 }
+
 
 .package-title {
   font-size: 3.5rem;
