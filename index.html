@@ -73,9 +73,23 @@ titleAfter: Where Light Waves
           </div>
               <div>
                   <p class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-                     At <span style="background-color: #e9982d">&nbsp;&nbsp;Piolabs Reel,&nbsp;&nbsp;</span> we help you communicate better.
+                     At <span style="background-color: #e9982d">&nbsp;&nbsp;Piolabs Reel,&nbsp;&nbsp;</span> we help you communicate better by 
+                     providing tailor-made communication solutions to the strategic challenges faced by our clients.
                   </p>
               </div>
+
+              <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" id="contact-form" class="send-msg-form">
+                <div>
+                  <input type="email" id="email" font-family="'Rubik', sans-serif" placeholder="Your Email" required>
+                  <input type="text" id="name" placeholder="Subject / Budget / Package" required>
+                  <textarea id="messages" class="send-msg-area" placeholder="Can I get a quote on.." required></textarea>
+                <!--  <div class="g-recaptcha" data-theme="dark" data-size="compact" data-sitekey="6LfsC60kAAAAAF7Ceo6DDG_njCRBa39tCcLdPISN"></div> -->
+                  <button onclick="SendMail()" class="submit-btn" type="submit">SEND</button>
+
+                </div>
+                
+            </div>
+
 <!--
               <div class="" id="contact-form-top">
                       <div class="contact-top">
@@ -89,22 +103,6 @@ titleAfter: Where Light Waves
               </div>
 
             -->
-
-
-              <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" id="contact-form" class="send-msg-form">
-                   <div>
-                     <input type="email" id="email" font-family="'Rubik', sans-serif" placeholder="Your Email" required>
-                     <input type="text" id="name" placeholder="Package / Budget / Subject" required>
-                     <textarea id="messages" class="send-msg-area" placeholder="I would like to book an app.." required></textarea>
-                   <!--  <div class="g-recaptcha" data-theme="dark" data-size="compact" data-sitekey="6LfsC60kAAAAAF7Ceo6DDG_njCRBa39tCcLdPISN"></div> -->
-                     <button onclick="SendMail()" class="submit-btn" type="submit">SEND</button>
-
-                   </div>
-                   
-               </div>
-
-
-
 
       </div>
   </section>
@@ -574,8 +572,8 @@ titleAfter: Where Light Waves
                         <div>
 
                           <input type="email" id="email" placeholder="Your Email" required><br>
-                          <input type="text" id="name" placeholder="Package / Budget / Subject" required><br>
-                          <textarea id="messages" placeholder="I would like to book an app.." required></textarea><br>
+                          <input type="text" id="name" placeholder="Subject / Budget / Package" required><br>
+                          <textarea id="messages" placeholder="Can I get a quote on.." required></textarea><br>
                         <!--  <div class="g-recaptcha" data-theme="dark" data-size="compact" data-sitekey="6LfsC60kAAAAAF7Ceo6DDG_njCRBa39tCcLdPISN"></div> -->
                           <button onclick="SendMail()" class="submit-btn" type="submit">SEND</button>
 
