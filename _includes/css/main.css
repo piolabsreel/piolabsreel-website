@@ -406,7 +406,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .services h2{
   font-family: 'Rubik', serif;
-  font-size: 2em;
+  font-size: 3em;
   padding: 20px 20px;
   margin: 0;
   text-align: right;
@@ -421,7 +421,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .portfolio-section h2 {
   text-align: left;
   font-family: 'Rubik', serif;
-  font-size: 2em;
+  font-size: 3em;
   margin: 0;
   padding: 20px 20px;
   letter-spacing: 0;
@@ -440,7 +440,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .packages h2{
   font-family: 'Rubik', serif;
-  font-size: 2em;
+  font-size: 3em;
   margin: 0;
   padding: 20px;
   text-align: right;
@@ -454,7 +454,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .portfolio h2{
   font-family: 'Rubik', serif;
-  font-size: 2em;
+  font-size: 3em;
   padding: 20px 20px 20px;
   text-align: left;
   text-decoration: underline;
@@ -469,7 +469,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .getintouch h2 {
   font-family: 'Rubik', serif;
-  font-size: 2em;
+  font-size: 3em;
   margin-top: 20px;
   margin-left: 30px;
   margin-bottom: 0;
@@ -510,11 +510,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   overflow: hidden;
   position: relative;
 }
-
-.port-video {
-
-}
-
 
 
 
@@ -693,7 +688,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-color: #131313;
   border-style: solid;
   border-width: 1px;
-  border-color: #fff;
+  border-color: #131313;
   text-align: center;
   padding: 1em;
   display: flex;
@@ -720,7 +715,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-color: rgba(19, 19, 19, 0.8);
   border-style: solid;
   border-width: 1px;
-  border-color: #fff;
+  border-color: #131313;
   text-align: center;
   padding: 1em;
   display: flex;
