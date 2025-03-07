@@ -179,7 +179,7 @@ header.logo, header.logo {
 }
 
 .header .menu-btn:checked ~ .menu {
-  max-height: 320px;
+  max-height: 372px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .nav-icon {
