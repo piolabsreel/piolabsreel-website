@@ -8,28 +8,6 @@ titleAfter: Where Light Waves
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XB5CZ7N0VV">
 </script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-XB5CZ7N0VV');
-</script>
-
-
-
-<script type="text/javascript"
-  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-       (function(){
-          emailjs.init("RKiWjKM9fs5t1od-I");
-       })();
-</script>
-
-
-
-
 
 </head>
 
@@ -78,31 +56,31 @@ titleAfter: Where Light Waves
                   </p>
               </div>
 
-              <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" id="contact-form" class="send-msg-form">
-                <div>
-                  <input type="email" id="email" font-family="'Rubik', sans-serif" placeholder="Your Email" required>
-                  <input type="text" id="name" placeholder="Subject / Budget / Package" required>
-                  <textarea id="messages" class="send-msg-area" placeholder="Can I get a quote on.." required></textarea>
-                <!--  <div class="g-recaptcha" data-theme="dark" data-size="compact" data-sitekey="6LfsC60kAAAAAF7Ceo6DDG_njCRBa39tCcLdPISN"></div> -->
-                  <button onclick="SendMail()" class="submit-btn" type="submit">SEND</button>
 
-                </div>
+              <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" id="contact-form" class="send-msg-form">
+                  
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                          
+                  <input type="hidden" name="access_key" value="e61e725f-44e2-4e99-9d5e-0c355218def2">
+              
+                
+                  <input type="email" name="email" placeholder="email" required>
+                  <input type="text" name="name" placeholder="subject" required>
+                  <textarea name="message" placeholder="message" required></textarea>
+              
+                
+                  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+              
+                
+                  <!-- <input type="hidden" name="redirect" value="https://piolabsreel.com/thanks.html"> -->
+              
+                  <button type="submit">Submit Form</button>
+        
+            </form>
                 
             </div>
 
-<!--
-              <div class="" id="contact-form-top">
-                      <div class="contact-top">
-                           <div id="contact-side">
-                                <input type="email" id="emailid" placeholder="Your Email" required><br>
-                                <input type="text" id="fname" placeholder="Budget" required><br>
-                                <textarea id="message" placeholder="I have a project and would like an estimate.." required></textarea><br>
-                                <button onclick="SendMail()" class="submit-btn" type="submit">SEND</button>
-                            </div>
-                      </div>
-              </div>
-
-            -->
 
       </div>
   </section>
@@ -407,16 +385,27 @@ titleAfter: Where Light Waves
                    <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2" id="contact-form">
                      <h3 class="contactquotetitle">Your Voice. Your Stage. Lights!</h3>
                      <p class="contactquote">Contact Us</p>
-                        <div>
 
-                          <input type="email" id="email" placeholder="Your Email" required><br>
-                          <input type="text" id="name" placeholder="Subject / Budget / Package" required><br>
-                          <textarea id="messages" placeholder="Can I get a quote on.." required></textarea><br>
-                        <!--  <div class="g-recaptcha" data-theme="dark" data-size="compact" data-sitekey="6LfsC60kAAAAAF7Ceo6DDG_njCRBa39tCcLdPISN"></div> -->
-                          <button onclick="SendMail()" class="submit-btn" type="submit">SEND</button>
+                        <form action="https://api.web3forms.com/submit" method="POST">
 
-                        </div>
-                        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                          
+                                <input type="hidden" name="access_key" value="e61e725f-44e2-4e99-9d5e-0c355218def2">
+                            
+                              
+                                <input type="email" name="email" placeholder="email" required>
+                                <input type="text" name="name" placeholder="subject" required>
+                                <textarea name="message" placeholder="message" required></textarea>
+                            
+                              
+                                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                            
+                              
+                                <!-- <input type="hidden" name="redirect" value="https://piolabsreel.com/thanks.html"> -->
+                            
+                                <button type="submit">Submit Form</button>
+                      
+                          </form>
+
                     </div>
               </div>
 
