@@ -48,7 +48,7 @@ h1, h2, h3, h4, {
 .service-img {
   width: 90px;
   color: yellow;
-  text-align: center;
+  text-align: left;
 }
 
 .header {
@@ -201,7 +201,6 @@ header.logo, header.logo {
 }
 
 .showcase video {
-  display: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -224,23 +223,27 @@ header.logo, header.logo {
 
 .hero-text {
   position: absolute;
-  color: white;
   z-index: 11;
-  top: 340px;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
+  top: 177px;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 20px 0px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 5px;
 
 }
 
 .hero-text h2 {
-  font-size: 3em;
+  color: white;
+  width: 410px;
+  font-size: 40px;
   font-family: 'Rubik', serif;
   font-weight: 800;
   line-height: 1em;
   margin: 0;
-  text-transform: uppercase;
   text-shadow: 2px 2px black;
+  text-align: left;
+  padding-left: 25px;
 }
 
 .hero-text h3 {
@@ -253,10 +256,14 @@ header.logo, header.logo {
 }
 
 .hero-text p {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1em;
+  font-family: 'Rubik', serif;
+  font-size: 18px;
+  font-weight: 300;
   line-height: 1em;
   color: #e9982d;
+  width: 410px;
+  padding: 0px 0px 10px 30px;
+
 }
 
 .hero-text a {
@@ -269,6 +276,11 @@ header.logo, header.logo {
   text-decoration: none;
   transition: all .2s ease-out;
   border-radius: 5px;
+ 
+}
+
+.hero-btn {
+  text-align: center;
 }
 
 .hero-text a:hover {
@@ -276,27 +288,62 @@ header.logo, header.logo {
   color: white;
 }
 
-.contact-main {
-
+.intro-text {
+  text-align: left;
+  padding: 20px 20px 20px;
+  font-size: 1.9em;
+  font-family: 'DM Serif Text', serif;
+  background-color: white;
 }
 
 
-/* Beginning of form-top */
+.contact-form-box {
+  font-family: 'DM Serif Text', serif ;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
-#contact-top {
+
+}
+
+.contact-form-box h2 {
+  padding-left: 20px;
+  margin-bottom: 2px;
+  font-size: 2.5em;
+  margin-top: 10px;
+
+}
+
+.contact-form-box p {
+padding-left: 20px;
+  margin-top: -15px;
+  font-size: 1.9em;
+  font-family: 'DM Serif Text', serif;
+}
+
+
+/* Beginning of form */
+
+#contact {
   padding: 50px 15px;
   text-align: center;
+  
 }
 
-#contact-form-top {
-  max-width: 330px;
-  margin: 0 auto;
-  text-align: center;
+
+
+#contact-form {
+  width: 330px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: relative;
+
 }
 
-#contact-form-top input, #contact-form-top textarea {
+#contact-form input, #contact-form textarea {
+
   display: block;
-  width: 300px;
+  width: 100%;
   padding: 10px;
   border-radius: 4px;
   border: none;
@@ -304,20 +351,22 @@ header.logo, header.logo {
   background: #f0db99;
   color: #000109;
   transition: .5 ease all;
+  font-family: 'Rubik', serif;
+  font-size: 13px;
 }
 
 
-#contact-form-top button {
+#contact-form button {
   background: #000109;
   padding: 10px 25px;
   border-radius: 5px;
   color: white;
   letter-spacing: 1px;
+  font-family: 'Rubik', serif;
   transition: all .2s ease-out;
-  margin: 1rem;
 }
 
-#contact-form-top button:hover {
+#contact-form button:hover {
   background: orange;
   color: #000109;
 
@@ -329,6 +378,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
 }
 /* End of Form */
+
 
 /* SERVICES SECTION BEGINS*/
 
@@ -375,23 +425,27 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .service-cap {
-  color: white;
-  text-align: center;
+  color: #fff;
+  text-align: left;
   font-family: 'Rubik', serif;
   font-weight: 400;
   margin: 8px 0px;
+  font-size: 1.6em;
 }
 
 .service-box {
-  text-align: center;
+
   padding:20px;
   margin: 15px 15px 0px;
   opacity: 0.8;
+  background-color: #4f4f4f;
+  height: 432px;
+  border-radius: 8px;
 }
 
 
 .service-text{
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
@@ -399,8 +453,18 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 }
 
+.service-para {
+  max-width: 380px;
+  margin:10px auto;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+
+}
+
 .services {
-  background-color: #131313;
+  background-color: #ffffff;
   z-index: -3;
 }
 
@@ -411,7 +475,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   margin: 0;
   text-align: right;
   text-decoration: underline;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .portfolio-section {
@@ -512,57 +576,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 
-
-/* Beginning of form */
-
-#contact {
-  padding: 50px 15px;
-  text-align: center;
-}
-
-#contact-form {
-  max-width: 330px;
-  margin: 0 auto;
-}
-
-#contact-form input, #contact-form textarea {
-
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  border: none;
-  margin-bottom: 10px;
-  background: #f0db99;
-  color: #000109;
-  transition: .5 ease all;
-  font-family: 'Rubik', serif;
-  font-size: 13px;
-}
-
-
-#contact-form button {
-  background: #000109;
-  padding: 10px 25px;
-  border-radius: 5px;
-  color: white;
-  letter-spacing: 1px;
-  font-family: 'Rubik', serif;
-  transition: all .2s ease-out;
-}
-
-#contact-form button:hover {
-  background: orange;
-  color: #000109;
-
-}
-
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
-
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-/* End of Form */
 
 
 
@@ -824,15 +837,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 }
 
-.service-para {
-  max-width: 380px;
-  margin:10px auto;
-  font-weight: 300;
-  font-size: 20px;
-  text-align: left;
-  color: white;
-
-}
 
 .packages-getting-started {
   color: #d6d5d4;
@@ -1146,14 +1150,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-family: 'DM Serif Text', serif;
 }
 
-.about-us {
-  text-align: center;
-  padding: 20px 20px 20px;
-  font-family: 'DM Serif Text', serif;
-  font-size: 30px;
-  background-color: white;
-  margin: 0 auto;
-}
+
 
 .send-msg-area {
   resize: none;
@@ -1270,10 +1267,8 @@ margin-bottom: 30px;
 }
 
 .title-tag {
-  width: 390px;
-  margin:0 auto 8px;
-  padding: 5px 5px;
-  background-color: rgba(0, 0, 0, 0.45);
+  margin-top: 20px;
+  
 }
 
 .content-slider-top {

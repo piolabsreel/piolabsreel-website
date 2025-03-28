@@ -189,15 +189,11 @@ padding: 3em 0;
 }
 
 
-@media (min-width: 48em) {
+@media only screen and (min-width: 48em) {
 
   #contact-side {
     display: flex;
     justify-content: space-around;
-  }
-
-  #contact-form-top input, #contact-form-top textarea {
-  margin: 3px;
   }
 
   .about-img img {
@@ -238,13 +234,11 @@ padding: 3em 0;
 }
 
 .hero-text h2 {
-  font-size: 5em;
+
 }
 
 .hero-text {
-  top: 200px;
-  text-align: left;
-  padding-left: 10em;
+
 
 }
 
@@ -256,10 +250,7 @@ padding: 3em 0;
   font-size: 1rem;
 }
 
-#contact-form {
-  max-width: 550px;
-  margin: 0 auto;
-}
+
 
 .content-slider {
   width: 100%;
@@ -501,15 +492,15 @@ text-align: center;
 }
 
 
+}
+
+
 /* mediium scren too */
 
 @media (min-width: 52em) {
 
 
 .hero-text {
-  top: 200px;
-  text-align: left;
-  padding-left: 10em;
 
 }
 
@@ -526,6 +517,10 @@ text-align: center;
 
 .service-text {
   font-size: 1rem;
+}
+
+.service-box {
+  height: 490px;
 }
 
 .quote, .quote p {
@@ -553,6 +548,7 @@ text-align: center;
 
 
 
+
 }
 /*----- media query small end ----*/
 
@@ -560,15 +556,31 @@ text-align: center;
 /*MEDIUM SCREENS*/
 @media (min-width: 56em) {
 
-.hero-text {
-  top:400px;
-  text-align: center;
-  padding: 0;
+
+  .hero-text {
+    top: 205px;
+    padding: 20px 0px;
+    left: 320px;
+    transform: translate(-50%, 0);
 }
 
 .hero-text h2 {
-  font-size: 5em;
+  color: white;
+  width: 490px;
+  font-size: 40px;
+  font-family: 'Rubik', serif;
+  font-weight: 800;
+  line-height: 1em;
+  margin: 0;
+  text-shadow: 2px 2px black;
+  text-align: left;
+  padding-left: 25px;
 }
+
+.hero-text p {
+width: 460px;
+}
+
 
 .service-section {
   margin:;
@@ -586,12 +598,6 @@ text-align: center;
   justify-content: space-around;
   text-decoration: none;
 }
-
-.about-us {
-  padding: 2rem 258px;
-  margin: 0 auto;
-}
-
 
 .package-title {
   font-size: 3.5rem;
@@ -630,7 +636,6 @@ width: auto;
 
   padding: 10px auto;
 }
-
 
 
 
@@ -725,6 +730,7 @@ width: auto;
   background-size: 175vw auto;
   background-repeat: no-repeat;
 }
+
 
 
 .portfolio-studies-1 {
@@ -828,16 +834,6 @@ margin: 0;
   margin: 25px 0px 10px 0px;
 }
 
-.reel-box {
-
-}
-
-.about-us {
-
-font-size: 28px;
-position: relative;
-z-index: 2;
-}
 
 .about-img img {
   height: 300px;
@@ -845,23 +841,5 @@ z-index: 2;
   right: -90px;
 }
 
-
-}
-
-
-@media (min-width: 65.5em) {
-
-.portfolio-studies-3 {
-  background-image: url("../images/redsquare/redsquare.webp");
-  background-size: 75vw auto;
-  background-position: 40% 52%;
-}
-
-.portfolio-studies-10 {
-
-  background-position: center center;
-  background-size: 85vw auto;
-  background-repeat: no-repeat;
-}
 
 }
