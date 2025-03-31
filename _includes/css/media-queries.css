@@ -247,7 +247,7 @@ padding: 3em 0;
 }
 
 .service-text {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 
@@ -515,12 +515,8 @@ text-align: center;
 
 }
 
-.service-text {
-  font-size: 1rem;
-}
-
 .service-box {
-  height: 490px;
+  height: 355px;
 }
 
 .quote, .quote p {
@@ -635,6 +631,10 @@ width: auto;
 .reel-text {
 
   padding: 10px auto;
+}
+
+#contact-form2 {
+  width: 30%;
 }
 
 
