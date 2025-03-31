@@ -474,7 +474,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
   padding:20px;
   margin: 15px 15px 0px;
-  opacity: 0.8;
+  opacity: 1;
   background-color: #4f4f4f;
   height: 370px;
   border-radius: 8px;
@@ -1143,6 +1143,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .socials svg:hover {
   color: #f0db99;
   background-color: #f0db99;
+}
+
+.about-us {
+  text-align: left;
+    padding: 20px 20px 20px;
+    font-size: 1.9em;
+    font-family: 'DM Serif Text', serif;
+    background-color: white;
 }
 
 .about-img {
