@@ -573,9 +573,15 @@ text-align: center;
   padding-left: 25px;
 }
 
-.hero-text p {
-width: 460px;
+.title-tag {
+  font-size: 18px;
+  width: 460px;
 }
+
+.title-tag-p {
+  font-size: 18px;
+  width: 460px;
+}   
 
 
 .service-section {
@@ -840,6 +846,14 @@ margin: 0;
   top: 86px;
   right: -90px;
 }
+
+.stat-img {
+
+    padding: 90px 20px 20px;
+    font-size: 2.2em;
+ 
+}
+
 
 
 }

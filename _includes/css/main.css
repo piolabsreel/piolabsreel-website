@@ -255,9 +255,22 @@ header.logo, header.logo {
   text-transform: uppercase;
 }
 
-.hero-text p {
+.title-tag {
   font-family: 'Rubik', serif;
   font-size: 18px;
+  font-weight: 300;
+  line-height: 1em;
+  color: #e9982d;
+  width: 410px;
+  padding: 0px 0px 10px 30px;
+  margin-top: 20px;
+
+}
+
+
+.title-tag-p {
+  font-family: 'Rubik', serif;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1em;
   color: #e9982d;
@@ -414,6 +427,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
+
+
+
 /* End of Form */
 
 
@@ -558,6 +574,15 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .reel-box {
   padding: 10px 20px 0px;
+}
+
+.package-box {
+  padding: 20px 20px;
+  color: white;
+  background: url("../images/packages/branding-package.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .packages {
@@ -1153,6 +1178,19 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     background-color: white;
 }
 
+.stat-img {
+  text-align: center;
+    padding: 20px 20px 20px;
+    font-size: 1.6em;
+    font-family: 'Rubik', sans-serif;
+    background-color: #838383;
+    color: white;
+    background: url("../images/spoon.png");
+    background-size: cover;
+}
+
+
+
 .about-img {
   position: relative;
   z-index: -1;
@@ -1337,10 +1375,6 @@ margin-bottom: 30px;
 
 }
 
-.title-tag {
-  margin-top: 20px;
-  
-}
 
 .content-slider-top {
   width: 100%;
