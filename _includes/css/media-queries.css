@@ -202,6 +202,12 @@ padding: 3em 0;
     right: 55px;
   }
 
+  .package-box {
+
+    height: 400px;
+  }
+  
+
 
 
 .header li {
@@ -541,6 +547,10 @@ text-align: center;
   right: 65px;
 }
 
+.package-box {
+  height: 430px;
+}
+
 
 
 
@@ -643,6 +653,10 @@ width: auto;
   width: 30%;
 }
 
+
+.package-box {
+  height: 400px;
+}
 
 
 }

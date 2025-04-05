@@ -481,9 +481,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   color: #fff;
   text-align: left;
   font-family: 'Rubik', serif;
-  font-weight: 400;
+  font-weight: 800;
   margin: 8px 0px;
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 .service-box {
@@ -576,28 +576,97 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   padding: 10px 20px 0px;
 }
 
+.package-box-title {
+  font-family: 'Rubik', serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
 .package-box {
-  padding: 20px 20px;
+  padding: 20px;
+  margin: 15px 15px 15px;
   color: white;
-  background: url("../images/packages/branding-package.jpg");
+  border-radius: 5px;
+  height: 430px;
+}
+
+.package-box-bg0 {
+  background: url("../images/packages/socialmedia-package.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.package-box-bg1 {
+  background: url("../images/packages/branding-package.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.package-box-bg2 {
+  background: url("../images/packages/videoproduction-package.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.package-box-bg3 {
+  background: url("../images/packages/websitedesign-package.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.package-box-bg4 {
+  background: url("../images/packages/editing-package.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.package-box-bg5 {
+  background: url("../images/packages/specialevents-package.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 
 .packages {
   background-color: #131313;
 
 }
 
-.packages h2{
+.packages-pack h2 {
   font-family: 'Rubik', serif;
-  font-size: 3em;
-  margin: 0;
-  padding: 20px;
+    font-size: 3em;
+    padding: 20px 20px;
+    margin: 0;
+    text-align: right;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.package-price {
+
   text-align: right;
-  text-decoration: underline;
-  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+
+.package-tag {
+  
+  text-align: right;
+  font-size: .9rem;
+  text-decoration: none;
+  margin: 0;
+  
 }
 
 .portfolio {
@@ -701,6 +770,17 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 4rem;
+}
+
+.packagebtn{
+  text-align: right;
+
+}
+
+.packagebtn a:hover {
+  background: #e9982d;
+  color: white;
+
 }
 
 .servspackagebtn a:hover {
