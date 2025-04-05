@@ -275,9 +275,10 @@ header.logo, header.logo {
   line-height: 1em;
   color: #e9982d;
   width: 410px;
-  padding: 0px 0px 10px 30px;
+  padding: 3px 3px 10px 30px;
 
 }
+
 
 .hero-text a {
   display: inline-block;
@@ -334,6 +335,9 @@ padding-left: 20px;
   font-family: 'DM Serif Text', serif;
 }
 
+.textareanone {
+  resize: none;
+}
 
 /* Beginning of form */
 
@@ -580,6 +584,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-family: 'Rubik', serif;
   font-weight: 800;
   font-size: 1.5rem;
+  color: #ffa835;
 }
 
 .package-box {
@@ -632,6 +637,13 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-position: center center;
 }
 
+.package-para {
+  max-width: 530px;
+  min-width: 200px;
+  color: #ffffff;
+    font-weight: 600;
+}
+
 
 .packages {
   background-color: #131313;
@@ -668,6 +680,26 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   margin: 0;
   
 }
+
+.stats-bg1 {
+  background-color: #ee7752;
+  border-radius: 10px;
+  background: url("../images/packages/stats-image.webp");
+  background-position: center center;
+  color: rgb(77 52 6);
+  background-size: cover;
+  padding: 40px;
+  margin: auto 20px;
+  font-weight: 900;
+}
+
+
+.stat-img {
+  text-align: center;
+    font-size: 1.5em;
+    font-family: 'Rubik', sans-serif;
+}
+
 
 .portfolio {
   background-color: #131313;
@@ -1256,17 +1288,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     font-size: 1.9em;
     font-family: 'DM Serif Text', serif;
     background-color: white;
-}
-
-.stat-img {
-  text-align: center;
-    padding: 20px 20px 20px;
-    font-size: 1.6em;
-    font-family: 'Rubik', sans-serif;
-    background-color: #838383;
-    color: white;
-    background: url("../images/spoon.png");
-    background-size: cover;
 }
 
 

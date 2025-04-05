@@ -64,6 +64,10 @@ background-position: 40% center;
 
 @media only screen and (min-width: 38em) {
 
+  .package-box {
+    height:545px ;
+  }
+
 
 .video-tag {
   margin: 0;
@@ -186,10 +190,35 @@ padding: 3em 0;
   margin: 0px auto;
 }
 
+.package-box-bg1 {
+  margin-left: 0;
+}
+
+.package-box-bg2 {
+
+  margin-top: 0;
+}
+
+.package-box-bg3 {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.package-box-bg4 {
+  
+  margin-top: 0;
+}
+
+.package-box-bg5 {
+  margin-left: 0;
+  margin-top: 0;
+}
+
 }
 
 
 @media only screen and (min-width: 48em) {
+
 
   #contact-side {
     display: flex;
@@ -204,7 +233,7 @@ padding: 3em 0;
 
   .package-box {
 
-    height: 400px;
+    height: 480px;
   }
   
 
@@ -861,9 +890,16 @@ margin: 0;
   right: -90px;
 }
 
+.stats-bg1 {
+
+  padding: 40px;
+  margin: auto 0px;
+
+}
+
 .stat-img {
 
-    padding: 90px 20px 20px;
+    padding: 64px 20px 20px;
     font-size: 2.2em;
  
 }
