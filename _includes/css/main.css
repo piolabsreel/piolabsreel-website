@@ -515,7 +515,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   max-width: 380px;
   padding-left: 5px;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-align: left;
   color: rgb(255, 255, 255);
 
@@ -532,7 +532,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   padding: 20px 20px;
   margin: 0;
   text-align: right;
-  text-decoration: underline;
   color: rgb(0, 0, 0);
 }
 
@@ -562,7 +561,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 
 .portfolio-section {
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(239 40 22);
+  border-radius: 10px;
+  margin: 20px 20px;
+  
+ 
 }
 
 .portfolio-section h2 {
@@ -572,8 +575,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   margin: 0;
   padding: 20px 20px;
   letter-spacing: 0;
-  text-decoration: underline;
-  color: white;
+  color: rgb(8, 8, 8);
 }
 
 .reel-box {
@@ -584,13 +586,13 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-family: 'Rubik', serif;
   font-weight: 800;
   font-size: 1.5rem;
-  color: #ffa835;
+  color: #ffffff;
 }
 
 .package-box {
   padding: 20px;
   margin: 15px 15px 15px;
-  color: white;
+  color:#ffae14;
   border-radius: 5px;
   height: 430px;
 }
@@ -600,6 +602,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-blend-mode: overlay;
+  background-color: #7f6910;
 }
 
 .package-box-bg1 {
@@ -607,6 +611,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-blend-mode: overlay;
+  background-color: #7f6910;
 }
 
 .package-box-bg2 {
@@ -614,6 +620,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-blend-mode: overlay;
+  background-color: #7f6910;
 }
 
 .package-box-bg3 {
@@ -621,6 +629,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-blend-mode: overlay;
+  background-color: #7f6910;
 }
 
 .package-box-bg4 {
@@ -628,6 +638,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-blend-mode: overlay;
+  background-color: #7f6910;
 }
 
 .package-box-bg5 {
@@ -635,13 +647,15 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-blend-mode: overlay;
+  background-color: #7f6910;
 }
 
 .package-para {
   max-width: 530px;
   min-width: 200px;
   color: #ffffff;
-    font-weight: 600;
+  margin-top: 24px;
 }
 
 
@@ -656,7 +670,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     padding: 20px 20px;
     margin: 0;
     text-align: right;
-    text-decoration: underline;
     color: rgb(0, 0, 0);
 }
 
@@ -669,6 +682,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-size: 1.5rem;
   font-weight: 800;
   margin: 0;
+  color: white;
 }
 
 
@@ -727,7 +741,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   margin-left: 30px;
   margin-bottom: 0;
   text-align: left;
-  text-decoration: underline;
   color: white;
 }
 .services ul {
@@ -851,6 +864,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   overflow: hidden;
   width: 100%;
   position: relative;
+  border-radius: 10px;
 }
 
 .embed-item {
@@ -1256,8 +1270,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .reel-text {
   text-align: left;
   font-family: 'Rubik', sans-serif;
-  color: white;
-  font-weight: 300;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
   font-size: 20px;
   opacity: 0.9;
   margin: 0;

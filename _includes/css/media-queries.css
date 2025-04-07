@@ -235,7 +235,11 @@ padding: 3em 0;
 
     height: 480px;
   }
-  
+
+  .package-para {
+
+    margin-top: 40px;
+  }
 
 
 
@@ -866,7 +870,7 @@ background-size: 33vw auto;
 
 .wrapper {
 max-width: 725px;
-margin: 2em auto;
+margin: 1em auto;
 }
 .headcent{
 text-align: center;
