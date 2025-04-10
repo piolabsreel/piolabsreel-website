@@ -11,6 +11,20 @@
   flex-flow: row wrap;
 }
 
+.grid2 {
+
+  padding: 0;
+  padding-bottom: 40px;
+  letter-spacing: -.31em;
+  text-rendering: optimizeSpeed;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
