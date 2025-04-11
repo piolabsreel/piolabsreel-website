@@ -310,6 +310,21 @@ header.logo, header.logo {
   background-color: white;
 }
 
+.clients-bg {
+  background-color: rgb(237 237 237);
+  border-radius: 10px;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.clients-bg h4 {
+padding: 15px 0PX 0px;
+margin-bottom: 0px;
+color: rgb(179, 179, 179);
+font-weight: 600;
+font-size: 1em;
+}
+
 
 .contact-form-box {
   font-family: 'DM Serif Text', serif ;
@@ -542,6 +557,23 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 
+.clients-section {
+display: ;
+
+
+}
+
+.clients-items {
+text-align: center;
+ margin: 0px auto;
+}
+
+.img-client {
+  width: 90%;
+  padding: 0;
+}
+
+
 .service-bg2 {
   background: #9e7900;
   background: url("../images/servicebg/gdesign.jpg");
@@ -667,7 +699,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .packages-pack {
   margin: 20px 20px;
-  background-color: #e9e9e9;
+  background-color: #ffffff;
   border-radius: 10px;
 
 }
@@ -741,7 +773,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background: #131313;
   margin: 20px 20px;
     border-radius: 10px;
-    background-color: #4f4f4f;
+    background-color: rgb(19 19 19);
 
 }
 
@@ -1314,29 +1346,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     font-family: 'DM Serif Text', serif;
     background-color: white;
 }
-
-
-
-.about-img {
-  position: relative;
-  z-index: -1;
-  background: url("../images/flower-vase.svg");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-
-
-}
-
-.about-img img {
-  position: absolute;
-  max-width: 300px;
-  height: 305px;
-  top: 65px;
-  right: -15px;
-  opacity: 0.8;
-}
-
-
 
 .twitter {
   display: inline-block;
