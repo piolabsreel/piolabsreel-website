@@ -624,6 +624,68 @@ text-align: center;
 }
 
 
+.carousel-bg {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.carousel {
+  position: relative;
+  max-width: 800px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  min-width: 100%;
+  transition: opacity 1s ease;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.btn8 {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn8:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
 .portfolio-section {
   background-color: rgb(19 19 19);
   border-radius: 10px;
@@ -2198,63 +2260,4 @@ h1 {
     transform: scale(1.03);
     opacity: 0;
   }
-}
-
-
-.carousel-bg {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
-.carousel {
-  position: relative;
-  max-width: 800px;
-  width: 100%;
-  overflow: hidden;
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-
-}
-
-.carousel-images {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.carousel-item {
-  min-width: 100%;
-  transition: opacity 1s ease;
-}
-
-.carousel img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px; /* Rounded corners */
-}
-
-.carousel-controls {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-}
-
-.btn8 {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-.btn8:hover {
-  background-color: rgba(0, 0, 0, 0.8);
 }

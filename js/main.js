@@ -28,29 +28,43 @@ document.addEventListener('click', function(event) {
 
 
 let currentIndex = 0;
-        const items = document.querySelectorAll('.carousel-item');
-        const totalItems = items.length;
+const items = document.querySelectorAll('.carousel-item');
+const totalItems = items.length;
+let intervalId;
 
-        function showItem(index) {
-            const offset = -index * 100; // Calculate offset to show the current item
-            document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
-        }
+function showItem(index) {
+    const offset = -index * 100; // Calculate offset to show the current item
+    document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
+}
 
-        function nextItem() {
-            currentIndex = (currentIndex + 1) % totalItems; // Loop back to first item
-            showItem(currentIndex);
-        }
+function nextItem() {
+    currentIndex = (currentIndex + 1) % totalItems; // Loop back to first item
+    showItem(currentIndex);
+}
 
-        function prevItem() {
-            currentIndex = (currentIndex - 1 + totalItems) % totalItems; // Loop back to last item
-            showItem(currentIndex);
-        }
+function prevItem() {
+    currentIndex = (currentIndex - 1 + totalItems) % totalItems; // Loop back to last item
+    showItem(currentIndex);
+}
 
-        document.getElementById('nextBtn').addEventListener('click', nextItem);
-        document.getElementById('prevBtn').addEventListener('click', prevItem);
+function startCarousel() {
+    intervalId = setInterval(nextItem, 5000);
+}
 
-        // Auto transition every 5 seconds
-        setInterval(nextItem, 5000);
+function stopCarousel() {
+    clearInterval(intervalId);
+}
 
-        // Show the first item initially
-        showItem(currentIndex);
+document.getElementById('nextBtn').addEventListener('click', nextItem);
+document.getElementById('prevBtn').addEventListener('click', prevItem);
+
+// Auto transition every 5 seconds
+startCarousel();
+
+// Show the first item initially
+showItem(currentIndex);
+
+// Pause the carousel on hover
+const carousel = document.querySelector('.carousel');
+carousel.addEventListener('mouseenter', stopCarousel);
+carousel.addEventListener('mouseleave', startCarousel);
