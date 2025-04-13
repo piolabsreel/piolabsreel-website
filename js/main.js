@@ -24,3 +24,33 @@ document.addEventListener('click', function(event) {
         menuBtn.checked = false; // Close the menu
     }
 });
+
+
+
+let currentIndex = 0;
+        const items = document.querySelectorAll('.carousel-item');
+        const totalItems = items.length;
+
+        function showItem(index) {
+            const offset = -index * 100; // Calculate offset to show the current item
+            document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
+        }
+
+        function nextItem() {
+            currentIndex = (currentIndex + 1) % totalItems; // Loop back to first item
+            showItem(currentIndex);
+        }
+
+        function prevItem() {
+            currentIndex = (currentIndex - 1 + totalItems) % totalItems; // Loop back to last item
+            showItem(currentIndex);
+        }
+
+        document.getElementById('nextBtn').addEventListener('click', nextItem);
+        document.getElementById('prevBtn').addEventListener('click', prevItem);
+
+        // Auto transition every 5 seconds
+        setInterval(nextItem, 5000);
+
+        // Show the first item initially
+        showItem(currentIndex);
