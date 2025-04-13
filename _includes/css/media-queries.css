@@ -65,7 +65,7 @@ background-position: 40% center;
 @media only screen and (min-width: 38em) {
 
   .package-box {
-    height:545px ;
+    height:360px ;
   }
 
 
@@ -184,9 +184,6 @@ padding: 3em 0;
   margin: 0px auto;
 }
 
-.package-box-bg1 {
-  margin-left: 0;
-}
 
 .package-box-bg2 {
 
@@ -194,7 +191,6 @@ padding: 3em 0;
 }
 
 .package-box-bg3 {
-  margin-left: 0;
   margin-top: 0;
 }
 
@@ -203,8 +199,7 @@ padding: 3em 0;
   margin-top: 0;
 }
 
-.package-box-bg5 {
-  margin-left: 0;
+.package-box-bg5 {                                          
   margin-top: 0;
 }
 
@@ -230,10 +225,7 @@ padding: 3em 0;
   }
 
 
-  .package-box {
 
-    height: 480px;
-  }
 
   .package-para {
 
@@ -574,11 +566,6 @@ text-align: center;
   margin: 0 auto;
 }
 
-.package-box {
-  height: 430px;
-}
-
-
 
 
 
@@ -680,9 +667,6 @@ width: auto;
 }
 
 
-.package-box {
-  height: 400px;
-}
 
 
 .package-para {
@@ -900,7 +884,7 @@ margin: 0;
 
 .package-para {
 
-  margin-top: 18px;
+  margin-top: 30px;
 }
 
 .para-contact {

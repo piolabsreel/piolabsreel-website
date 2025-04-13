@@ -34,10 +34,12 @@ h1, h2, h3, h4, {
 }
 
 ::selection {
-  background: #e9982d;
+  color: white;
+  background: #1f1bff;
 }
 ::-moz-selection {
-  background: #e9982d;
+  color: white;
+  background: #1e22fb;
 }
 
 .logo-img {
@@ -102,7 +104,7 @@ header.logo, header.logo {
 .header .menu-btn:hover {
   color: black;
   background-color: #e9982d;
-  text-decoration: underline;
+  text-decoration:none;
 }
 
 .header .logo {
@@ -112,12 +114,6 @@ header.logo, header.logo {
   margin: 20px;
   margin-left: 20px;
   text-decoration: none;
-}
-
-
-.logo-img {
-  width: 110px;
-  cursor: pointer;
 }
 
 /* menu */
@@ -143,7 +139,7 @@ header.logo, header.logo {
 .header .menu-icon .nav-icon {
   background: #080808;
   display: block;
-  height: 3px;
+  height: 5px;
   position: fixed;
   transition: background .2s ease-out;
   width: 30px;
@@ -151,7 +147,7 @@ header.logo, header.logo {
 }
 
 .header .menu-icon .nav-icon:hover {
-  background: #adadad;
+  background: #ffffff;
 }
 .header .menu-icon .nav-icon:before,
 .header .menu-icon .nav-icon:after {
@@ -340,6 +336,7 @@ font-size: 1em;
   margin-bottom: 2px;
   font-size: 1.9em;
   margin-top: 10px;
+  letter-spacing: 3px;
 
 }
 
@@ -365,6 +362,8 @@ padding-left: 20px;
   font-size: 1.9em;
   text-align: left;
   color: #000000;
+  letter-spacing: 3px;
+
 
 }
 
@@ -406,7 +405,7 @@ padding-left: 20px;
 }
 
 #contact-form2 {
-  text-align: center;
+  text-align: left;
   margin: auto;
   width: 80%;
 }
@@ -660,7 +659,8 @@ text-align: center;
   margin: 15px 15px 15px;
   color:#ffae14;
   border-radius: 5px;
-  height: 430px;
+  height: 380px;
+  box-shadow: 0px 3px 5px 1px #e7e7e7;
 }
 
 .package-box-bg0 {
