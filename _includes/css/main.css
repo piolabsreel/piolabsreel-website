@@ -354,7 +354,6 @@ padding-left: 20px;
 .contact-form-box2 {
   font-family: 'DM Serif Text', serif ;
   font-weight: 300;
-  margin-top: 20px;
   margin-bottom: 20px;
 
 
@@ -362,9 +361,10 @@ padding-left: 20px;
 
 .contact-form-box2 h2 {
   padding-left: 20px;
-  margin-bottom: 2px;
+  margin: 0;
   font-size: 1.9em;
-  margin-top: 10px;
+  text-align: left;
+  color: #000000;
 
 }
 
@@ -384,8 +384,14 @@ padding-left: 20px;
 /* Beginning of form */
 
 #contact {
-  padding: 50px 15px;
-  text-align: center;
+  padding: 0px 10px 20px;
+  text-align: left;
+  
+}
+
+#contact2 {
+  padding: 0px 10px 20px;
+  text-align: left;
   
 }
 
@@ -402,7 +408,7 @@ padding-left: 20px;
 #contact-form2 {
   text-align: center;
   margin: auto;
-  width: 50%;
+  width: 80%;
 }
 
 #contact-form input, #contact-form textarea {
@@ -428,7 +434,7 @@ padding-left: 20px;
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #f0db99;
+  background:#f0db99;
   color: #000109;
   transition: .5 ease all;
   font-family: 'Rubik', serif;
@@ -795,21 +801,22 @@ text-align: center;
   color: white;
   margin: 0;
 }
-
-.getintouch {
-  background: #131313;
-  margin: 20px 20px;
+.contact-bg-ft {
+    margin: 20px 20px;
     border-radius: 10px;
-    background-color: rgb(19 19 19);
-
+    background-color: rgb(247 247 247);
+  
+  
 }
 
-.getintouch h2 {
-  margin-top: 20px;
-  margin-left: 30px;
-  margin-bottom: 0;
+
+.getintouch  {
+  font-family: 'Rubik', serif;
+  font-size: 3em;
+  padding: 20px 20px;
+  margin: 0;
   text-align: left;
-  color: white;
+  color: rgb(189, 189, 189);
 }
 .services ul {
   list-style-type: none;
@@ -1309,10 +1316,12 @@ text-align: center;
 .para-contact {
   text-align: center;
   padding: 0 2em;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: 'Rubik', sans-serif;
-  color: white;
+  color: rgb(0, 0, 0);
 }
+
+
 
 .vidbox {
   padding: 20px;
@@ -1352,8 +1361,8 @@ text-align: center;
   list-style-type: none;
   justify-content: center;
   padding: 0;
-
 }
+
 .socials img {
   width: 70%;
   padding: 0 10px;
@@ -1485,7 +1494,7 @@ margin-bottom: 30px;
   padding: 10px 0px;
   font-size: 2rem;
   font-weight: 800;
-  color: #ef2816;
+  color: #ffffff;
   font-family: 'Rubik', serif;
 }
 
@@ -1494,6 +1503,10 @@ margin-bottom: 30px;
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
   font-size: 13px;
+}
+
+.referrals p {
+  text-align: center;
 }
 
 .slight-push {

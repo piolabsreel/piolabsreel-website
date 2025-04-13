@@ -671,8 +671,12 @@ width: auto;
   padding: 10px auto;
 }
 
+#contact-form {
+  width: 60%;
+}
+
 #contact-form2 {
-  width: 30%;
+  width: 70%;
 }
 
 
@@ -685,8 +689,6 @@ width: auto;
 
   margin-top: 40px;
   font-size: 15px;
-}
-
 }
 
 
@@ -900,6 +902,19 @@ margin: 0;
 
   margin-top: 18px;
 }
+
+.para-contact {
+  text-align: left;
+
+
+}
+.socials {
+
+  justify-content: left;
+
+}
+
+
 
 
 
