@@ -58,6 +58,28 @@ function stopCarousel() {
 document.getElementById('nextBtn').addEventListener('click', nextItem);
 document.getElementById('prevBtn').addEventListener('click', prevItem);
 
+// Show enlarged image in modal
+function showModal(imageSrc) {
+    document.getElementById('modalImage').src = imageSrc;
+    document.getElementById('modal').style.display = 'flex';
+    stopCarousel(); // Pause carousel when modal is open
+}
+
+// Hide modal
+function hideModal() {
+    document.getElementById('modal').style.display = 'none';
+    startCarousel(); // Resume carousel when modal is closed
+}
+
+// Add click event to images
+items.forEach(item => {
+    const img = item.querySelector('img');
+    img.addEventListener('click', () => showModal(img.src));
+});
+
+// Close button event
+document.getElementById('closeBtn').addEventListener('click', hideModal);
+
 // Auto transition every 5 seconds
 startCarousel();
 
@@ -67,4 +89,8 @@ showItem(currentIndex);
 // Pause the carousel on hover
 const carousel = document.querySelector('.carousel');
 carousel.addEventListener('mouseenter', stopCarousel);
-carousel.addEventListener('mouseleave', startCarousel);
+carousel.addEventListener('mouseleave', () => {
+    if (!document.getElementById('modal').style.display) {
+        startCarousel();
+    }
+});

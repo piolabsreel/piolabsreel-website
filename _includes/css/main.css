@@ -423,6 +423,10 @@ padding-left: 20px;
   transition: .5 ease all;
   font-family: 'Rubik', serif;
   font-size: 13px;
+  max-width: 100%; 
+  height: auto; 
+  min-height: 30px;
+  resize: vertical; 
 }
 
 #contact-form2 input, #contact-form2 textarea {
@@ -578,7 +582,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   font-size: 3em;
   padding: 20px 20px;
   margin: 0;
-  text-align: right;
+  text-align: left;
   color: rgb(0, 0, 0);
 }
 
@@ -680,6 +684,48 @@ text-align: center;
 
 .btn8:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caro-head h2 {
+  font-family: 'Rubik', serif;
+    font-size: 3em;
+    padding: 20px 20px;
+    margin: 0;
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+
+/* Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.926);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure modal is on top */
+}
+
+.modal img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1001; /* Ensure close button is on top */
 }
 
 
@@ -877,7 +923,7 @@ text-align: center;
   font-size: 3em;
   padding: 20px 20px;
   margin: 0;
-  text-align: left;
+  text-align: right;
   color: rgb(189, 189, 189);
 }
 .services ul {
