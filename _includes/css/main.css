@@ -258,8 +258,8 @@ header.logo, header.logo {
   line-height: 1em;
   color: #e9982d;
   width: 410px;
-  padding: 0px 0px 10px 30px;
-  margin-top: 20px;
+  padding: 0px 0px 0px 30px;
+
 
 }
 
@@ -285,7 +285,7 @@ header.logo, header.logo {
   padding: 10px 25px;
   text-decoration: none;
   transition: all .2s ease-out;
-  border-radius: 5px;
+  border-radius: 25px;
  
 }
 
@@ -448,7 +448,7 @@ padding-left: 20px;
 #contact-form button {
   background: #000109;
   padding: 10px 25px;
-  border-radius: 5px;
+  border-radius: 25px;
   color: white;
   letter-spacing: 1px;
   font-family: 'Rubik', serif;
@@ -458,7 +458,7 @@ padding-left: 20px;
 #contact-form2 button {
   background: #000109;
   padding: 10px 25px;
-  border-radius: 5px;
+  border-radius: 25px;
   color: white;
   letter-spacing: 1px;
   font-family: 'Rubik', serif;
@@ -627,22 +627,28 @@ text-align: center;
   background-size: cover;
 }
 
+.caro-head {
+  margin: 0px 20px 60px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
 
 .carousel-bg {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
+  margin: 10px 10px;
+  border-radius: 8px;
+  
 }
 
 .carousel {
   position: relative;
-  max-width: 800px;
   width: 100%;
   overflow: hidden;
+  height: 560px;
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
@@ -755,6 +761,9 @@ text-align: center;
   padding: 10px 20px 0px;
 }
 
+.reel-boxport {
+  padding: 10px 20px 0px;
+}
 .package-box-title {
   font-family: 'Rubik', serif;
   font-weight: 800;
@@ -878,7 +887,7 @@ text-align: center;
 
 .stats-bg1 {
   background-color: #ee7752;
-  border-radius: 10px;
+  border-radius: 0px;
   background: url("../images/packages/stats-image.webp");
   background-position: center center;
   color: rgb(77 52 6);
@@ -989,7 +998,7 @@ text-align: center;
   color: white;
   text-decoration: none;
   padding: 10px 25px;
-  border-radius: 5px;
+  border-radius: 25px;
   transition: all .2s ease-out;
   letter-spacing: 1px;
 }
@@ -1022,7 +1031,7 @@ text-align: center;
   color: #000109;
   text-decoration: none;
   padding: 10px 25px;
-  border-radius: 5px;
+  border-radius: 25px;
   transition: all .2s ease-out;
   letter-spacing: 1px;
 }
@@ -1047,7 +1056,6 @@ text-align: center;
   overflow: hidden;
   width: 100%;
   position: relative;
-  border-radius: 10px;
 }
 
 .embed-item {
@@ -1462,6 +1470,24 @@ text-align: center;
   margin: 0;
   padding: 10px 20px 10px;
 }
+
+.reel-titleport {
+  margin: 0;
+  padding: 20px 20px 0px;
+  color: #e9982d;
+}
+
+.reel-textport {
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 0.9;
+  margin: 0;
+  padding: 10px 20px 10px;
+}
+
 
 .socials {
   display: flex;
