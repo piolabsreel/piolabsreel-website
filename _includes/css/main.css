@@ -253,7 +253,7 @@ header.logo, header.logo {
 
 .title-tag {
   font-family: 'Rubik', serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
   line-height: 1em;
   color: #e9982d;
@@ -266,7 +266,7 @@ header.logo, header.logo {
 
 .title-tag-p {
   font-family: 'Rubik', serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 20px;
   color: #e9982d;
@@ -290,7 +290,53 @@ header.logo, header.logo {
 }
 
 .hero-btn {
-  text-align: center;
+  text-align: left;
+  padding: 0px 0px 20px 30px;
+}
+
+.hero-btn-thnk {
+  text-align: left;
+  padding: 0px 0px 20px 0px;
+}
+
+.hero-btn-thnk a {
+  display: inline-block;
+  font-family: 'DM Serif Text', serif;
+  font-size: 1.2em;
+  color: black;
+  background: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  transition: all .2s ease-out;
+  border-radius: 25px;
+}
+
+.hero-btn-thnk a:hover {
+    background: #00030f;
+    color: white;
+}
+
+.thanks {
+margin: 20px 20px;
+}
+
+.thank-you {
+  background-color: #e9982d;
+  font-family: 'DM Serif Text', serif;
+  line-height: 1.3rem;
+  border-radius: 8px;
+  padding: 20px 20px;
+  margin: 169px 20px 100px;
+}
+
+.thank-you h2 {
+  line-height: 2.4rem;
+  font-size: 1.9rem;
+}
+
+.thank-you p {
+  line-height: 1.9rem;
+  font-size: 1.5rem;
 }
 
 .hero-text a:hover {
@@ -349,29 +395,31 @@ padding-left: 20px;
 
 
 .contact-form-box2 {
-  font-family: 'DM Serif Text', serif ;
+  font-family: 'Rubik', serif;
   font-weight: 300;
   margin-bottom: 20px;
+  background-color: #f1f1f1;
+  padding: 25px 0px;
+  border-radius: 8px;
 
 
 }
 
 .contact-form-box2 h2 {
-  padding-left: 20px;
   margin: 0;
-  font-size: 1.9em;
-  text-align: left;
+  font-size: 1.7em;
+  text-align: center;
   color: #000000;
-  letter-spacing: 3px;
-
-
+  letter-spacing: 2px;
+  line-height: 1.9rem;
 }
 
 .contact-form-box2 p {
 padding-left: 20px;
-  margin-top: -15px;
+  margin-top: 0px;
   font-size: 1.9em;
   font-family: 'DM Serif Text', serif;
+  text-align: center;
 }
 
 
@@ -442,6 +490,10 @@ padding-left: 20px;
   transition: .5 ease all;
   font-family: 'Rubik', serif;
   font-size: 13px;
+  max-width: 100%; 
+  height: auto; 
+  min-height: 30px;
+  resize: vertical; 
 }
 
 
@@ -661,13 +713,14 @@ text-align: center;
 
 .carousel-item {
   min-width: 100%;
-  transition: opacity 1s ease;
+  position: relative;
 }
 
 .carousel img {
   width: 100%;
   height: auto;
   border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
 }
 
 .carousel-controls {
@@ -736,6 +789,27 @@ text-align: center;
 
 
 
+.caption1 {
+  font-family: 'Rubik', serif;
+  text-align: left;
+  display: block;
+  padding: 10px;
+  font-size: 1em; /* Adjust font size as needed */
+  color: #ffffff; /* Caption text color */
+  background-color: rgba(18, 18, 18, 0.8); /* Semi-transparent background for readability */
+  border-radius: 5px; /* Rounded corners */
+  position: absolute;
+  top: 490px; /* Position above the bottom */
+  left: 50%;
+  transform: translateX(-50%); /* Center the caption */
+  width: 90%; /* Limit width */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+
+}
+
+
+
+
 
 
 .portfolio-section {
@@ -776,7 +850,7 @@ text-align: center;
   margin: 15px 15px 15px;
   color:#ffae14;
   border-radius: 5px;
-  height: 380px;
+  height: 410px;
   box-shadow: 0px 3px 5px 1px #e7e7e7;
 }
 
@@ -839,7 +913,9 @@ text-align: center;
   min-width: 200px;
   color: #ffffff;
   margin-top: 24px;
+  font-weight: 600;
 }
+
 
 
 .packages {
@@ -984,7 +1060,7 @@ text-align: center;
 .srv-btn{
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 }
 
 .srv-btn a:hover {
