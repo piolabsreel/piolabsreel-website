@@ -219,17 +219,29 @@ padding: 3em 0;
 
 @media (max-width: 600px) {
             .carousel-item:nth-child(1) img {
-                content: url('{{site.baseurl}}/images/bear_infographic1.jpg');
+                content: url('{{site.baseurl}}/images/portfolio/mobile-cr.jpg');
             }
             .carousel-item:nth-child(2) img {
-                content: url('{{site.baseurl}}/images/eco1.jpg');
+                content: url('{{site.baseurl}}/images/portfolio/mobile-gfs.jpg');
             }
             .carousel-item:nth-child(3) img {
-                content: url('{{site.baseurl}}/images/bayview.jpg');
+                content: url('{{site.baseurl}}/images/portfolio/mobile-bt.jpg');
             }
             .carousel-item:nth-child(4) img {
-              content: url('{{site.baseurl}}/images/bonitatreats2.jpg');
-          }
+              content: url('{{site.baseurl}}/images/portfolio/mobile-st.jpg');
+            }
+            .carousel-item:nth-child(5) img {
+              content: url('{{site.baseurl}}/images/portfolio/mobile-tlf.jpg');
+            }
+            .carousel-item:nth-child(6) img {
+              content: url('{{site.baseurl}}/images/portfolio/mobile-bv.jpg');
+            }
+            .carousel-item:nth-child(7) img {
+              content: url('{{site.baseurl}}/images/portfolio/mobile-skin.jpg');
+            }
+            .carousel-item:nth-child(8) img {
+              content: url('{{site.baseurl}}/images/portfolio/mobile-cgm.jpg');
+            }
             /* Add more as needed */
         }
 

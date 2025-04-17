@@ -416,9 +416,8 @@ padding-left: 20px;
 
 .contact-form-box2 p {
 padding-left: 20px;
-  margin-top: 0px;
-  font-size: 1.9em;
-  font-family: 'DM Serif Text', serif;
+  margin-top: 14px;
+  font-size: 1.4em;
   text-align: center;
 }
 
@@ -794,9 +793,9 @@ text-align: center;
   text-align: left;
   display: block;
   padding: 10px;
-  font-size: 1em; /* Adjust font size as needed */
-  color: #ffffff; /* Caption text color */
-  background-color: rgba(18, 18, 18, 0.8); /* Semi-transparent background for readability */
+  font-size: .8em; /* Adjust font size as needed */
+  color:#ffae14; /* Caption text color */
+  background-color: #121212b5; /* Semi-transparent background for readability */
   border-radius: 5px; /* Rounded corners */
   position: absolute;
   top: 490px; /* Position above the bottom */
