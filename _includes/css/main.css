@@ -220,18 +220,18 @@ header.logo, header.logo {
 .hero-text {
   position: absolute;
   z-index: 11;
-  top: 177px;
+  top: 255px;
   background-color: rgba(0, 0, 0, 0.85);
   padding: 20px 0px;
   left: 50%;
   transform: translate(-50%, 0);
-  border-radius: 5px;
+  border-radius: 8px;
 
 }
 
 .hero-text h2 {
   color: white;
-  width: 410px;
+  width: 465px;
   font-size: 2em;
   font-family: 'Rubik', serif;
   font-weight: 800;
@@ -239,7 +239,7 @@ header.logo, header.logo {
   margin: 0;
   text-shadow: 2px 2px black;
   text-align: left;
-  padding-left: 25px;
+  padding-left: 15px;
 }
 
 .hero-text h3 {
@@ -258,20 +258,18 @@ header.logo, header.logo {
   line-height: 1em;
   color: #e9982d;
   width: 410px;
-  padding: 0px 0px 0px 30px;
-
-
+  padding: 0px 0px 0px 15px;
 }
 
 
 .title-tag-p {
   font-family: 'Rubik', serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 20px;
   color: #e9982d;
-  width: 410px;
-  padding: 3px 3px 10px 30px;
+  width: 470px;
+  padding: 3px 3px 10px 13px;
 
 }
 
@@ -291,7 +289,7 @@ header.logo, header.logo {
 
 .hero-btn {
   text-align: left;
-  padding: 0px 0px 20px 30px;
+  padding: 0px 0px 20px 15px;
 }
 
 .hero-btn-thnk {
@@ -346,10 +344,11 @@ margin: 20px 20px;
 
 .intro-text {
   text-align: left;
-  padding: 20px 20px 20px;
+  padding: 0px 20px 20px;
   font-size: 1.9em;
   font-family: 'DM Serif Text', serif;
   background-color: white;
+  margin: 0;
 }
 
 .clients-bg {
@@ -381,7 +380,7 @@ font-size: 1em;
   padding-left: 20px;
   margin-bottom: 2px;
   font-size: 1.9em;
-  margin-top: 10px;
+  margin-top: 0px;
   letter-spacing: 3px;
 
 }
@@ -958,27 +957,23 @@ text-align: center;
   
 }
 
+.stat-img img {
+
+  border-radius: 0px;
+  background-position: center center;
+  background-size: 100% 100%;
+}
 
 
 .stats-bg1 {
-  background-color: #ee7752;
-  border-radius: 0px;
-  background: url("../images/packages/stats-image.webp");
-  background-position: center center;
   color: rgb(77 52 6);
-  background-size: cover;
+  background: url("../images/packages/proof-image.jpg");
   padding: 40px;
   margin: auto 20px;
   font-weight: 900;
+  background-size: 100% 100%;
+  min-height: 300px;
 }
-
-
-.stat-img {
-  text-align: center;
-    font-size: 1.5em;
-    font-family: 'Rubik', sans-serif;
-}
-
 
 .portfolio {
   background-color: #131313;
@@ -1318,25 +1313,7 @@ text-align: center;
 }
 
 
-.packages-getting-started {
-  color: #d6d5d4;
-  background-color: $yellow;
-  background-image: url("../images/packages/sme-business-small.jpg");
-  height: 600px;
-  background-position: center center;
-  background-size: 170vw auto;
-  background-repeat: no-repeat;
-}
 
-.packages-upcoming {
-  color: #d6d5d4;
-  background-color: $yellow;
-  background-image: url("../images/packages/upandcoming-small.jpg");
-  height: 600px;
-  background-position: center center;
-  background-size: 170vw auto;
-  background-repeat: no-repeat;
-}
 
 
 .packages-editing {
