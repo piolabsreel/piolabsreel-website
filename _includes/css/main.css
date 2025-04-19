@@ -630,7 +630,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .services h2{
   font-family: 'Rubik', serif;
   font-size: 3em;
-  padding: 20px 20px;
+  padding: 20px 20px 0px;
   margin: 0;
   text-align: left;
   color: rgb(0, 0, 0);
@@ -746,9 +746,9 @@ text-align: center;
 .caro-head h2 {
   font-family: 'Rubik', serif;
     font-size: 3em;
-    padding: 20px 20px;
+    padding: 20px 20px 0px;
     margin: 0;
-    text-align: right;
+    text-align: left;
     color: rgb(0, 0, 0);
 }
 
@@ -823,7 +823,7 @@ text-align: center;
   font-family: 'Rubik', serif;
   font-size: 3em;
   margin: 0;
-  padding: 20px 20px;
+  padding: 20px 20px 0px;
   line-height: 49px;
   letter-spacing: 0;
   color: rgb(255, 255, 255);
@@ -931,9 +931,9 @@ text-align: center;
 .packages-pack h2 {
   font-family: 'Rubik', serif;
     font-size: 3em;
-    padding: 20px 20px;
+    padding: 20px 20px 0px;
     margin: 0;
-    text-align: right;
+    text-align: left;
     color: rgb(0, 0, 0);
 }
 
@@ -972,7 +972,25 @@ text-align: center;
   margin: auto 20px;
   font-weight: 900;
   background-size: 100% 100%;
-  min-height: 300px;
+  min-height: 315px;
+}
+.stats-bg2 {
+  color: rgb(77 52 6);
+  background: url("../images/packages/proof-image.jpg");
+  padding: 40px;
+  margin: auto 20px;
+  font-weight: 900;
+  background-size: 100% 100%;
+  min-height: 315px;
+}
+.stats-bg3 {
+  color: rgb(77 52 6);
+  background: url("../images/packages/stats-image.webp");
+  padding: 40px;
+  margin: auto 20px;
+  font-weight: 900;
+  background-size: 100% 100%;
+  min-height: 315px;
 }
 
 .portfolio {
@@ -1002,7 +1020,7 @@ text-align: center;
   font-size: 3em;
   padding: 20px 20px;
   margin: 0;
-  text-align: right;
+  text-align: left;
   color: rgb(189, 189, 189);
 }
 .services ul {
