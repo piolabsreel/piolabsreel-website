@@ -206,7 +206,7 @@ header.logo, header.logo {
 .hero-text {
   position: absolute;
   z-index: 11;
-  top: 255px;
+  top: 405px;
   background-color: rgba(0, 0, 0, 0.85);
   padding: 20px 0px;
   left: 50%;
