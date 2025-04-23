@@ -38,6 +38,25 @@
 
 @media only screen and (min-width: 25em) {
 
+  .contact-form-box h2 {
+    font-size: 1.9em;
+
+  }
+  
+  .contact-form-box p {
+    font-size: 1.4em;
+
+  }
+
+  .contact-form-box2 h2 {
+    font-size: 1.4em;
+
+  }
+  
+  .contact-form-box2 p {
+    font-size: 1.4em;
+
+  }
 
 .frameborder {
 
@@ -233,28 +252,28 @@ padding: 3em 0;
 
 @media (max-width: 600px) {
             .carousel-item:nth-child(1) img {
-                content: url('{{site.baseurl}}/images/portfolio/mobile-cr.jpg');
+                content: url('{{site.baseurl}}/images/portfolio/mobile-cr.webp');
             }
             .carousel-item:nth-child(2) img {
-                content: url('{{site.baseurl}}/images/portfolio/mobile-gfs.jpg');
+                content: url('{{site.baseurl}}/images/portfolio/mobile-gfs.webp');
             }
             .carousel-item:nth-child(3) img {
-                content: url('{{site.baseurl}}/images/portfolio/mobile-bt.jpg');
+                content: url('{{site.baseurl}}/images/portfolio/mobile-bt.webp');
             }
             .carousel-item:nth-child(4) img {
-              content: url('{{site.baseurl}}/images/portfolio/mobile-st.jpg');
+              content: url('{{site.baseurl}}/images/portfolio/mobile-st.webp');
             }
             .carousel-item:nth-child(5) img {
-              content: url('{{site.baseurl}}/images/portfolio/mobile-tlf.jpg');
+              content: url('{{site.baseurl}}/images/portfolio/mobile-tlf.webp');
             }
             .carousel-item:nth-child(6) img {
-              content: url('{{site.baseurl}}/images/portfolio/mobile-bv.jpg');
+              content: url('{{site.baseurl}}/images/portfolio/mobile-bv.webp');
             }
             .carousel-item:nth-child(7) img {
-              content: url('{{site.baseurl}}/images/portfolio/mobile-skin.jpg');
+              content: url('{{site.baseurl}}/images/portfolio/mobile-skin.webp');
             }
             .carousel-item:nth-child(8) img {
-              content: url('{{site.baseurl}}/images/portfolio/mobile-cgm.jpg');
+              content: url('{{site.baseurl}}/images/portfolio/mobile-cgm.webp');
             }
             /* Add more as needed */
         }
