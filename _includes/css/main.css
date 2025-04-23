@@ -344,28 +344,27 @@ font-size: 1em;
 
 
 .contact-form-box {
-  font-family: 'DM Serif Text', serif ;
+  font-family: 'Rubik', serif;;
   font-weight: 300;
   margin-top: 20px;
   margin-bottom: 20px;
-
-
 }
 
 .contact-form-box h2 {
   padding-left: 20px;
-  margin-bottom: 2px;
+  margin-bottom: 0px;
   font-size: 1.9em;
   margin-top: 0px;
-  letter-spacing: 3px;
-
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .contact-form-box p {
 padding-left: 20px;
-  margin-top: -15px;
-  font-size: 1.9em;
-  font-family: 'DM Serif Text', serif;
+  margin-top: 0px;
+  font-size: 1.4em;
+  font-family: 'Rubik', serif;
+  text-align: center;
 }
 
 
@@ -376,8 +375,6 @@ padding-left: 20px;
   background-color: #f1f1f1;
   padding: 25px 0px;
   border-radius: 8px;
-
-
 }
 
 .contact-form-box2 h2 {
@@ -394,6 +391,10 @@ padding-left: 20px;
   margin-top: 14px;
   font-size: 1.4em;
   text-align: center;
+}
+
+.hyperlink {
+  text-decoration-style: none;
 }
 
 
@@ -889,7 +890,7 @@ text-align: center;
   font-size: 1.5rem;
   font-weight: 800;
   margin: 0;
-  color: white;
+  color: #f9aa16;
 }
 
 
@@ -899,6 +900,7 @@ text-align: center;
   font-size: .9rem;
   text-decoration: none;
   margin: 0;
+  color: white;
   
 }
 
@@ -941,16 +943,20 @@ text-align: center;
 
 
 .stats-bg1 {
-  color: #b30900;
-  background: url("../images/packages/proof-image.jpg");
+
+  background: url("../images/packages/stats-image.webp");
   padding: 40px;
   margin: auto 20px;
   font-weight: 900;
   background-size: 100% 100%;
   min-height: 315px;
-  text-align: center;
   border-radius: 20px;
-  box-shadow: 4px 7px 2px 1px #cfcfcf;
+}
+
+.stats-bg1 p {
+  font-size: 1.9rem;
+  color: #780600;
+  text-align: center;
 }
 .stats-bg2 {
   color: rgb(77 52 6);
@@ -960,19 +966,27 @@ text-align: center;
   font-weight: 900;
   background-size: 100% 100%;
   min-height: 315px;
-  box-shadow: 4px 7px 2px 1px #cfcfcf;
   border-radius: 20px;
 }
 .stats-bg3 {
   color: rgb(77 52 6);
-  background: url("../images/packages/stats-image.webp");
+  background: url("../images/stats-image.jpg");
   padding: 40px;
   margin: auto 20px;
   font-weight: 900;
-  background-size: 100% 100%;
   min-height: 315px;
-  box-shadow: 4px 7px 2px 1px #cfcfcf;
+
   border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.fig-caption {
+  font-size: 15px;
+    padding: 10px 25px;
+    color: gray;
+
 }
 
 .package-text {
@@ -1197,11 +1211,25 @@ text-align: center;
   background-color: #f0db99;
 }
 
+.service-about-us {
+  text-align: left;
+    padding: 20px 20px 20px;
+    font-size: 1.9em;
+    font-family: 'DM Serif Text', serif;
+}
+
 .about-us {
   text-align: left;
     padding: 20px 20px 20px;
     font-size: 1.9em;
     font-family: 'DM Serif Text', serif;
+}
+
+.about-us p {
+  text-align: left;
+    font-size: 0.9em;
+    font-family: 'DM Serif Text', serif;
+    margin: 0;
 }
 
 .instagram {
