@@ -621,24 +621,24 @@ text-align: center;
 
 .service-bg1 {
   background: #000000;
-  background: url("../images/servicebg/marketing.jpg");
+  background: url("../images/servicebg/marketing.webp");
   background-size: cover;
 }
 
 .service-bg2 {
   background: #9e7900;
-  background: url("../images/servicebg/gdesign.jpg");
+  background: url("../images/servicebg/gdesign.webp");
   background-size: cover;
 }
 
 .service-bg3 {
   background: #3402be;
-  background: url("../images/servicebg/videography.jpg");
+  background: url("../images/servicebg/videography.webp");
   background-size: cover;
 }
 .service-bg4 {
   background: #d300a9;
-  background: url("../images/servicebg/webdev.jpg");
+  background: url("../images/servicebg/webdev.webp");
   background-size: cover;
 }
 
