@@ -804,7 +804,7 @@ text-align: center;
   margin: 15px 15px 15px;
   color:#ffae14;
   border-radius: 5px;
-  height: 410px;
+  height: 430px;
   box-shadow: 6px 6px 7px 0px #a1a1a1;
 }
 
@@ -986,10 +986,9 @@ text-align: center;
 }
 
 .fig-caption {
-  font-size: 15px;
+  font-size: 14px;
     padding: 10px 25px;
     color: gray;
-
 }
 
 .package-text {
