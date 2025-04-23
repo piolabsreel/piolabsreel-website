@@ -212,12 +212,12 @@ header.logo, header.logo {
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 8px;
+  width: 90%;
 
 }
 
 .hero-text h2 {
   color: white;
-  width: 465px;
   font-size: 2em;
   font-family: 'Rubik', serif;
   font-weight: 800;
@@ -234,7 +234,6 @@ header.logo, header.logo {
   font-weight: 700;
   line-height: 1em;
   color: #e9982d;
-  width: 410px;
   padding: 0px 0px 0px 15px;
 }
 
@@ -245,7 +244,6 @@ header.logo, header.logo {
   font-weight: 300;
   line-height: 20px;
   color: #e9982d;
-  width: 470px;
   padding: 3px 3px 10px 13px;
 
 }

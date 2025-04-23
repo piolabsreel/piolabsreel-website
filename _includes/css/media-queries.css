@@ -38,6 +38,7 @@
 
 @media only screen and (min-width: 25em) {
 
+
 .frameborder {
 
   border: 0px;
@@ -63,6 +64,19 @@ background-position: 40% center;
 
 
 @media only screen and (min-width: 38em) {
+
+  .title-tag {
+    width: 410px;
+
+  }
+
+  .title-tag p {
+    width: 470px;
+  }
+
+  .hero-text h2 {
+    width: 465px;
+  }
 
   .package-box {
     height:400px ;
@@ -639,8 +653,9 @@ text-align: center;
   .hero-text {
     top: 190px;
     padding: 20px 0px 10px;
-    left: 415px;
     transform: translate(-50%, 0);
+    left: 450px;
+    width: 600px;
 }
 
 .hero-text h2 {
