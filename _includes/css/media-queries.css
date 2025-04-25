@@ -38,13 +38,14 @@
 
 @media only screen and (min-width: 25em) {
 
+
   .contact-form-box h2 {
-    font-size: 1.9em;
+    font-size: 1.5em;
 
   }
   
   .contact-form-box p {
-    font-size: 1.4em;
+    font-size: 1rem;
 
   }
 
@@ -83,6 +84,16 @@ background-position: 40% center;
 
 
 @media only screen and (min-width: 38em) {
+
+  .contact-form-box h2 {
+    font-size: 1.9em;
+
+  }
+  
+  .contact-form-box p {
+    font-size: 1.4em;
+
+  }
 
   .title-tag {
     width: 410px;
@@ -606,6 +617,10 @@ text-align: center;
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   
+  }
+
+  .caption1 {
+    top: 380px;
   }
 
 

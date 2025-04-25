@@ -663,7 +663,7 @@ text-align: center;
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 560px;
+  height: 480px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
@@ -760,7 +760,7 @@ text-align: center;
   background-color: #121212b5;
   border-radius: 5px;
   position: absolute;
-  top: 490px;
+  top: 420px;
   left: 50%;
   transform: translateX(-50%);
   width: 90%;
@@ -951,7 +951,7 @@ text-align: center;
   padding: 40px;
   margin: auto 20px;
   font-weight: 900;
-  background-size: 100% 100%;
+  background-size: cover;
   min-height: 315px;
   border-radius: 20px;
 }
@@ -967,7 +967,7 @@ text-align: center;
   padding: 40px;
   margin: auto 20px;
   font-weight: 900;
-  background-size: 100% 100%;
+  background-size: cover;
   min-height: 315px;
   border-radius: 20px;
 }
@@ -982,7 +982,6 @@ text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  aria-label="Image of creative director for the about us section";
 }
 
 .fig-caption {
