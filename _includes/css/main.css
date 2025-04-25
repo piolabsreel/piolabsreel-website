@@ -1634,18 +1634,21 @@ margin-bottom: 30px;
 }
 
 .footer p {
-    text-align: left;
+    
  
 }
 
-.priv {
+.priv p{
   font-size: 1em;
+  transition: all .2s ease-out;
+text-align: left;
 }
 
 .priv a{
   text-decoration: none;
   color: white;
   padding-left: 10px;
+  
 }
 
 .priv a:hover{
@@ -1663,7 +1666,7 @@ margin-bottom: 30px;
   text-decoration: none;
   font-size: 1.2em;
   padding: 5px 10px;
-
+  text-align: left;
 }
 
 .quote-color{
@@ -1679,6 +1682,23 @@ margin-bottom: 30px;
   background-color: #ffe195;
   padding: 120px 20px;
 }
+
+.withlove {
+  color: #232323;
+  padding-left: 10px;
+  font-size: .8em;
+  font-weight: 300;
+  transition: all .2s ease-out;
+  text-align: left;
+  width: 280px;
+}
+
+.withlove:hover {
+  color: #c5c5c5;
+
+ 
+}
+
 
 /*ENDING OF SLIDER */
 
