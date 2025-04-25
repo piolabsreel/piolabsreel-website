@@ -795,8 +795,6 @@ width: auto;
   .carousel {
 
     height: 560px;
-
-  
   }
 
   .carousel-bg {
@@ -804,6 +802,11 @@ width: auto;
     margin: 0px;
     
   }
+
+  .caption1 {
+    top: 480px;
+  }
+
 
 .reel-para {
 
