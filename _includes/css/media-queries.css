@@ -683,7 +683,7 @@ text-align: center;
   }
 
   .hero-text {
-    top: 190px;
+    top: 180px;
     padding: 20px 0px 10px;
     transform: translate(-50%, 0);
     left: 450px;
@@ -704,14 +704,14 @@ text-align: center;
 }
 
 .title-tag {
-  font-size: 18px;
+  font-size: 22px;
   width: 460px;
   padding-left: 30px;
   
 }
 
 .title-tag-p {
-  font-size: 16px;
+  font-size: 20px;
   width: 570px;
   line-height: 24px;
   padding-left: 28px;

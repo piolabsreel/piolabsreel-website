@@ -953,7 +953,7 @@ text-align: center;
   font-weight: 900;
   background-size: cover;
   min-height: 315px;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 
 .stats-bg1 p {
@@ -969,7 +969,7 @@ text-align: center;
   font-weight: 900;
   background-size: cover;
   min-height: 315px;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 .stats-bg3 {
   color: rgb(77 52 6);
@@ -978,7 +978,7 @@ text-align: center;
   margin: auto 20px;
   font-weight: 900;
   min-height: 315px;
-  border-radius: 20px;
+  border-radius: 8px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1072,6 +1072,7 @@ text-align: center;
   overflow: hidden;
   width: 100%;
   position: relative;
+  border-radius: 8px;
 }
 
 .embed-item {
