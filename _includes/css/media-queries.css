@@ -87,11 +87,13 @@ background-position: 40% center;
 
   .contact-form-box h2 {
     font-size: 1.9em;
+    text-align: center;
 
   }
   
   .contact-form-box p {
     font-size: 1.4em;
+    text-align: center;
 
   }
 
