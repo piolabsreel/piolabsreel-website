@@ -228,6 +228,41 @@ header.logo, header.logo {
   padding-left: 15px;
 }
 
+.hero-text-btn {
+  text-align: left;
+  padding: 0px 0px 20px 15px;
+}
+
+.hero-text-btn a {
+
+  padding: 10px 15px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all .2s ease-out;
+  border-radius: 25px;
+ 
+}
+
+.glow-service a:hover {
+  color: #e9982d;
+
+}
+
+
+.hero-text-btn a:hover {
+  color: white;
+}
+.hero-service-btn {
+  font-size: 1.2rem;
+  color: #e9982d;
+  font-family: 'DM Serif Text', serif;
+  
+}
+
+.hero-service-btn:hover {
+  transition: all .2s ease-out;
+}
+
 .title-tag {
   font-family: 'Rubik', serif;
   font-size: 17px;
@@ -246,29 +281,6 @@ header.logo, header.logo {
   color: #e9982d;
   padding: 3px 3px 10px 13px;
 
-}
-
-.hero-text a {
-  display: inline-block;
-  font-family: 'DM Serif Text', serif;
-  font-size: 1.2em;
-  color: black;
-  background: white;
-  padding: 10px 25px;
-  text-decoration: none;
-  transition: all .2s ease-out;
-  border-radius: 25px;
- 
-}
-
-.hero-text a:hover {
-  background: #e9982d;
-  color: white;
-}
-
-.hero-btn {
-  text-align: left;
-  padding: 0px 0px 20px 15px;
 }
 
 .hero-btn-thnk {
@@ -291,6 +303,77 @@ header.logo, header.logo {
 .hero-btn-thnk a:hover {
     background: #00030f;
     color: white;
+}
+
+.hovbtn {
+  margin: 10px;
+  padding: 5px 5px;
+  border: none;
+  outline: none;
+  color: #000000;
+  position: relative;
+  cursor: pointer;
+  z-index: 0;
+  border-radius: 12px;
+  font-family: 'DM Serif Text', serif;
+  font-size: 1.2rem;
+
+}
+
+.hovbtn::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.hovbtn::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #FF0000, #FF7300, #FFFB00, #48FF00,
+    #00FFD5, #002BFF, #FF00C8, #FF0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity .3s ease-in-out;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+@keyframes glowing {
+  0% {background-position: 0 0;}
+  50% {background-position: 400% 0;}
+  100% {background-position: 0 0;}
+
+}
+
+/* hover */
+.hovbtn:hover::before {
+opacity: 1;
+}
+
+.hovbtn:hover::after {
+  background: transparent;
+  color: black;
+  transition: opacity .3s ease-in-out;
+}
+
+.hovbtn:active {
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .thanks {
