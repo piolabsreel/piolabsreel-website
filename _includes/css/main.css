@@ -233,15 +233,16 @@ header.logo, header.logo {
   padding: 0px 0px 20px 15px;
 }
 
-.hero-text-btn a {
+.hero-text-btn .hovbtn a {
 
   padding: 10px 15px;
   display: inline-block;
   text-decoration: none;
   transition: all .2s ease-out;
   border-radius: 25px;
- 
+  color: black;
 }
+
 
 .glow-service a:hover {
   color: #e9982d;
@@ -254,6 +255,7 @@ header.logo, header.logo {
 }
 .hero-service-btn {
   font-size: 1.2rem;
+  text-decoration: none;
   color: #e9982d;
   font-family: 'DM Serif Text', serif;
   
