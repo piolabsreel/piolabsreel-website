@@ -83,6 +83,8 @@ background-position: 40% center;
 }
 
 
+
+
 @media only screen and (min-width: 38em) {
 
   .contact-form-box h2 {
@@ -874,7 +876,7 @@ width: auto;
 
 .packages-getting-started {
   color: #d6d5d4;
-  background-color: $yellow;
+  background-color: yellow;
   background-image: url("../images/packages/sme-business.jpg");
   height: 600px;
   background-position: center center;
@@ -884,7 +886,7 @@ width: auto;
 
 .packages-upcoming {
   color: #d6d5d4;
-  background-color: $yellow;
+  background-color: yellow;
   background-image: url("../images/packages/upandcoming.jpg");
   height: 600px;
   background-position: center center;
@@ -894,7 +896,7 @@ width: auto;
 
 .packages-editing {
   color: #d6d5d4;
-  background-color: $yellow;
+  background-color: yellow;
   background-image: url("../images/packages/editing-package-large.jpg");
   height: 300px;
   background-position: center center;
@@ -922,7 +924,7 @@ background-position: 40% 52%;
 }
 
 .portfolio-2-bg {
-background-color: ##000;
+background-color: #000;
 }
 
 .portfolio-studies-3 {
@@ -933,7 +935,7 @@ background-position: 40% 52%;
 
 .portfolio-studies-4 {
 color: #d6d5d4;
-background-color: $yellow;
+background-color: yellow;
 background-image: url("../images/eclectic/eclectic.jpg");
 height: 293px;
 background-position: center center;
@@ -949,7 +951,7 @@ background-size: 65vw auto;
 
 .portfolio-studies-6 {
 color: #d6d5d4;
-background-color: $yellow;
+background-color: yellow;
 background-image: url("../images/red/red.jpg");
 height: 293px;
 background-position: center center;
@@ -959,7 +961,7 @@ background-repeat: no-repeat;
 
 .portfolio-studies-7 {
 color: #d6d5d4;
-background-color: $yellow;
+background-color: yellow;
 background-image: url("../images/goodiebag/goodiebag.jpg");
 height: 293px;
 background-position: center center;
@@ -977,7 +979,7 @@ background-size: 33vw auto;
 
 .portfolio-studies-10 {
   color: #d6d5d4;
-  background-color: $yellow;
+  background-color: yellow;
   background-image: url("../images/sinari/sinarilarge.jpg");
   height: 293px;
   background-position: center center;
@@ -1035,6 +1037,11 @@ margin: 0;
 
 }
 
+.service-box {
+  height: 400px;
+}
+
+
 
 }
 
@@ -1067,12 +1074,14 @@ margin: 0;
 }
 
 .stats-bg3 {
+  min-height: 400px;
   background-position: top center;
 }
 
 .withlove {
   width: 300px;
 }
+
 
 
 }
