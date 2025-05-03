@@ -267,7 +267,7 @@ header.logo, header.logo {
 
 .title-tag {
   font-family: 'Rubik', serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 1em;
   color: #fff;
@@ -1386,6 +1386,7 @@ background-size: 400% 400%;
 animation: bg-change 15s ease infinite;
 padding: 10px;
 margin-bottom: 30px;
+border-radius: 8px;
 }
 
 @keyframes bg-change {
