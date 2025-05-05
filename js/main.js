@@ -8,14 +8,18 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+    //nav func
+
 const menuBtn = document.getElementById('menu-btn');
 const links = document.querySelectorAll('.menu li a');
+
 
 links.forEach(link => {
     link.addEventListener('click', function() {
         menuBtn.checked = false; // Close the menu
     });
 });
+
 
 document.addEventListener('click', function(event) {
     if (!menuBtn.contains(event.target) && !document.querySelector('.menu-icon').contains(event.target)) {
@@ -26,20 +30,24 @@ document.addEventListener('click', function(event) {
 
 
 // portfolio func
+
 let currentIndex = 0;
         const items = document.querySelectorAll('.carousel-item');
         const totalItems = items.length;
         let intervalId;
 
         function showItem(index) {
+            const offset = -index * 100;
             document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
         }
 
         function nextItem() {
+            currentIndex = (currentIndex + 1) % totalItems; 
             showItem(currentIndex);
         }
 
         function prevItem() {
+            currentIndex = (currentIndex - 1 + totalItems) % totalItems;
             showItem(currentIndex);
         }
 
@@ -54,6 +62,7 @@ let currentIndex = 0;
         document.getElementById('nextBtn').addEventListener('click', nextItem);
         document.getElementById('prevBtn').addEventListener('click', prevItem);
 
+       
         function showModal(imageSrc) {
             document.getElementById('modalImage').src = imageSrc;
             document.getElementById('modal').style.display = 'flex';
