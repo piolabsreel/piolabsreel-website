@@ -1,0 +1,211 @@
+* { box-sizing: border-box;
+     margin: 0;
+      padding: 0;
+ }
+
+font-family: 'Rubik', serif;  font-family: 'DM Serif Text', serif;
+
+
+body {
+font-family: 'Rubik', serif;
+background: #f4f5f7;
+color: #333;
+line-height: 1.6;
+}
+
+.hero1 {
+background: url("../images/service-package-hero-img-orange.jpg") center center/cover no-repeat;
+padding: 50px 20px;
+text-align: center;
+position: relative;
+background-color: #fecf2b;
+}
+
+.hero2 {
+background: url("../images/service-package-hero-img-red.jpg") center center/cover no-repeat;
+padding: 50px 20px;
+text-align: center;
+position: relative;
+background-color: #fd2322;
+}
+
+.hero3 {
+background: url("../images/service-package-hero-img-sell.jpg") center center/cover no-repeat;
+padding: 50px 20px;
+text-align: center;
+position: relative;
+background-color: #7341bc;
+}
+
+.hero::after {
+content: '';
+position: absolute;
+top: 0; left: 0;
+width: 100%; height: 100%;
+z-index: 1;
+}
+
+.hero-content {
+position: relative;
+z-index: 2;
+max-width: 800px;
+margin: auto;
+}
+
+.hero h1 {
+font-size: 3rem;
+margin-bottom: 10px;
+color: white;
+}
+
+.hero p {
+font-size: 1.2rem;
+color: #ddd;
+}
+
+.section {
+max-width: 1200px;
+margin: auto;
+padding: 60px 20px;
+}
+
+.pack-title h2 {
+text-align: left;
+margin-bottom: 10px;
+font-size: 2rem;
+color: #111;
+margin: 10px 0 10px 50px;
+}
+
+.pack-title p {
+    width: 412px;
+    font-family:'DM Serif Text', serif;
+    font-size: 1.5rem;
+    margin: 10px 0 10px 50px;
+}
+
+.cards {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 30px;
+}
+
+.service-card {
+background: #f9f9f9;
+border-radius: 16px;
+padding: 30px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.07);
+transition: 0.3s ease;
+text-align: left;
+}
+
+.service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-icon {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .service-title {
+      font-size: 1.4rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .service-desc {
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    ul.features {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+
+    ul.features li {
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    ul.features li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      color: green;
+    }
+
+    .price {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #000;
+    }
+
+
+    .center-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.center-button .btn {
+  width: auto;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 999px;
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s;
+  display: inline-block;
+}
+
+.center-button .btn:hover {
+  background: #ffa500;
+}
+
+
+    .btn {
+      display: inline-block;
+      background: #000;
+      color: white;
+      padding: 10px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background 0.3s;
+      text-align: center;
+      width: 100%;
+    }
+
+    .btn:hover {
+      background: #ffa500;
+    }
+
+    .readytogo{
+        font-family: 'DM Serif Text', serif;
+        font-size: 1.5rem; 
+        margin: 10px 0 10px 40px;
+        color: #555;
+
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 2rem; }
+      .hero p { font-size: 1rem; }
+      .section h2 { font-size: 1.6rem; }
+    }
+
+    @media only screen and (min-width: 48em) {
+        
+        
+    .pack-title p {
+    width: 600px;
+}
+    }
