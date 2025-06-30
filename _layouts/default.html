@@ -43,7 +43,22 @@
     {{content}}
 
 
+<script>
+  function handleServiceSelection() {
+    const selected = document.getElementById("servicePurposeSelect").value;
+    const result = document.getElementById("serviceQuizResult");
 
+    if (selected === "create") {
+      result.innerHTML = "Great! Explore our <a href='/create'>Creative Services</a> for talents and artists.";
+    } else if (selected === "embed") {
+      result.innerHTML = "Awesome! See how your brand can <a href='/embed'>Embed in our content</a>.";
+    } else if (selected === "sell") {
+      result.innerHTML = "Perfect! Check out our <a href='/sell'>Ad & Commercial Video Production</a> for businesses.";
+    } else {
+      result.innerHTML = "Please choose an option above.";
+    }
+  }
+</script>
     </body>
 
     <footer class="footer">
