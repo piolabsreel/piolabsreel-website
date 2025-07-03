@@ -60,6 +60,24 @@
    <script src="../js/main.js" defer></script>
    <script src="../js/emailjs.js" defer></script>
 
+   <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash;
+    if (hash && document.querySelector(hash)) {
+      // prevent default immediate jump
+      window.history.replaceState(null, '', window.location.pathname);
+
+      // optionally delay to let everything layout
+      setTimeout(() => {
+        // use your smooth-scroll function here
+        // e.g., smoothScrollTo(element)
+        document.querySelector(hash).scrollIntoView({ behavior: 'smooth' });
+      }, 50);
+    }
+  });
+</script>
+
+
 
 
 </html>
