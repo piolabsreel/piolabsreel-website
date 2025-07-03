@@ -78,6 +78,7 @@ margin-bottom: 10px;
 font-size: 2rem;
 color: #111;
 margin: 10px 0 10px 50px;
+letter-spacing: 0;
 }
 
 .pack-title p {
@@ -85,6 +86,7 @@ margin: 10px 0 10px 50px;
     font-family:'DM Serif Text', serif;
     font-size: 1.5rem;
     margin: 10px 0 10px 50px;
+    letter-spacing: 0;
 }
 
 .cards {
@@ -204,7 +206,7 @@ text-align: left;
 .package-nav{
 
   margin: 0px 0 20px;
-  background: rgb(197, 197, 197);
+  background: rgb(255, 255, 255);
   padding: 30px 80px;
 }
 
@@ -250,19 +252,19 @@ text-align: left;
 .back-btn-create:hover {
   background: rgb(239, 239, 240);
   color: #fac123;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 3px 4px 5px rgba(0,0,0,0.6);
 }
 
 .back-btn-sell:hover {
   background: rgb(239, 239, 240);
   color: #c32be9;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 3px 4px 5px rgba(0,0,0,0.6);
 }
 
 .back-btn-embed:hover {
    background: rgb(239, 239, 240);
    color: #ca1726;
-   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+   box-shadow: 3px 4px 5px rgba(0,0,0,0.6);
 }
 
 .checkus {
