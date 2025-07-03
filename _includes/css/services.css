@@ -203,7 +203,7 @@ text-align: left;
 
 .package-nav{
 
-  margin: 50px 0;
+  margin: 0px 0 20px;
   background: rgb(197, 197, 197);
   padding: 30px 80px;
 }
@@ -221,7 +221,7 @@ text-align: left;
   background-color: #dbc710;
   color: white;
   text-align: center;
-  padding: 20px 70px;
+  padding: 20px 32px;
   text-decoration: none;
   border-radius: 5px;
 
@@ -231,7 +231,7 @@ text-align: left;
   background-color: #ca17b2;
   color: white;
   text-align: center;
-  padding: 20px 70px;
+  padding: 20px 50px;
   text-decoration: none;
   border-radius: 5px;
 
@@ -241,7 +241,7 @@ text-align: left;
   background-color: #ca1726;
   color: white;
   text-align: center;
-  padding: 20px 70px;
+  padding: 20px 40px;
   text-decoration: none;
   border-radius: 5px;
 
@@ -273,21 +273,18 @@ text-align: left;
 }
 
 
-
-
-    @media (max-width: 600px) {
-      .hero h1 { font-size: 2rem; }
-      .hero p { font-size: 1rem; }
-      .section h2 { font-size: 1.6rem; }
-    }
+@media (max-width: 600px) {
+.hero h1 { font-size: 2rem; }
+.hero p { font-size: 1rem; }
+.section h2 { font-size: 1.6rem; }
+}
 
 @media only screen and (min-width: 48em) {
-        
-        
+          
 .pack-title p {
 width: 600px;
 }
-    }
+}
 
     @media only screen and (min-width: 60em) {
 
