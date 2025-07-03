@@ -347,25 +347,51 @@ opacity: 1;
 
 .thanks {
 margin: 20px 20px;
+background-image: url('../images/banner-thanks.jpg');
+background-size: cover;
+background-position: center btop;
 }
 
 .thank-you {
-  background-color: #e9982d;
-  font-family: 'DM Serif Text', serif;
+  background-color: #f1f1f1;
+  font-family: 'Rubik', serif;
   line-height: 1.3rem;
   border-radius: 8px;
   padding: 20px 20px;
   margin: 169px 20px 100px;
 }
 
+
+.hero-btn-thnk-adj {
+  margin: 20px 0px 10px;
+  text-align: right;
+}
+
+.hero-btn-thnk {
+  background-color: #000;
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Rubik', serif;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-btn-thnk:hover{
+  color: rgb(243, 157, 27);
+  background-color: white;
+}
+
 .thank-you h2 {
-  line-height: 2.4rem;
-  font-size: 1.9rem;
+line-height: 36px;
+font-size: 1.7rem;
+text-align: left;
 }
 
 .thank-you p {
   line-height: 1.9rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .intro-text {
@@ -394,7 +420,7 @@ font-size: 1em;
 
 
 .contact-form-box {
-  font-family: 'Rubik', serif;;
+  font-family: 'Rubik', serif;
   font-weight: 300;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1125,7 +1151,6 @@ padding-top: 5px;
   font-size: 1.5rem;
   font-weight: 600;
   font-family: 'DM Serif Text', serif;
-  background-color: ;
   padding: 3em 0;
   overflow: hidden;
   position: relative;
