@@ -300,25 +300,19 @@ padding: 3em 0;
 
 @media only screen and (min-width: 48em) {
 
-  #contact-side {
+#contact-side {
     display: flex;
     justify-content: space-around;
-  }
+}
 
-
-
-
-  .package-para {
-
-    margin-top: 40px;
-   
-  }
-
-
+.package-para {
+margin-top: 40px;
+}
 
 .header li {
   float: left;
   font-size: 15px;
+  letter-spacing: .9px;
 }
 .header li a {
   padding: 20px 30px;
