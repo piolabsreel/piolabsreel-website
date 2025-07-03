@@ -209,13 +209,11 @@ header.logo, header.logo {
   position: absolute;
   z-index: 11;
   top: 280px;
-  background-color: rgba(0, 0, 0, 0.85);
   padding: 20px 0px;
   left: 50%;
   transform: translate(-50%, 0);
   border-radius: 8px;
   width: 90%;
-
 }
 
 .hero-text h2 {
@@ -246,12 +244,6 @@ header.logo, header.logo {
 }
 
 
-.glow-service a:hover {
-  color: #e9982d;
-
-}
-
-
 .hero-text-btn a:hover {
   color: white;
 }
@@ -276,38 +268,6 @@ header.logo, header.logo {
   padding: 0px 0px 0px 15px;
 }
 
-
-.title-tag-p {
-  font-family: 'Rubik', serif;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
-  color: #fff;
-  padding: 3px 3px 10px 13px;
-
-}
-
-.hero-btn-thnk {
-  text-align: left;
-  padding: 0px 0px 20px 0px;
-}
-
-.hero-btn-thnk a {
-  display: inline-block;
-  font-family: 'DM Serif Text', serif;
-  font-size: 1.2em;
-  color: black;
-  background: white;
-  padding: 10px 25px;
-  text-decoration: none;
-  transition: all .2s ease-out;
-  border-radius: 25px;
-}
-
-.hero-btn-thnk a:hover {
-    background: #00030f;
-    color: white;
-}
 
 .hovbtn {
   margin: 10px;
@@ -447,7 +407,7 @@ font-size: 1em;
 
 .contact-form-box p {
 padding-left: 20px;
-  margin-top: 0px;
+  margin-bottom: 14px;
   font-size: 1em;
   font-family: 'Rubik', serif;
   text-align: left;
@@ -474,7 +434,7 @@ padding-left: 20px;
 
 .contact-form-box2 p {
 padding-left: 20px;
-  margin-top: 14px;
+  margin: 14px;
   font-size: 1.4em;
   text-align: center;
 }
@@ -504,8 +464,7 @@ padding-left: 20px;
 
 #contact2 {
   padding: 0px 10px 20px;
-  text-align: left;
-  
+  text-align: left; 
 }
 
 #contact-form {
@@ -564,6 +523,7 @@ padding-left: 20px;
 #contact-form button {
   background: #000109;
   padding: 10px 25px;
+  border: none;
   border-radius: 5px;
   color: white;
   letter-spacing: 1px;
@@ -574,6 +534,7 @@ padding-left: 20px;
 #contact-form2 button {
   background: #000109;
   padding: 10px 25px;
+  border: none;
   border-radius: 5px;
   color: white;
   letter-spacing: 1px;
@@ -585,18 +546,15 @@ padding-left: 20px;
   background: #e9982d;
   color: black;
   outline-color: white;
-
 }
 
 #contact-form2 button:hover {
   background: #e9982d;
   color: black;
   outline-color: none;
-
 }
 
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
-
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -638,7 +596,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .services-box {
-
   justify-content: space-evenly;
   list-style: none;
   text-decoration: none;
@@ -655,7 +612,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .service-box {
-
   padding:20px;
   margin: 15px 15px 0px;
   opacity: 1;
@@ -805,7 +761,6 @@ box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
   margin: 0;
   text-align: left;
   color: rgb(0, 0, 0);
-  
 }
 
 .card-container p {
@@ -853,8 +808,6 @@ width: 90%;
 }
 
 }
-
-
 
 
 .caro-head {
@@ -1024,80 +977,6 @@ width: 90%;
     color: rgb(0, 0, 0);
 }
 
-
-.package-price {
-
-  text-align: right;
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin: 0;
-  color: #f9aa16;
-}
-
-
-.package-tag {
-  
-  text-align: right;
-  font-size: .9rem;
-  text-decoration: none;
-  margin: 0;
-  color: white;
-  
-}
-
-
-
-.pcontainer {
-  width: 300px;
-  margin: 20px;
-}
-.card {
-  background: #4a90e2;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: max-height 0.3s ease, padding 0.3s ease;
-  max-height: 60px;
-  padding: 10px;
-  margin: 10x 10px;
-  position: relative;
-  color: white;
-  cursor: pointer;
-}
-.card.expanded {
-  max-height: 1000px;
-  padding: 10px 10px 40px;
-  background: #0056b3;
-}
-.info {
-  display: none;
-}
-.card.expanded .info {
-  display: block;
-}
-.arrow {
-  font-size: 24px;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-}
-.card.expanded .arrow {
-  opacity: 1;
-}
-.arrow::before {
-  content: '✖';
-  color: #ffffff;
-}
-.card.expanded {
-  cursor: auto;
-}
-
-
-
-
-
 .portfolio h2{
   font-family: 'Rubik', serif;
   font-size: 3em;
@@ -1129,8 +1008,6 @@ width: 90%;
 /* SERVICES SECTION ENDS*/
 
 /* quiz box css begin */
-
-
 
 .service-quiz-box {
       background: #ffffff;
@@ -1194,13 +1071,11 @@ width: 90%;
     .service-quiz-result a:hover {
       text-decoration: underline;
     }
-
-
-
 /* end */
+.stat-img {
+padding-top: 5px;
 
-
-
+}
 
 
 .stats-bg2 {
@@ -1274,27 +1149,6 @@ width: 90%;
   letter-spacing: 1px;
 }
 
-.packagebtn{
-  text-align: right;
-
-}
-
-.packagebtn a:hover {
-  background: #e9982d;
-  color: white;
-
-}
-
-.srvspackagebtn {
-  font-family: 'Rubik', serif;
-  background: #fff;
-  color: #000109;
-  text-decoration: none;
-  padding: 10px 25px;
-  border-radius: 25px;
-  transition: all .2s ease-out;
-  letter-spacing: 1px;
-}
 
 .video-tag {
   text-align: center;
@@ -1461,8 +1315,8 @@ width: 90%;
 
 .about-us {
   text-align: left;
-    padding: 20px 20px 20px;
-    font-size: 1.9em;
+    padding: 0px 20px 20px;
+    font-size: 1.8em;
     font-family: 'DM Serif Text', serif;
 }
 
