@@ -204,6 +204,8 @@ text-align: left;
 .package-nav{
 
   margin: 50px 0;
+  background: rgb(197, 197, 197);
+  padding: 30px 80px;
 }
 
 .nav-dir-btn {
