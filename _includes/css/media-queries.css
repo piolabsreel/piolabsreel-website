@@ -721,13 +721,6 @@ text-align: center;
   line-height: 24px;
   padding-left: 28px;
 }   
-
-
-.service-section {
-  margin:;
-
-}
-
 .service-text {
   font-size: 1rem;
 }
@@ -796,6 +789,11 @@ width: auto;
 
 
 @media only screen and (min-width: 60em) {
+
+  .hero1 {
+padding: 130px 20px;
+
+}
 
   .carousel {
 
@@ -1030,6 +1028,7 @@ margin: 0;
 .service-box {
   height: 400px;
 }
+
 
 
 

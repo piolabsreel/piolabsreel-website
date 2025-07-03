@@ -14,7 +14,7 @@ line-height: 1.6;
 }
 
 .hero1 {
-background: url("../images/service-package-hero-img-orange.jpg") center center/cover no-repeat;
+background: url("../images/service-package-hero-img.png") right center/ cover no-repeat;
 padding: 50px 20px;
 text-align: center;
 position: relative;
@@ -158,7 +158,7 @@ text-align: left;
   width: auto;
   padding: 12px 30px;
   font-size: 1rem;
-  border-radius: 999px;
+  border-radius: 5px;
   background-color: #000;
   color: white;
   text-decoration: none;
@@ -176,7 +176,7 @@ text-align: left;
       background: #000;
       color: white;
       padding: 10px 18px;
-      border-radius: 999px;
+      border-radius: 5px;
       text-decoration: none;
       font-size: 0.9rem;
       transition: background 0.3s;
@@ -202,10 +202,36 @@ text-align: left;
       .section h2 { font-size: 1.6rem; }
     }
 
-    @media only screen and (min-width: 48em) {
+@media only screen and (min-width: 48em) {
         
         
-    .pack-title p {
-    width: 600px;
+.pack-title p {
+width: 600px;
 }
+    }
+
+    @media only screen and (min-width: 60em) {
+
+.hero1 {
+background: url("../images/service-package-hero-img.png") center center/cover no-repeat;
+padding:130px 20px;
+background-color: #fecf2b;
+}
+
+.hero2 {
+background: url("../images/service-package-hero-img-red.jpg") center center/cover no-repeat;
+padding:130px 20px;
+text-align: center;
+position: relative;
+background-color: #fd2322;
+}
+
+.hero3 {
+background: url("../images/service-package-hero-img-sell.jpg") center center/cover no-repeat;
+padding:130px 20px;
+text-align: center;
+position: relative;
+background-color: #7341bc;
+}
+
     }
