@@ -45,16 +45,19 @@ width: 100%; height: 100%;
 z-index: 1;
 }
 
-.hero-content {
-position: relative;
-z-index: 2;
-max-width: 800px;
-margin: 50px 0px 20px 50px;
+
+.hero1 h1 {
+font-size: 3rem;
+color: white;
 }
 
-.hero h1 {
+.hero2 h1 {
 font-size: 3rem;
-margin-bottom: 10px;
+color: white;
+}
+
+.hero3 h1 {
+font-size: 3rem;
 color: white;
 }
 
@@ -194,8 +197,81 @@ text-align: left;
         font-size: 1.5rem; 
         margin: 10px 0 10px 40px;
         color: #555;
+        text-align: center;
 
     }
+
+.package-nav{
+
+  margin: 50px 0;
+}
+
+.nav-dir-btn {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 15px auto;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.back-btn-create {
+  background-color: #dbc710;
+  color: white;
+  text-align: center;
+  padding: 20px 70px;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+.back-btn-sell {
+  background-color: #ca17b2;
+  color: white;
+  text-align: center;
+  padding: 20px 70px;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+.back-btn-embed {
+  background-color: #ca1726;
+  color: white;
+  text-align: center;
+  padding: 20px 70px;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+.back-btn-create:hover {
+  background: rgb(239, 239, 240);
+  color: #fac123;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.back-btn-sell:hover {
+  background: rgb(239, 239, 240);
+  color: #c32be9;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.back-btn-embed:hover {
+   background: rgb(239, 239, 240);
+   color: #ca1726;
+   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.checkus {
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
 
     @media (max-width: 600px) {
       .hero h1 { font-size: 2rem; }
@@ -215,24 +291,36 @@ width: 600px;
 
 .hero1 {
 background: url("../images/service-package-hero-img.png") center center/cover no-repeat;
-padding:130px 20px;
+padding:60px 20px;
 background-color: #fecf2b;
+}
+
+.hero1 h1 {
+  margin: 85px 0px 10px;
 }
 
 .hero2 {
 background: url("../images/service-package-hero-img-red.jpg") center center/cover no-repeat;
-padding:130px 20px;
+padding:60px 20px;
 text-align: center;
 position: relative;
 background-color: #fd2322;
 }
 
+.hero2 h1 {
+  margin: 85px 0px 10px;
+}
+
 .hero3 {
 background: url("../images/service-package-hero-img-sell.jpg") center center/cover no-repeat;
-padding:130px 20px;
+padding:60px 20px;
 text-align: center;
 position: relative;
 background-color: #7341bc;
+}
+
+.hero3 h1 {
+  margin: 85px 0px 10px;
 }
 
     }

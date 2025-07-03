@@ -688,7 +688,7 @@ text-align: center;
   }
 
   .hero-text {
-    top: 180px;
+    top: 280px;
     padding: 20px 0px 10px;
     transform: translate(-50%, 0);
     left: 450px;
@@ -698,7 +698,7 @@ text-align: center;
 .hero-text h2 {
   color: #e9982d;
   width: 580px;
-  font-size: 2.2em;
+  font-size: 2.5em;
   font-family: 'Rubik', serif;
   font-weight: 800;
   line-height: 1.1em;
@@ -710,7 +710,7 @@ text-align: center;
 
 .title-tag {
   font-size: 20px;
-  width: 460px;
+  width: 530px;
   padding-left: 30px;
   
 }
@@ -1052,10 +1052,23 @@ padding-top: 35px;
   }
 
   .hero-text {
-  top: 270px;
+  top: 370px;
   left: 560px;
-
+  width: 1000px;
   }
+
+.hero-text h2 {
+width: 980px;
+font-size: 60px;
+    }
+
+
+.title-tag {
+  font-size: 20px;
+  width: 960px;
+
+}  
+
 
   .reel-textport {
     font-size: 26px;
