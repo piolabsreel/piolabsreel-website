@@ -582,16 +582,16 @@ padding-left: 20px;
 }
 
 #contact-form button:hover {
-  background: orange;
-  color: #ffffff;
+  background: #e9982d;
+  color: black;
   outline-color: white;
 
 }
 
 #contact-form2 button:hover {
-  background: orange;
-  color: #ffffff;
-  outline-color: white;
+  background: #e9982d;
+  color: black;
+  outline-color: none;
 
 }
 
