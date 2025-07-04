@@ -222,8 +222,10 @@ text-align: left;
 .back-btn-create {
   background-color: #dbc710;
   color: white;
+  font-size: 20px;
   text-align: center;
   padding: 20px 32px;
+  margin: 10px;
   text-decoration: none;
   border-radius: 5px;
 
@@ -232,8 +234,10 @@ text-align: left;
 .back-btn-sell {
   background-color: #ca17b2;
   color: white;
+  font-size: 20px;
   text-align: center;
   padding: 20px 50px;
+  margin: 10px;
   text-decoration: none;
   border-radius: 5px;
 
@@ -242,8 +246,10 @@ text-align: left;
 .back-btn-embed {
   background-color: #ca1726;
   color: white;
+  font-size: 20px;
   text-align: center;
   padding: 20px 40px;
+  margin: 10px;
   text-decoration: none;
   border-radius: 5px;
 
