@@ -112,6 +112,8 @@ let currentIndex = 0;
         result.innerHTML = "Awesome! See how your brand can <a href='/embed'>Embed in our content</a>.";
       } else if (selected === "sell") {
         result.innerHTML = "Perfect! Check out our <a href='/sell'>Ad & Commercial Video Production</a> for businesses.";
+      } else if (selected === "customer") {
+        result.innerHTML = "Alright! Use <a href='#contact-scroll2'>Contact Form</a> | info@piolabsreel.com.";
       } else {
         result.innerHTML = "Please choose an option above.";
       }

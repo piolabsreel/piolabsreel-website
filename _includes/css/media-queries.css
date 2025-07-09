@@ -87,6 +87,10 @@ background-position: 40% center;
 
 @media only screen and (min-width: 38em) {
 
+  .starter-package-t98 {
+  margin: 3rem auto;
+}
+
   .contact-form-box h2 {
     font-size: 1.9em;
     text-align: center;
