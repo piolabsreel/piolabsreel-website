@@ -1451,23 +1451,46 @@ padding-top: 5px;
 }
 
 
-.socials {
+.social-icons {
+  margin-top: 20px;
   display: flex;
-  flex-direction: row;
-  list-style-type: none;
   justify-content: center;
-  padding: 0;
+  align-items: center;
+  gap: 30px; /* space between icons */
 }
 
-.socials img {
-  width: 70%;
-  padding: 0 10px;
+.ig-link,
+.odysee-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 0.3s ease;
 }
 
-.socials svg:hover {
-  color: #f0db99;
-  background-color: #f0db99;
+.ig-link i {
+  font-size: 40px;
+  color: #d6249f;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
+
+.ig-link:hover i {
+  transform: scale(1.2);
+  color: #962fbf;
+}
+
+.odysee-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.odysee-link:hover .odysee-icon {
+  transform: scale(1.2);
+}
+
+
+
+
+
 
 .service-about-us {
   text-align: left;
