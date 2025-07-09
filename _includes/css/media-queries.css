@@ -311,7 +311,7 @@ margin-top: 40px;
 
 .header li {
   float: left;
-  font-size: 15px;
+  font-size: 13px;
   letter-spacing: .9px;
 }
 .header li a {
@@ -703,18 +703,13 @@ text-align: center;
 }
 
 .title-tag {
-  font-size: 20px;
+  font-size: 17px;
   width: 530px;
   padding-left: 30px;
-  
+   line-height: 24px;
+   padding-top: 5px;
 }
 
-.title-tag-p {
-  font-size: 20px;
-  width: 570px;
-  line-height: 24px;
-  padding-left: 28px;
-}   
 .service-text {
   font-size: 1rem;
 }
@@ -799,6 +794,12 @@ padding: 130px 20px;
     margin: 0px;
     
   }
+
+  .cs-feature-img {
+
+  max-width: 60%;
+
+}
 
   .caption1 {
     top: 480px;
@@ -1010,6 +1011,7 @@ margin: 0;
 
 .para-contact {
   text-align: center;
+  margin-top: 40px;
 
 
 }
@@ -1027,6 +1029,12 @@ margin: 0;
 padding-top: 35px;
 
 }
+
+.service-box {
+
+  margin: 0px 15px;
+}
+
 
 }
 
