@@ -676,8 +676,9 @@ text-align: center;
   }
 
   .intro-text {
-    padding: 45px 20px 20px;
+    padding: 5px 20px 20px;
     margin-top: 20px;
+    font-size: 2.7em;
   }
 
   .thank-you {
@@ -696,7 +697,7 @@ text-align: center;
 .hero-text h2 {
   color: #e9982d;
   width: 580px;
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-family: 'Rubik', serif;
   font-weight: 800;
   line-height: 1.1em;
@@ -782,6 +783,28 @@ width: auto;
 
 
 @media only screen and (min-width: 60em) {
+
+  .quote-text {
+    font-size: 2.7em;
+  }
+
+  .factpara {
+  font-size: .9em;
+
+}
+
+.service-about-us {
+ font-size: 2.7em;
+}
+
+
+  .box-pron98 {
+  text-align: center;
+    padding: 64px 40px 20px;
+    font-size: 1.6em;
+    font-family: 'DM Serif Text', serif;
+    margin-top: 8rem;
+}
 
   .hero1 {
 padding: 130px 20px;
@@ -1046,7 +1069,10 @@ padding-top: 35px;
 /* Larger screen*/
 @media only screen and (min-width: 90em) {
 
-
+.starter-package-t98 {
+  max-width: 750px;
+  
+}
 
   .package-para {
 
@@ -1090,6 +1116,10 @@ font-size: 60px;
 
 .withlove {
   width: 300px;
+}
+
+.withlovefromai {
+  text-align: right;
 }
 
 
