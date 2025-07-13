@@ -784,6 +784,11 @@ width: auto;
 
 @media only screen and (min-width: 60em) {
 
+  .starter-package-t98 {
+  max-width: 550px;
+
+}
+
   .quote-text {
     font-size: 2.7em;
   }
