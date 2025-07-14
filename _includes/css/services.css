@@ -47,7 +47,7 @@ z-index: 1;
 
 
 .hero1 h1 {
-font-size: 3rem;
+font-size: 2rem;
 color: white;
 }
 
@@ -85,7 +85,7 @@ letter-spacing: 0;
     width: 80%;
     font-family:'DM Serif Text', serif;
     font-size: 1.5rem;
-    margin: 10px 0 10px 50px;
+    margin: 10px 0 10px 30px;
     letter-spacing: 0;
 }
 
@@ -296,10 +296,19 @@ width: 600px;
 
     @media only screen and (min-width: 60em) {
 
+.pack-title p {
+    margin: 10px 0 10px 50px;
+}
+
 .hero1 {
 background: url("../images/service-package-hero-img.png") center center/cover no-repeat;
 padding:60px 20px;
 background-color: #fecf2b;
+}
+
+.hero1 h1 {
+    font-size: 3rem;
+    color: white;
 }
 
 .hero1 h1 {
