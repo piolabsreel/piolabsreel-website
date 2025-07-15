@@ -340,3 +340,34 @@ background-color: #7341bc;
 }
 
     }
+
+    /* Full-width Add-Ons Card wrapper */
+.addons-full-width {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .addons-full-width {
+    max-width: 1200px;
+    margin: 40px auto 0;
+  }
+}
+
+/* Make card span full width */
+.wide-card {
+  width: 100%;
+}
+
+/* NEW badge */
+.new-badge {
+  background: #f90;
+  color: #000;
+  font-size: 0.65rem;
+  font-weight: bold;
+  padding: 2px 6px;
+  margin-left: 10px;
+  border-radius: 4px;
+  vertical-align: middle;
+  display: inline-block;
+}
