@@ -47,17 +47,14 @@ z-index: 1;
 
 
 .hero1 h1 {
-font-size: 2rem;
 color: white;
 }
 
 .hero2 h1 {
-font-size: 3rem;
 color: white;
 }
 
 .hero3 h1 {
-font-size: 3rem;
 color: white;
 }
 
@@ -325,6 +322,7 @@ background-color: #fd2322;
 
 .hero2 h1 {
   margin: 85px 0px 10px;
+  font-size: 3rem;
 }
 
 .hero3 {
@@ -337,6 +335,7 @@ background-color: #7341bc;
 
 .hero3 h1 {
   margin: 85px 0px 10px;
+  font-size: 3rem;
 }
 
     }
