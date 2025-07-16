@@ -66,7 +66,6 @@ color: #ddd;
 .section {
 max-width: 1200px;
 margin: auto;
-padding: 60px 20px;
 }
 
 .pack-title h2 {
@@ -99,6 +98,7 @@ padding: 30px;
 box-shadow: 0 10px 30px rgba(0,0,0,0.07);
 transition: 0.3s ease;
 text-align: left;
+margin: 5px 20px;
 }
 
 .service-card:hover {
@@ -293,6 +293,11 @@ width: 600px;
 
     @media only screen and (min-width: 60em) {
 
+      .service-card {
+
+margin:5px 0px;
+}
+
 .pack-title p {
     margin: 10px 0 10px 50px;
 }
@@ -340,25 +345,52 @@ background-color: #7341bc;
 
     }
 
-    /* Full-width Add-Ons Card wrapper */
-.addons-full-width {
-  margin-top: 40px;
-  padding: 0 20px;
+
+
+
+
+/* Tier Buttons */
+.tier-btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-@media (min-width: 768px) {
-  .addons-full-width {
-    max-width: 1200px;
-    margin: 40px auto 0;
+.tier-btn:hover {
+  background: #ffa500;
+  color: #000;
+}
+
+
+
+
+   /* Add-Ons & Quick Tip Flex Container */
+.addons-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+/* Make Each Card Take 50% on Desktop */
+.wide-half {
+  flex: 1 1 48%;
+  box-sizing: border-box;
+}
+
+/* Responsive stacking on mobile */
+@media (max-width: 768px) {
+  .wide-half {
+    flex: 1 1 100%;
   }
 }
 
-/* Make card span full width */
-.wide-card {
-  width: 100%;
-}
-
-/* NEW badge */
+/* Optional: Styling the "NEW" badge */
 .new-badge {
   background: #f90;
   color: #000;
@@ -369,4 +401,405 @@ background-color: #7341bc;
   border-radius: 4px;
   vertical-align: middle;
   display: inline-block;
+}
+
+
+.note {
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 10px;
+}
+
+
+/* embed Tier-specific backgrounds for Embed */
+
+.tier-bronze {
+  background-color: #fff1f0;
+  border: 1px solid #fdcdc8;
+}
+
+.tier-silver {
+  background-color: #ffe3e0;
+  border: 1px solid #fca39b;
+}
+
+.tier-gold {
+  background-color: #fd2322;
+  color: white;
+  border: none;
+}
+
+.tier-gold .service-title,
+.tier-gold .service-desc,
+.tier-gold .features li,
+.tier-gold .price,
+.tier-gold .note {
+  color: white;
+}
+
+.tier-gold ul.features li::before {
+  color: #8dfb06; /* Make checkmarks white */
+}
+
+/* Optional hover effects */
+.tier-bronze:hover {
+  box-shadow: 0 10px 30px rgba(253, 205, 200, 0.3);
+}
+
+.tier-silver:hover {
+  box-shadow: 0 10px 30px rgba(252, 163, 155, 0.3);
+}
+
+.tier-gold:hover {
+  box-shadow: 0 10px 30px rgba(253, 35, 34, 0.5);
+}
+
+
+/* Tier Backgrounds */
+.bronze-card {
+  background: #fef6e0;
+  border-left: 5px solid #c29645;
+}
+
+.silver-card {
+  background: #f4f4f4;
+  border-left: 5px solid #999;
+}
+
+.gold-card {
+  background: #ca1726;
+  color: white;
+  border-left: 5px solid #fff;
+}
+
+.gold-card .service-title,
+.gold-card .service-desc,
+.gold-card .price,
+.gold-card ul.features li {
+  color: white;
+}
+
+.gold-card .features li::before {
+  color: white;
+}
+
+
+
+/* Addons + Quick Tips */
+.addons-tip-wrapper {
+  display: flex;
+  gap: 30px;
+  margin: 60px 0;
+  flex-wrap: wrap;
+}
+
+.addons-card, .quicktip-card {
+  flex: 1 1 48%;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.quicktip-card h3,
+.addons-card h3 {
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+}
+
+.quicktip-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .addons-tip-wrapper {
+    flex-direction: column;
+  }
+
+  .addons-card, .quicktip-card {
+    flex: 1 1 100%;
+  }
+}
+
+/* Tier Select Button - inherits from .btn */
+.tier-select {
+  margin-top: 15px;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 18px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.tier-select:hover {
+  color: #fd7f7f;
+}
+
+/* Optional: match button text contrast if tier cards have colored backgrounds */
+.tier-bronze .tier-select {
+  background-color: #000000;
+}
+
+.tier-silver .tier-select {
+  background-color: #000000;
+}
+
+.tier-gold .tier-select {
+  background-color: #ffffff;
+  color: #454545;
+}
+
+.tier-gold .tier-select:hover {
+  background-color: #000000;
+  color: #fd7f7f;
+}
+
+/* page navigation  css*/
+
+.nav-button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin: 50px auto 20px;
+  padding: 0 20px;
+  max-width: 700px;
+  letter-spacing: 0;
+}
+
+.nav-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 25px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  min-height: 120px;
+  word-wrap: break-word;
+}
+
+.nav-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.nav-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Theme Colors */
+.nav-card.create {
+  background: #fecf2b;
+  color: #111;
+}
+
+.nav-card.embed {
+  background: #fd2322;
+  color: white;
+}
+
+.nav-card.sell {
+  background: #7341bc;
+  color: white;
+}
+
+/* Hover Effects */
+.nav-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.nav-card.create:hover {
+  background: #ffe773;
+  color: #000;
+}
+
+.nav-card.embed:hover {
+  background: #ff4b45;
+}
+
+.nav-card.sell:hover {
+  background: #8b4bd9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .nav-title {
+    font-size: 1.4rem;
+  }
+
+  .nav-card p {
+    font-size: 0.95rem;
+  }
+
+  .nav-button-grid {
+    padding: 0 10px;
+  }
+}
+
+/* === CREATE PAGE CARD STYLING === */
+
+.create-tier-basic {
+  background-color: #fffbe9 !important;
+  border: 1px solid #f1c40f;
+}
+
+.create-tier-plus {
+  background-color: #fff1b8 !important;
+  border: 1px solid #e0ac00;
+}
+
+.create-tier-premium {
+  background-color: #fecf2b !important;
+  color: white;
+  border: 1px solid #fff;
+}
+
+.create-tier-premium .service-title,
+.create-tier-premium .service-desc,
+.create-tier-premium .features li,
+.create-tier-premium .price,
+.create-tier-premium .note {
+  color: rgb(0, 0, 0);
+}
+
+.create-tier-premium ul.features li::before {
+  color: rgb(5, 250, 1);
+}
+
+/* Button overrides */
+.create-tier-basic .tier-select,
+.create-tier-plus .tier-select {
+  background-color: #000000;
+  color: #fff;
+}
+
+
+.create-tier-plus .tier-select:hover {
+  color: #fde283;
+}
+
+.create-tier-basic .tier-select:hover {
+  color:#fde283
+}
+
+.create-tier-premium .tier-select {
+  background-color: white;
+  color: #333;
+}
+
+.create-tier-premium .tier-select:hover {
+  background-color: #111;
+  color: #fff;
+}
+
+/* ─── SELL PAGE: Tier Backgrounds ──────────────────────── */
+.tier-sell-basic {
+  background-color: #f5f0ff;
+  border: 1px solid #c9aff5;
+}
+
+.tier-sell-pro {
+  background-color: #e5d6fc;
+  border: 1px solid #a179e3;
+}
+
+.tier-sell-premium {
+  background-color: #7341bc;
+  color: white;
+  border: none;
+}
+
+.tier-sell-premium .service-title,
+.tier-sell-premium .service-desc,
+.tier-sell-premium .features li,
+.tier-sell-premium .price,
+.tier-sell-premium .note {
+  color: rgb(0, 0, 0);
+}
+
+.tier-sell-premium ul.features li::before {
+  color: #05fe2e;
+}
+
+/* Hover effects for Sell tiers */
+.tier-sell-basic:hover {
+  box-shadow: 0 10px 30px rgba(201, 175, 245, 0.3);
+}
+
+.tier-sell-pro:hover {
+  box-shadow: 0 10px 30px rgba(161, 121, 227, 0.3);
+}
+
+.tier-sell-premium:hover {
+  box-shadow: 0 10px 30px rgba(115, 65, 188, 0.5);
+}
+
+/* ─── SELL PAGE: Tier Select Buttons ───────────────────── */
+.tier-sell-basic .tier-select {
+  background-color: #000000;
+  color: white;
+}
+
+.tier-sell-basic .tier-select:hover {
+  color: #916fd1;
+}
+
+.tier-sell-pro .tier-select {
+  background-color: #000000;
+  color: white;
+}
+
+.tier-sell-pro .tier-select:hover {
+color: #916fd1;
+}
+
+.tier-sell-basic .tier-select {
+  color:#ffffff ;
+}
+
+.tier-sell-premium .tier-select {
+  background-color: #ffffff;
+  color: #4b3a6b;
+}
+
+.tier-sell-premium .tier-select:hover {
+  background-color: #000000;
+  color: #674f92;
+}
+
+/* Ensure add-ons and quick tip remain consistent across all pages */
+.sell-addons-card,
+.sell-quicktip-card {
+  flex: 1 1 48%;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.sell-addons-card h3,
+.sell-quicktip-card h3 {
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+}
+
+.sell-quicktip-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
