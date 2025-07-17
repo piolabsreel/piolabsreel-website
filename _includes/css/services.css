@@ -321,10 +321,16 @@ ul.features li::before {
   }
 }
 
-@media only screen and (min-width: 48em) {}
+@media only screen and (min-width: 48em) {
+
+
+}
 
 @media only screen and (min-width: 60em) {
 
+     .pack-title p {
+    font-size: 1.7rem;
+     }
 
   .pack-title h2 {
 

@@ -38,6 +38,8 @@
 
 @media only screen and (min-width: 25em) {
 
+  
+
 
   .contact-form-box h2 {
     font-size: 1.5em;
@@ -86,6 +88,8 @@ background-position: 40% center;
 
 
 @media only screen and (min-width: 38em) {
+
+  
 
 
   .starter-package-t98 {
@@ -704,7 +708,7 @@ text-align: center;
   .intro-text {
     padding: 5px 20px 20px;
     margin-top: 20px;
-    font-size: 2.7em;
+    font-size: 2.2em;
   }
 
   .thank-you {
@@ -837,7 +841,7 @@ width: auto;
 }
 
 .service-about-us {
- font-size: 2.7em;
+ font-size: 2.2em;
 }
 
 
