@@ -19,6 +19,7 @@ body {
 html,
 body {
   font-family: 'Rubik', sans-serif;
+  font-style: normal;
 }
 
 *, *::before, *::after {
@@ -762,12 +763,13 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .starter-package-inner-t98 ul {
   list-style: none;
-  padding: 0;
+  padding-left: 10px;
   margin-bottom: 1.5rem;
   font-size: 1rem;
   color: #000000;
   line-height: 1.7;
-  text-align: left;
+  text-align: justify;
+  
 }
 
 .starter-package-inner-t98 li {
@@ -952,7 +954,7 @@ padding: 0;
 font-size: 16px;
 }
 .card-container li {
-margin: 5px 0;
+
 color: black;
 text-align: left;
 font-size: 20px;
@@ -960,7 +962,7 @@ list-style-type: none;
 }
 
 .learnmore li {
-  padding-top: 100px;
+  padding-top: 140px;
   color: white;
 }
 
@@ -1180,7 +1182,7 @@ width: 90%;
 .service-quiz-box {
       background: #ffffff;
       padding: 40px;
-      max-width: 550px;
+      max-width: 450px;
       margin: auto;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.08);
@@ -2199,35 +2201,9 @@ margin: 0;
 
     }
 
-
-    @media (min-width: 768px) {
-
-
-  .case-card-container {
-      max-width: 1300px;
-      margin: 0rem auto;
-      border-radius: 8px;
-      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
-    }
-    
-    .case-card-inner {
-        flex-direction: row;
-        align-items: center;
-        padding: 0;
-      }
-
-      .case-card-image {
-        flex: 1;
-        order: 2;
-        padding: 1rem;
-      }
-
-      .case-card-content {
-        flex: 1;
-        order: 1;
-        padding: 1rem;
-      }
-    }
+ .section-intro-section{
+    margin: 3rem 0 1rem;
+  }
 
   
 .cs-header-rz1 {
