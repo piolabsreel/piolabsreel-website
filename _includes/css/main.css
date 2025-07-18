@@ -1464,7 +1464,7 @@ padding-top: 5px;
 
 .reel-title {
   margin: 0;
-  padding: 20px 20px 0px;
+  padding: 20px 0px 0px;
   color: #e9982d;
 }
 
@@ -1488,12 +1488,12 @@ padding-top: 5px;
   font-size: 3em;
   opacity: 0.9;
   margin: 0;
-  padding: 10px 20px 0px;
+  padding: 10px 0px 0px;
 }
 
 .reel-titleport {
   margin: 0;
-  padding: 20px 20px 0px;
+  padding: 20px 0px 0px;
   color: #e9982d;
 }
 
@@ -1505,7 +1505,7 @@ padding-top: 5px;
   font-size: 1.7em;
   opacity: 0.9;
   margin: 0;
-  padding: 10px 15px 10px;
+  padding: 10px 0px 10px;
 }
 
 
@@ -1552,7 +1552,7 @@ padding-top: 5px;
 
 .service-about-us {
   text-align: left;
-    padding: 64px 40px 20px;
+    padding: 30px 20px 20px;
     font-size: 1.7em;
     font-family: 'DM Serif Text', serif;
 }
