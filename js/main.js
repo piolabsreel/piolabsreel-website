@@ -113,7 +113,7 @@ let currentIndex = 0;
       } else if (selected === "sell") {
         result.innerHTML = "Perfect! Check out our <a href='/sell'>Ad & Commercial Video Production</a> for businesses.";
       } else if (selected === "customer") {
-        result.innerHTML = "Ofcourse we can! We would like to hear about your project that involes 'alot'!";
+        result.innerHTML = "Ofcourse we can! We would like to hear about your project that involes 'alot'! Use <a href='#contact-scroll2'>Contact Form</a> or email info@piolabsreel.com.";
       } else if (selected === "customer2") {
         result.innerHTML = "Alright! Use <a href='#contact-scroll2'>Contact Form</a> or email info@piolabsreel.com.";
       } else {
