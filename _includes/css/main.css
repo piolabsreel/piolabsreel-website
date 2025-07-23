@@ -627,6 +627,31 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   padding-left: 0;
 }
 
+.engage-how-it-works table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px auto 0px;
+}
+
+.engage-how-it-works h2 {
+  padding-left: 20px;
+}
+
+.engage-how-it-works th,
+.engage-how-it-works td {
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.engage-how-it-works th {
+  background-color: #e8d6ff;
+}
+
+.engage-how-it-works tbody tr:nth-child(even) {
+  background-color: #faf6ff;
+}
+
 .services-box {
   justify-content: space-evenly;
   list-style: none;
