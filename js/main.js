@@ -115,7 +115,7 @@ let currentIndex = 0;
       } else if (selected === "customer") {
         result.innerHTML = "Ofcourse we can! We would like to hear about your project that involes 'alot'! Use <a href='#contact-scroll2'>Contact Form</a> or email info@piolabsreel.com.";
       } else if (selected === "customer2") {
-        result.innerHTML = "Alright! Use <a href='#contact-scroll2'>Contact Form</a> or email info@piolabsreel.com.";
+        result.innerHTML = "Don't sweat it! Check out our <a href='/engage'>Engage Package</a>, we can help in many ways.";
       } else {
         result.innerHTML = "Please choose an option above.";
       }
