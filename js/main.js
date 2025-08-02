@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-    //nav func
+//nav func
 
 const menuBtn = document.getElementById('menu-btn');
 const links = document.querySelectorAll('.menu li a');
@@ -26,7 +26,6 @@ document.addEventListener('click', function(event) {
         menuBtn.checked = false; // Close the menu
     }
 });
-
 
 
 // portfolio func
@@ -100,7 +99,7 @@ let currentIndex = 0;
         });
 
 
-        //quiz box begin 
+//quiz box begin 
 
         function handleServiceSelection() {
       const selected = document.getElementById("servicePurposeSelect").value;
