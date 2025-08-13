@@ -1612,14 +1612,12 @@ padding-top: 5px;
 .about-us {
   text-align: left;
     padding: 0px 20px 20px;
-    font-size: 1.7em;
+    font-size: 1.6em;
     font-family: 'DM Serif Text', serif;
 }
 
 .about-us p {
   text-align: left;
-    font-size: 0.9em;
-    font-family: 'DM Serif Text', serif;
     margin: 0;
 }
 
@@ -1763,6 +1761,13 @@ border-radius: 8px;
   background-color:#ffe8bf;
   border-radius: 10px;
   margin: 20px 20px;
+}
+
+.emdash {
+  font-size: 13px;
+  color: #8d8d8d;
+  padding: 0 0 0 0px;
+  font-family: 'Rubik', sans-serif;
 }
 
 /*BEGINING OF QUOTE SLIDER */
