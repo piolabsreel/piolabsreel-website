@@ -1237,6 +1237,23 @@ font-size: 60px;
   text-align: right;
 }
 
+}
+
+@media only screen and (min-width: 110em) {
+
+.creative-card {
+  width: 20%;
+}
+
+.creative-card2 {
+  width: 20%;
+}
+.creative-card3 {
+  width: 20%;
+}
+.creative-card4 {
+  width: 20%;
+}
 
 
 }
