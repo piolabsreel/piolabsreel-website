@@ -2439,6 +2439,83 @@ margin: 0;
   border-radius: 6px;
 }
 
+    :root {
+      --insta-gradient-start: #f58529;
+      --insta-gradient-mid: #dd2a7b;
+      --insta-gradient-end: #515bd4;
+      --border-color: #000;
+      --background: #fff;
+    }
+
+    .insta-gallery {
+      max-width: 100%;
+      margin: 40px auto;
+      padding: 20px;
+      background: var(--background);
+      border-top: 4px solid var(--border-color);
+      border-bottom: 4px solid var(--border-color);
+      text-align: center;
+    }
+
+    .insta-gallery h2 {
+      margin: 0 0 16px;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .insta-gallery .featured-ig {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      gap: 8px;
+    }
+
+    .insta-gallery .featured-ig img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .insta-gallery .featured-ig img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .insta-gallery .follow-btn {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 10px 24px;
+      background: linear-gradient(45deg,
+        var(--insta-gradient-start),
+        var(--insta-gradient-mid),
+        var(--insta-gradient-end)
+      );
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 24px;
+      transition: opacity 0.2s;
+    }
+
+    .insta-gallery .follow-btn:hover {
+      opacity: 0.85;
+    }
+
+    @media (max-width: 500px) {
+      .insta-gallery {
+        padding: 16px;
+      }
+      .insta-gallery h2 {
+        font-size: 20px;
+      }
+      .insta-gallery .follow-btn {
+        width: 100%;
+        padding: 12px 0;
+      }
+    }
+
 /* Desktop layout for campaign block */
 @media (min-width: 768px) {
   .cs-campaign-lg89 {
