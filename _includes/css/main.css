@@ -2523,6 +2523,13 @@ margin: 0;
       text-decoration: none;
       font-weight: 700;
       box-shadow: 0 8px 20px rgba(81,91,212,0.12);
+       background-color: #1b1b1b;
+     transition: all .2s ease-out;
+    }
+
+    .pio-follow:hover {
+    color: #232323;
+      background-color: #e9982d;
     }
 
     /* Mobile */
