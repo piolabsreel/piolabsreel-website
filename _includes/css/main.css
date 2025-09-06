@@ -2465,18 +2465,25 @@ margin: 0;
       width: 48px;
       height: 48px;
       border-radius: 10px;
-      background: linear-gradient(45deg, var(--pio-insta-1), var(--pio-insta-2), var(--pio-insta-3));
+      background:url("../images/ig/pio-badge.png");
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #fff;
-      font-weight: 700;
       font-size: 18px;
       box-shadow: 0 6px 18px rgba(81,91,212,0.12);
+      background-position: center;
     }
 
-    .pio-title { font-size: 18px; font-weight: 700; margin: 0; }
-    .pio-sub { font-size: 13px; color: #666; margin: 0; }
+    .pio-title {
+       font-size: 18px; 
+       font-weight: 700; 
+       margin: 0; 
+      }
+    .pio-sub { 
+      font-size: 13px; 
+      color: #666; 
+      margin: 0; 
+    }
 
     /* Horizontal scroll gallery */
     .pio-gallery {
@@ -2517,11 +2524,10 @@ margin: 0;
     .pio-follow {
       display: inline-block;
       padding: 10px 22px;
-      border-radius: 999px;
-      background: linear-gradient(90deg, var(--pio-insta-1), var(--pio-insta-2), var(--pio-insta-3));
+      border-radius: 6px;
       color: white;
       text-decoration: none;
-      font-weight: 700;
+      font-weight: 400;
       box-shadow: 0 8px 20px rgba(81,91,212,0.12);
        background-color: #1b1b1b;
      transition: all .2s ease-out;
