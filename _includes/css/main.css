@@ -382,6 +382,100 @@ background-position: center btop;
   background-color: white;
 }
 
+
+.piolabs-container {
+      max-width: 1270px;
+      margin: 30px auto;
+      width: 95%;
+    }
+
+    .monthly-feature {
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .feature-label {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #e9982d;
+      margin-bottom: 8px;
+    }
+
+    .feature-image {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .feature-content {
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .feature-title {
+      font-size: 28px;
+      font-weight: 800;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .feature-desc {
+      font-size: 18px;
+      color: #adb5bd;
+      margin-bottom: 24px;
+      flex: 1;
+    }
+
+    .feature-link {
+      display: inline-flex;
+      align-items: center;
+      color: #e9982d;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 18px;
+      width: fit-content;
+      transition: opacity 0.2s;
+    }
+
+    .feature-link:hover {
+      opacity: 0.9;
+    }
+
+    .feature-link::after {
+      content: "→";
+      margin-left: 8px;
+      font-size: 20px;
+    }
+
+    /* Desktop: side-by-side */
+    @media (min-width: 768px) {
+      .monthly-feature {
+        flex-direction: row;
+        height: 360px;
+      }
+
+      .feature-image {
+        width: 50%;
+        height: 100%;
+      }
+
+      .feature-content {
+        width: 50%;
+        padding: 40px;
+      }
+    }
+
+
+
 .thank-you h2 {
 line-height: 36px;
 font-size: 1.7rem;
@@ -403,7 +497,7 @@ text-align: left;
 }
 
 .clients-bg {
-  background-color: rgb(241 241 241);
+
   border-radius: 10px;
   margin: 20px 20px;
   text-align: center;
@@ -411,6 +505,7 @@ text-align: left;
 
 .clients-bg h4 {
 padding: 15px 0PX 0px;
+margin-top: 40px;
 margin-bottom: 0px;
 color: rgb(179, 179, 179);
 font-weight: 600;
@@ -2518,6 +2613,7 @@ margin: 0;
     .pio-thumb:hover img {
       transform: scale(1.08);
     }
+  
 
     .pio-follow-row { display: flex; justify-content: center; margin-top: 14px; }
 
