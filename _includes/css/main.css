@@ -915,6 +915,12 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   background: #e9982d;
   color: black;
 }
+.pronounce{
+  max-width: 350px;
+  height: 70px;
+  margin: 20px 8px;
+}
+
 
 @media (max-width: 480px) {
   .starter-package-inner-t98 {
@@ -933,10 +939,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
 .box-pron98 {
   text-align: center;
-    padding: 64px 40px 20px;
+    padding: 10px 40px 20px;
     font-size: 1.6em;
     font-family: 'DM Serif Text', serif;
-    text-align: ;
 }
 
 
