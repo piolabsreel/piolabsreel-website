@@ -1003,21 +1003,50 @@ gap: 40px;
 
 
 .creative-card {
-width: 600px;
-height: 390px;
-background: url("../images/create-talent1.jpg") no-repeat center center;
-background-size: cover;
-border-radius: 15px;
-padding: 20px;
-color: #ffffff; /* Text color */
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-text-align: center;
-transition: transform 0.3s, box-shadow 0.3s;
-text-decoration: none; /* Remove underline */
+  width: 600px;
+  height: 390px;
+
+  /* Image ALWAYS on top */
+  background-image: 
+    url("../images/create-cate.png"),
+    linear-gradient(135deg, #ffc107, #ffc107);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 15px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  overflow: hidden;
 }
+
+/* Hover */
 .creative-card:hover {
-transform: translateY(-10px);
-box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  color: black;
+
+  /* Gradient stays UNDER image */
+  background-image: 
+    url("../images/create-cate.png"),
+    linear-gradient(
+      135deg,
+      #ffb300 0%,
+      #ffc107 30%,
+      #ffd54f 60%,
+      #ffca28 80%
+    );
+}
+
+.creative-card:hover .learnmore li {
+  color: #000000; /* or any color you want */
 }
 
 .creative-card2 {
@@ -1041,41 +1070,99 @@ box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 
 
 .creative-card3 {
-width: 290px;
-height: 390px;
-background: url("../images/create-sell.jpg") no-repeat center center;
-background-size: cover;
-border-radius: 15px;
-padding: 20px;
-color: #ffffff;
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-text-align: center;
-transition: transform 0.3s, box-shadow 0.3s;
-text-decoration: none;
+  width: 290px;
+  height: 390px;
+
+  /* Image ALWAYS on top */
+  background-image: 
+    url("../images/sell-cate.png"),
+    linear-gradient(135deg, #c6c6c6, #c6c6c6);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 15px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  overflow: hidden;
 }
+
+/* Hover */
 .creative-card3:hover {
-transform: translateY(-10px);
-box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  color: black;
+
+  /* Gradient stays UNDER image */
+background-image: 
+  url("../images/sell-cate.png"),
+  linear-gradient(
+    135deg,
+    #8e44ad 0%,    /* deep purple */
+    #9b59b6 30%,   /* medium purple */
+    #af7ac5 60%,   /* lighter lavender */
+    #c39bd3 80%    /* soft lilac */
+  );
+}
+
+.creative-card3:hover .learnmore li {
+  color: #000000; /* or any color you want */
 }
 
 
 
 .creative-card4 {
-width: 290px;
-height: 390px;
-background: url("../images/engage-cate.jpg") no-repeat center center;
-background-size: cover;
-border-radius: 15px;
-padding: 20px;
-color: #ffffff; /* Text color */
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-text-align: center;
-transition: transform 0.3s, box-shadow 0.3s;
-text-decoration: none; /* Remove underline */
+  width: 290px;
+  height: 390px;
+
+  /* Image ALWAYS on top */
+  background-image: 
+    url("../images/engage-cate.png"),
+    linear-gradient(135deg, #c6c6c6, #c6c6c6);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 15px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  overflow: hidden;
 }
+
+/* Hover */
 .creative-card4:hover {
-transform: translateY(-10px);
-box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  color: black;
+
+  /* Gradient stays UNDER image */
+background-image: 
+  url("../images/engage-cate.png"),
+  linear-gradient(
+    135deg,
+    #2e7d32 0%,    /* deep grass green */
+    #43a047 30%,   /* medium green */
+    #66bb6a 60%,   /* light leafy green */
+    #81c784 80%    /* soft apple green */
+  );
+}
+
+.creative-card4:hover .learnmore li {
+  color: #000000; /* or any color you want */
 }
 
 .pack-services h2 {
@@ -1089,10 +1176,9 @@ box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 
 .card-container p {
 margin: 0;
-font-size: 40px;
-color: rgb(255, 255, 255);
+font-size: 50px;
 text-align: left;
-font-weight: 800;
+font-weight: 600;
 }
 .card-container h3 {
 margin: 10px 0;
