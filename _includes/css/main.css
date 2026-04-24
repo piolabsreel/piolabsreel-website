@@ -1154,10 +1154,10 @@ background-image:
   url("../images/engage-cate.png"),
   linear-gradient(
     135deg,
-    #2e7d32 0%,    /* deep grass green */
-    #43a047 30%,   /* medium green */
-    #66bb6a 60%,   /* light leafy green */
-    #81c784 80%    /* soft apple green */
+    #a2ce33 0%,    /* deep grass green */
+    #a2ce33 30%,   /* medium green */
+    #a7c757 60%,   /* light leafy green */
+    #8cda7d 80%    /* soft apple green */
   );
 }
 
